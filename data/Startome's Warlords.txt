@@ -1,0 +1,2611 @@
+person "Warlord Skerchaskakfar"
+	government "Korath"
+	personality
+		opportunistic vindictive mute
+	system
+		government "Korath"
+
+	ship "Korath Raider"
+		name "No Translation 1"
+		sprite ship/raider
+		attributes
+			category "Heavy Warship"
+			cost 16570000
+			bunks 250
+			"cargo space" 175
+			drag 12
+			"engine capacity" 159
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 9000
+			mass 720
+			"outfit space" 721
+			"required crew" 145
+			shields 27000
+			"turret mounts" 6
+			"weapon capacity" 284
+		outfits
+			"Thruster (Planetary Class)"
+			"Triple Plasma Core"
+			"Steering (Planetary Class)"
+			"Korath Warder"
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret"
+			"Korath Disruptor"
+			"Outfits Expansion" 6
+			"Generator (Candle Class)"
+			"Small Heat Shunt"
+			"Korath Banisher" 3
+			"Intrusion Countermeasures" 4
+			"Jump Drive"
+			"Thruster (Comet Class)"
+			Ramscoop
+		engine -20 130 1
+		engine 20 130 1
+		turret -34 -143 "Korath Banisher"
+		turret 34 -143 "Korath Banisher"
+		turret -8 -145 "Korath Disruptor"
+		turret 8 -145 "Korath Slicer Turret"
+		turret 0 35 "Korath Banisher"
+		turret 0 90 "Korath Warder"
+		fighter -75 100
+		fighter 75 100
+		explode "tiny explosion" 20
+		explode "large explosion" 40
+		explode "small explosion" 45
+		explode "medium explosion" 50
+		explode "huge explosion" 10
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Raider"
+		name "No Translation 2"
+		sprite ship/raider
+		attributes
+			category "Heavy Warship"
+			cost 16570000
+			bunks 250
+			"cargo space" 175
+			drag 12
+			"engine capacity" 159
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 9000
+			mass 720
+			"outfit space" 721
+			"required crew" 145
+			shields 27000
+			"turret mounts" 6
+			"weapon capacity" 284
+		outfits
+			"Thruster (Planetary Class)"
+			"Triple Plasma Core"
+			"Steering (Planetary Class)"
+			"Korath Warder"
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret"
+			"Korath Disruptor"
+			"Outfits Expansion" 6
+			"Generator (Candle Class)"
+			"Small Heat Shunt"
+			"Korath Banisher" 3
+			"Intrusion Countermeasures" 4
+			"Jump Drive"
+			"Thruster (Comet Class)"
+			Ramscoop
+		engine -20 130 1
+		engine 20 130 1
+		turret -34 -143 "Korath Banisher"
+		turret 34 -143 "Korath Banisher"
+		turret -8 -145 "Korath Disruptor"
+		turret 8 -145 "Korath Slicer Turret"
+		turret 0 35 "Korath Banisher"
+		turret 0 90 "Korath Warder"
+		fighter -75 100
+		fighter 75 100
+		explode "tiny explosion" 20
+		explode "large explosion" 40
+		explode "small explosion" 45
+		explode "medium explosion" 50
+		explode "huge explosion" 10
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Raider"
+		name "No Translation 3"
+		sprite ship/raider
+		attributes
+			category "Heavy Warship"
+			cost 16570000
+			bunks 250
+			"cargo space" 175
+			drag 12
+			"engine capacity" 159
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 9000
+			mass 720
+			"outfit space" 721
+			"required crew" 145
+			shields 27000
+			"turret mounts" 6
+			"weapon capacity" 284
+		outfits
+			"Thruster (Planetary Class)"
+			"Triple Plasma Core"
+			"Steering (Planetary Class)"
+			"Korath Warder"
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret"
+			"Korath Disruptor"
+			"Outfits Expansion" 6
+			"Generator (Candle Class)"
+			"Small Heat Shunt"
+			"Korath Banisher" 3
+			"Intrusion Countermeasures" 4
+			"Jump Drive"
+			"Thruster (Comet Class)"
+			Ramscoop
+		engine -20 130 1
+		engine 20 130 1
+		turret -34 -143 "Korath Banisher"
+		turret 34 -143 "Korath Banisher"
+		turret -8 -145 "Korath Disruptor"
+		turret 8 -145 "Korath Slicer Turret"
+		turret 0 35 "Korath Banisher"
+		turret 0 90 "Korath Warder"
+		fighter -75 100
+		fighter 75 100
+		explode "tiny explosion" 20
+		explode "large explosion" 40
+		explode "small explosion" 45
+		explode "medium explosion" 50
+		explode "huge explosion" 10
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Raider"
+		name "No Translation 4"
+		sprite ship/raider
+		attributes
+			category "Heavy Warship"
+			cost 16570000
+			bunks 250
+			"cargo space" 175
+			drag 12
+			"engine capacity" 159
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 9000
+			mass 720
+			"outfit space" 721
+			"required crew" 145
+			shields 27000
+			"turret mounts" 6
+			"weapon capacity" 284
+		outfits
+			"Thruster (Planetary Class)"
+			"Triple Plasma Core"
+			"Steering (Planetary Class)"
+			"Korath Warder"
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret"
+			"Korath Disruptor"
+			"Outfits Expansion" 6
+			"Generator (Candle Class)"
+			"Small Heat Shunt"
+			"Korath Banisher" 3
+			"Intrusion Countermeasures" 4
+			"Jump Drive"
+			"Thruster (Comet Class)"
+			Ramscoop
+		engine -20 130 1
+		engine 20 130 1
+		turret -34 -143 "Korath Banisher"
+		turret 34 -143 "Korath Banisher"
+		turret -8 -145 "Korath Disruptor"
+		turret 8 -145 "Korath Slicer Turret"
+		turret 0 35 "Korath Banisher"
+		turret 0 90 "Korath Warder"
+		fighter -75 100
+		fighter 75 100
+		explode "tiny explosion" 20
+		explode "large explosion" 40
+		explode "small explosion" 45
+		explode "medium explosion" 50
+		explode "huge explosion" 10
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+
+person "Warlord Sorkfreketar"
+	government "Korath"
+	personality
+		mute vindictive opportunistic
+	system
+		government "Korath"
+
+	ship "Korath Raider"
+		name "No Translation 1"
+		sprite ship/raider
+		attributes
+			category "Heavy Warship"
+			cost 16570000
+			bunks 250
+			"cargo space" 175
+			drag 12
+			"engine capacity" 159
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 9000
+			mass 720
+			"outfit space" 721
+			"required crew" 145
+			shields 27000
+			"turret mounts" 6
+			"weapon capacity" 284
+		outfits
+			"Outfits Expansion" 6
+			"Systems Core (Large)" 3
+			"Large Heat Shunt" 4
+			"Steering (Planetary Class)"
+			"Thruster (Planetary Class)"
+			"Triple Plasma Core"
+			"Generator (Candle Class)"
+			"Intrusion Countermeasures" 4
+			"Jump Drive"
+			"Korath Grab-Strike" 2
+		engine -20 130 1
+		engine 20 130 1
+		turret -34 -143
+		turret 34 -143 "Korath Grab-Strike"
+		turret -8 -145 "Korath Grab-Strike"
+		turret 8 -145
+		turret 0 35
+		turret 0 90
+		fighter -75 100
+		fighter 75 100
+		explode "medium explosion" 50
+		explode "large explosion" 40
+		explode "tiny explosion" 20
+		explode "small explosion" 45
+		explode "huge explosion" 10
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Raider"
+		name "No Translation 2"
+		sprite ship/raider
+		attributes
+			category "Heavy Warship"
+			cost 16570000
+			bunks 250
+			"cargo space" 175
+			drag 12
+			"engine capacity" 159
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 9000
+			mass 720
+			"outfit space" 721
+			"required crew" 145
+			shields 27000
+			"turret mounts" 6
+			"weapon capacity" 284
+		outfits
+			"Outfits Expansion" 6
+			"Systems Core (Large)" 3
+			"Large Heat Shunt" 4
+			"Steering (Planetary Class)"
+			"Thruster (Planetary Class)"
+			"Triple Plasma Core"
+			"Generator (Candle Class)"
+			"Intrusion Countermeasures" 4
+			"Jump Drive"
+			"Korath Grab-Strike" 2
+		engine -20 130 1
+		engine 20 130 1
+		turret -34 -143
+		turret 34 -143 "Korath Grab-Strike"
+		turret -8 -145 "Korath Grab-Strike"
+		turret 8 -145
+		turret 0 35
+		turret 0 90
+		fighter -75 100
+		fighter 75 100
+		explode "medium explosion" 50
+		explode "large explosion" 40
+		explode "tiny explosion" 20
+		explode "small explosion" 45
+		explode "huge explosion" 10
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Raider"
+		name "No Translation 3"
+		sprite ship/raider
+		attributes
+			category "Heavy Warship"
+			cost 16570000
+			bunks 250
+			"cargo space" 175
+			drag 12
+			"engine capacity" 159
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 9000
+			mass 720
+			"outfit space" 721
+			"required crew" 145
+			shields 27000
+			"turret mounts" 6
+			"weapon capacity" 284
+		outfits
+			"Outfits Expansion" 6
+			"Systems Core (Large)" 3
+			"Large Heat Shunt" 4
+			"Steering (Planetary Class)"
+			"Thruster (Planetary Class)"
+			"Triple Plasma Core"
+			"Generator (Candle Class)"
+			"Intrusion Countermeasures" 4
+			"Jump Drive"
+			"Korath Grab-Strike" 2
+		engine -20 130 1
+		engine 20 130 1
+		turret -34 -143
+		turret 34 -143 "Korath Grab-Strike"
+		turret -8 -145 "Korath Grab-Strike"
+		turret 8 -145
+		turret 0 35
+		turret 0 90
+		fighter -75 100
+		fighter 75 100
+		explode "medium explosion" 50
+		explode "large explosion" 40
+		explode "tiny explosion" 20
+		explode "small explosion" 45
+		explode "huge explosion" 10
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Raider"
+		name "No Translation 4"
+		sprite ship/raider
+		attributes
+			category "Heavy Warship"
+			cost 16570000
+			bunks 250
+			"cargo space" 175
+			drag 12
+			"engine capacity" 159
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 9000
+			mass 720
+			"outfit space" 721
+			"required crew" 145
+			shields 27000
+			"turret mounts" 6
+			"weapon capacity" 284
+		outfits
+			"Outfits Expansion" 6
+			"Systems Core (Large)" 3
+			"Large Heat Shunt" 4
+			"Steering (Planetary Class)"
+			"Thruster (Planetary Class)"
+			"Triple Plasma Core"
+			"Generator (Candle Class)"
+			"Intrusion Countermeasures" 4
+			"Jump Drive"
+			"Korath Grab-Strike" 2
+		engine -20 130 1
+		engine 20 130 1
+		turret -34 -143
+		turret 34 -143 "Korath Grab-Strike"
+		turret -8 -145 "Korath Grab-Strike"
+		turret 8 -145
+		turret 0 35
+		turret 0 90
+		fighter -75 100
+		fighter 75 100
+		explode "medium explosion" 50
+		explode "large explosion" 40
+		explode "tiny explosion" 20
+		explode "small explosion" 45
+		explode "huge explosion" 10
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Raider"
+		name "No Translation 5"
+		sprite ship/raider
+		attributes
+			category "Heavy Warship"
+			cost 16570000
+			bunks 250
+			"cargo space" 175
+			drag 12
+			"engine capacity" 159
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 9000
+			mass 720
+			"outfit space" 721
+			"required crew" 145
+			shields 27000
+			"turret mounts" 6
+			"weapon capacity" 284
+		outfits
+			"Outfits Expansion" 6
+			"Systems Core (Large)" 3
+			"Large Heat Shunt" 4
+			"Steering (Planetary Class)"
+			"Thruster (Planetary Class)"
+			"Triple Plasma Core"
+			"Generator (Candle Class)"
+			"Intrusion Countermeasures" 4
+			"Jump Drive"
+			"Korath Grab-Strike" 2
+		engine -20 130 1
+		engine 20 130 1
+		turret -34 -143
+		turret 34 -143 "Korath Grab-Strike"
+		turret -8 -145 "Korath Grab-Strike"
+		turret 8 -145
+		turret 0 35
+		turret 0 90
+		fighter -75 100
+		fighter 75 100
+		explode "medium explosion" 50
+		explode "large explosion" 40
+		explode "tiny explosion" 20
+		explode "small explosion" 45
+		explode "huge explosion" 10
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+
+person "Warlord Artsperipta"
+	government "Korath"
+	personality
+		mute vindictive opportunistic
+	system
+		government "Korath"
+
+	ship "Korath Raider"
+		name "No Translation 1"
+		sprite ship/raider
+		attributes
+			category "Heavy Warship"
+			cost 16570000
+			bunks 250
+			"cargo space" 175
+			drag 12
+			"engine capacity" 159
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 9000
+			mass 720
+			"outfit space" 721
+			"required crew" 145
+			shields 27000
+			"turret mounts" 6
+			"weapon capacity" 284
+		outfits
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret" 2
+			"Outfits Expansion" 6
+			"Triple Plasma Core"
+			"Steering (Planetary Class)"
+			"Korath Warder"
+			"Thruster (Planetary Class)"
+			"Intrusion Countermeasures" 4
+			"Korath Banisher" 2
+			"Jump Drive"
+			"Thruster (Comet Class)"
+			"Korath Grab-Strike"
+			"LP036a Battery Pack"
+		engine -20 130 1
+		engine 20 130 1
+		turret -34 -143 "Korath Warder"
+		turret 34 -143 "Korath Grab-Strike"
+		turret -8 -145 "Korath Banisher"
+		turret 8 -145 "Korath Banisher"
+		turret 0 35 "Korath Slicer Turret"
+		turret 0 90 "Korath Slicer Turret"
+		fighter -75 100
+		fighter 75 100
+		explode "tiny explosion" 20
+		explode "huge explosion" 10
+		explode "large explosion" 40
+		explode "medium explosion" 50
+		explode "small explosion" 45
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Raider"
+		name "No Translation 2"
+		sprite ship/raider
+		attributes
+			category "Heavy Warship"
+			cost 16570000
+			bunks 250
+			"cargo space" 175
+			drag 12
+			"engine capacity" 159
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 9000
+			mass 720
+			"outfit space" 721
+			"required crew" 145
+			shields 27000
+			"turret mounts" 6
+			"weapon capacity" 284
+		outfits
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret" 2
+			"Outfits Expansion" 6
+			"Triple Plasma Core"
+			"Steering (Planetary Class)"
+			"Korath Warder"
+			"Thruster (Planetary Class)"
+			"Intrusion Countermeasures" 4
+			"Korath Banisher" 2
+			"Jump Drive"
+			"Thruster (Comet Class)"
+			"Korath Grab-Strike"
+			"LP036a Battery Pack"
+		engine -20 130 1
+		engine 20 130 1
+		turret -34 -143 "Korath Warder"
+		turret 34 -143 "Korath Grab-Strike"
+		turret -8 -145 "Korath Banisher"
+		turret 8 -145 "Korath Banisher"
+		turret 0 35 "Korath Slicer Turret"
+		turret 0 90 "Korath Slicer Turret"
+		fighter -75 100
+		fighter 75 100
+		explode "tiny explosion" 20
+		explode "huge explosion" 10
+		explode "large explosion" 40
+		explode "medium explosion" 50
+		explode "small explosion" 45
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Raider"
+		name "No Translation 3"
+		sprite ship/raider
+		attributes
+			category "Heavy Warship"
+			cost 16570000
+			bunks 250
+			"cargo space" 175
+			drag 12
+			"engine capacity" 159
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 9000
+			mass 720
+			"outfit space" 721
+			"required crew" 145
+			shields 27000
+			"turret mounts" 6
+			"weapon capacity" 284
+		outfits
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret" 2
+			"Outfits Expansion" 6
+			"Triple Plasma Core"
+			"Steering (Planetary Class)"
+			"Korath Warder"
+			"Thruster (Planetary Class)"
+			"Intrusion Countermeasures" 4
+			"Korath Banisher" 2
+			"Jump Drive"
+			"Thruster (Comet Class)"
+			"Korath Grab-Strike"
+			"LP036a Battery Pack"
+		engine -20 130 1
+		engine 20 130 1
+		turret -34 -143 "Korath Warder"
+		turret 34 -143 "Korath Grab-Strike"
+		turret -8 -145 "Korath Banisher"
+		turret 8 -145 "Korath Banisher"
+		turret 0 35 "Korath Slicer Turret"
+		turret 0 90 "Korath Slicer Turret"
+		fighter -75 100
+		fighter 75 100
+		explode "tiny explosion" 20
+		explode "huge explosion" 10
+		explode "large explosion" 40
+		explode "medium explosion" 50
+		explode "small explosion" 45
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Raider"
+		name "No Translation 4"
+		sprite ship/raider
+		attributes
+			category "Heavy Warship"
+			cost 16570000
+			bunks 250
+			"cargo space" 175
+			drag 12
+			"engine capacity" 159
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 9000
+			mass 720
+			"outfit space" 721
+			"required crew" 145
+			shields 27000
+			"turret mounts" 6
+			"weapon capacity" 284
+		outfits
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret" 2
+			"Outfits Expansion" 6
+			"Triple Plasma Core"
+			"Steering (Planetary Class)"
+			"Korath Warder"
+			"Thruster (Planetary Class)"
+			"Intrusion Countermeasures" 4
+			"Korath Banisher" 2
+			"Jump Drive"
+			"Thruster (Comet Class)"
+			"Korath Grab-Strike"
+			"LP036a Battery Pack"
+		engine -20 130 1
+		engine 20 130 1
+		turret -34 -143 "Korath Warder"
+		turret 34 -143 "Korath Grab-Strike"
+		turret -8 -145 "Korath Banisher"
+		turret 8 -145 "Korath Banisher"
+		turret 0 35 "Korath Slicer Turret"
+		turret 0 90 "Korath Slicer Turret"
+		fighter -75 100
+		fighter 75 100
+		explode "tiny explosion" 20
+		explode "huge explosion" 10
+		explode "large explosion" 40
+		explode "medium explosion" 50
+		explode "small explosion" 45
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Raider"
+		name "No Translation 5"
+		sprite ship/raider
+		attributes
+			category "Heavy Warship"
+			cost 16570000
+			bunks 250
+			"cargo space" 175
+			drag 12
+			"engine capacity" 159
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 9000
+			mass 720
+			"outfit space" 721
+			"required crew" 145
+			shields 27000
+			"turret mounts" 6
+			"weapon capacity" 284
+		outfits
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret" 2
+			"Outfits Expansion" 6
+			"Triple Plasma Core"
+			"Steering (Planetary Class)"
+			"Korath Warder"
+			"Thruster (Planetary Class)"
+			"Intrusion Countermeasures" 4
+			"Korath Banisher" 2
+			"Jump Drive"
+			"Thruster (Comet Class)"
+			"Korath Grab-Strike"
+			"LP036a Battery Pack"
+		engine -20 130 1
+		engine 20 130 1
+		turret -34 -143 "Korath Warder"
+		turret 34 -143 "Korath Grab-Strike"
+		turret -8 -145 "Korath Banisher"
+		turret 8 -145 "Korath Banisher"
+		turret 0 35 "Korath Slicer Turret"
+		turret 0 90 "Korath Slicer Turret"
+		fighter -75 100
+		fighter 75 100
+		explode "tiny explosion" 20
+		explode "huge explosion" 10
+		explode "large explosion" 40
+		explode "medium explosion" 50
+		explode "small explosion" 45
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+
+person "Warlord Chiksukos"
+	government "Korath"
+	frequency 60
+	personality
+		mute vindictive opportunistic
+	system
+		government "Korath"
+
+	ship "Korath World-Ship"
+		name "No Translation 1"
+		sprite "ship/world-ship a"
+		attributes
+			category "Heavy Freighter"
+			cost 27690000
+			bunks 1492
+			"cargo space" 264
+			drag 21
+			"engine capacity" 165
+			"fuel capacity" 1000
+			"heat dissipation" 0.4
+			hull 34000
+			mass 1735
+			"outfit space" 778
+			"required crew" 794
+			shields 47000
+			"turret mounts" 8
+			"weapon capacity" 314
+		outfits
+			"Outfits Expansion" 7
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret" 2
+			"Korath Banisher" 2
+			"Intrusion Countermeasures" 799
+			"Steering (Planetary Class)"
+			"Triple Plasma Core"
+			"Korath Warder" 2
+			"Thruster (Planetary Class)"
+			"Systems Core (Small)"
+			"Generator (Candle Class)"
+			"Small Heat Shunt" 2
+			"Jump Drive"
+			"Korath Grab-Strike"
+			Ramscoop
+		engine -37 343 0.8
+		engine 0 343 0.9
+		engine 37 343 0.8
+		turret -76 -157 "Korath Slicer Turret"
+		turret 76 -157 "Korath Slicer Turret"
+		turret -59 -135 "Korath Warder"
+		turret 59 -135 "Korath Grab-Strike"
+		turret -61 -6 "Korath Banisher"
+		turret 61 -6
+		turret -66 210 "Korath Warder"
+		turret 66 210 "Korath Banisher"
+		fighter 0 0
+		fighter 0 0
+		explode "large explosion" 40
+		explode "small explosion" 45
+		explode "medium explosion" 50
+		explode "huge explosion" 50
+		explode "tiny explosion" 30
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Raider"
+		name "No Translation 2"
+		sprite ship/raider
+		attributes
+			category "Heavy Warship"
+			cost 16570000
+			bunks 250
+			"cargo space" 175
+			drag 12
+			"engine capacity" 159
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 9000
+			mass 720
+			"outfit space" 721
+			"required crew" 145
+			shields 27000
+			"turret mounts" 6
+			"weapon capacity" 284
+		outfits
+			"Outfits Expansion" 6
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret" 2
+			"Korath Banisher" 2
+			"Intrusion Countermeasures" 4
+			"Steering (Planetary Class)"
+			"Triple Plasma Core"
+			"Korath Warder"
+			"Thruster (Planetary Class)"
+			"Jump Drive"
+			"Thruster (Comet Class)"
+			"Korath Grab-Strike"
+			"LP036a Battery Pack"
+		engine -20 130 1
+		engine 20 130 1
+		turret -34 -143 "Korath Warder"
+		turret 34 -143 "Korath Grab-Strike"
+		turret -8 -145 "Korath Banisher"
+		turret 8 -145 "Korath Banisher"
+		turret 0 35 "Korath Slicer Turret"
+		turret 0 90 "Korath Slicer Turret"
+		fighter -75 100
+		fighter 75 100
+		explode "large explosion" 40
+		explode "small explosion" 45
+		explode "medium explosion" 50
+		explode "huge explosion" 10
+		explode "tiny explosion" 20
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Raider"
+		name "No Translation 3"
+		sprite ship/raider
+		attributes
+			category "Heavy Warship"
+			cost 16570000
+			bunks 250
+			"cargo space" 175
+			drag 12
+			"engine capacity" 159
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 9000
+			mass 720
+			"outfit space" 721
+			"required crew" 145
+			shields 27000
+			"turret mounts" 6
+			"weapon capacity" 284
+		outfits
+			"Outfits Expansion" 6
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret" 2
+			"Korath Banisher" 2
+			"Intrusion Countermeasures" 4
+			"Steering (Planetary Class)"
+			"Triple Plasma Core"
+			"Korath Warder"
+			"Thruster (Planetary Class)"
+			"Jump Drive"
+			"Thruster (Comet Class)"
+			"Korath Grab-Strike"
+			"LP036a Battery Pack"
+		engine -20 130 1
+		engine 20 130 1
+		turret -34 -143 "Korath Warder"
+		turret 34 -143 "Korath Grab-Strike"
+		turret -8 -145 "Korath Banisher"
+		turret 8 -145 "Korath Banisher"
+		turret 0 35 "Korath Slicer Turret"
+		turret 0 90 "Korath Slicer Turret"
+		fighter -75 100
+		fighter 75 100
+		explode "large explosion" 40
+		explode "small explosion" 45
+		explode "medium explosion" 50
+		explode "huge explosion" 10
+		explode "tiny explosion" 20
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Raider"
+		name "No Translation 5"
+		sprite ship/raider
+		attributes
+			category "Heavy Warship"
+			cost 16570000
+			bunks 250
+			"cargo space" 175
+			drag 12
+			"engine capacity" 159
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 9000
+			mass 720
+			"outfit space" 721
+			"required crew" 145
+			shields 27000
+			"turret mounts" 6
+			"weapon capacity" 284
+		outfits
+			"Outfits Expansion" 6
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret" 2
+			"Korath Banisher" 2
+			"Intrusion Countermeasures" 4
+			"Steering (Planetary Class)"
+			"Triple Plasma Core"
+			"Korath Warder"
+			"Thruster (Planetary Class)"
+			"Jump Drive"
+			"Thruster (Comet Class)"
+			"Korath Grab-Strike"
+			"LP036a Battery Pack"
+		engine -20 130 1
+		engine 20 130 1
+		turret -34 -143 "Korath Warder"
+		turret 34 -143 "Korath Grab-Strike"
+		turret -8 -145 "Korath Banisher"
+		turret 8 -145 "Korath Banisher"
+		turret 0 35 "Korath Slicer Turret"
+		turret 0 90 "Korath Slicer Turret"
+		fighter -75 100
+		fighter 75 100
+		explode "large explosion" 40
+		explode "small explosion" 45
+		explode "medium explosion" 50
+		explode "huge explosion" 10
+		explode "tiny explosion" 20
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Raider"
+		name "No Translation 4"
+		sprite ship/raider
+		attributes
+			category "Heavy Warship"
+			cost 16570000
+			bunks 250
+			"cargo space" 175
+			drag 12
+			"engine capacity" 159
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 9000
+			mass 720
+			"outfit space" 721
+			"required crew" 145
+			shields 27000
+			"turret mounts" 6
+			"weapon capacity" 284
+		outfits
+			"Outfits Expansion" 6
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret" 2
+			"Korath Banisher" 2
+			"Intrusion Countermeasures" 4
+			"Steering (Planetary Class)"
+			"Triple Plasma Core"
+			"Korath Warder"
+			"Thruster (Planetary Class)"
+			"Jump Drive"
+			"Thruster (Comet Class)"
+			"Korath Grab-Strike"
+			"LP036a Battery Pack"
+		engine -20 130 1
+		engine 20 130 1
+		turret -34 -143 "Korath Warder"
+		turret 34 -143 "Korath Grab-Strike"
+		turret -8 -145 "Korath Banisher"
+		turret 8 -145 "Korath Banisher"
+		turret 0 35 "Korath Slicer Turret"
+		turret 0 90 "Korath Slicer Turret"
+		fighter -75 100
+		fighter 75 100
+		explode "large explosion" 40
+		explode "small explosion" 45
+		explode "medium explosion" 50
+		explode "huge explosion" 10
+		explode "tiny explosion" 20
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+
+person "Warlord Eskeskatuto"
+	government "Korath"
+	frequency 30
+	personality
+		mute vindictive opportunistic
+	system
+		government "Korath"
+
+	ship "Korath World-Ship"
+		name "No Translation 1"
+		sprite "ship/world-ship a"
+		attributes
+			category "Heavy Freighter"
+			cost 27690000
+			bunks 1492
+			"cargo space" 264
+			drag 21
+			"engine capacity" 165
+			"fuel capacity" 1000
+			"heat dissipation" 0.4
+			hull 34000
+			mass 1735
+			"outfit space" 778
+			"required crew" 794
+			shields 47000
+			"turret mounts" 8
+			"weapon capacity" 314
+		outfits
+			"Outfits Expansion" 7
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret" 2
+			"Korath Banisher" 2
+			"Intrusion Countermeasures" 799
+			"Steering (Planetary Class)"
+			"Triple Plasma Core"
+			"Korath Warder" 2
+			"Thruster (Planetary Class)"
+			"Systems Core (Small)"
+			"Generator (Candle Class)"
+			"Small Heat Shunt" 2
+			"Jump Drive"
+			"Korath Grab-Strike"
+			Ramscoop
+		engine -37 343 0.8
+		engine 0 343 0.9
+		engine 37 343 0.8
+		turret -76 -157 "Korath Slicer Turret"
+		turret 76 -157 "Korath Slicer Turret"
+		turret -59 -135 "Korath Warder"
+		turret 59 -135 "Korath Grab-Strike"
+		turret -61 -6 "Korath Banisher"
+		turret 61 -6
+		turret -66 210 "Korath Warder"
+		turret 66 210 "Korath Banisher"
+		fighter 0 0
+		fighter 0 0
+		fighter 0 0
+		fighter 0 0
+		fighter 0 0
+		fighter 0 0
+		fighter 0 0
+		fighter 0 0
+		fighter 0 0
+		fighter 0 0
+		fighter 0 0
+		fighter 0 0
+		explode "large explosion" 40
+		explode "small explosion" 45
+		explode "medium explosion" 50
+		explode "huge explosion" 50
+		explode "tiny explosion" 30
+		"final explode" "final explosion large" 1
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath Chaser"
+		name "No Tranlation"
+		sprite ship/chaser
+		attributes
+			category Fighter
+			cost 671000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 900
+			mass 40
+			"outfit space" 92
+			"required crew" 1
+			shields 2300
+			"weapon capacity" 25
+		outfits
+			"Small Heat Shunt"
+			"Generator (Furnace Class)"
+			"Thruster (Asteroid Class)"
+			"Steering (Asteroid Class)"
+			"Korath Fire-Lance"
+		engine -7 23 1
+		engine 7 23 1
+		gun 0 -28 "Korath Fire-Lance"
+		explode "tiny explosion" 20
+	ship "Korath World-Ship"
+		name "No Translation 2"
+		sprite "ship/world-ship a"
+		attributes
+			category "Heavy Freighter"
+			cost 27690000
+			bunks 1492
+			"cargo space" 264
+			drag 21
+			"engine capacity" 165
+			"fuel capacity" 1000
+			"heat dissipation" 0.4
+			hull 34000
+			mass 1735
+			"outfit space" 778
+			"required crew" 794
+			shields 47000
+			"turret mounts" 8
+			"weapon capacity" 314
+		outfits
+			"Outfits Expansion" 7
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret" 2
+			"Korath Banisher" 2
+			"Intrusion Countermeasures" 799
+			"Steering (Planetary Class)"
+			"Triple Plasma Core"
+			"Korath Warder" 2
+			"Thruster (Planetary Class)"
+			"Systems Core (Small)"
+			"Generator (Candle Class)"
+			"Small Heat Shunt" 2
+			"Jump Drive"
+			"Korath Grab-Strike"
+			Ramscoop
+		engine -37 343 0.8
+		engine 0 343 0.9
+		engine 37 343 0.8
+		turret -76 -157 "Korath Slicer Turret"
+		turret 76 -157 "Korath Slicer Turret"
+		turret -59 -135 "Korath Warder"
+		turret 59 -135 "Korath Grab-Strike"
+		turret -61 -6 "Korath Banisher"
+		turret 61 -6
+		turret -66 210 "Korath Warder"
+		turret 66 210 "Korath Banisher"
+		explode "large explosion" 40
+		explode "small explosion" 45
+		explode "medium explosion" 50
+		explode "huge explosion" 50
+		explode "tiny explosion" 30
+		"final explode" "final explosion large" 1
+	ship "Korath World-Ship"
+		name "No Translation 3"
+		sprite "ship/world-ship a"
+		attributes
+			category "Heavy Freighter"
+			cost 27690000
+			bunks 1492
+			"cargo space" 264
+			drag 21
+			"engine capacity" 165
+			"fuel capacity" 1000
+			"heat dissipation" 0.4
+			hull 34000
+			mass 1735
+			"outfit space" 778
+			"required crew" 794
+			shields 47000
+			"turret mounts" 8
+			"weapon capacity" 314
+		outfits
+			"Outfits Expansion" 7
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret" 2
+			"Korath Banisher" 2
+			"Intrusion Countermeasures" 799
+			"Steering (Planetary Class)"
+			"Triple Plasma Core"
+			"Korath Warder" 2
+			"Thruster (Planetary Class)"
+			"Systems Core (Small)"
+			"Generator (Candle Class)"
+			"Small Heat Shunt" 2
+			"Jump Drive"
+			"Korath Grab-Strike"
+			Ramscoop
+		engine -37 343 0.8
+		engine 0 343 0.9
+		engine 37 343 0.8
+		turret -76 -157 "Korath Slicer Turret"
+		turret 76 -157 "Korath Slicer Turret"
+		turret -59 -135 "Korath Warder"
+		turret 59 -135 "Korath Grab-Strike"
+		turret -61 -6 "Korath Banisher"
+		turret 61 -6
+		turret -66 210 "Korath Warder"
+		turret 66 210 "Korath Banisher"
+		explode "large explosion" 40
+		explode "small explosion" 45
+		explode "medium explosion" 50
+		explode "huge explosion" 50
+		explode "tiny explosion" 30
+		"final explode" "final explosion large" 1
+	ship "Korath World-Ship"
+		name "No Translation 4"
+		sprite "ship/world-ship a"
+		attributes
+			category "Heavy Freighter"
+			cost 27690000
+			bunks 1492
+			"cargo space" 264
+			drag 21
+			"engine capacity" 165
+			"fuel capacity" 1000
+			"heat dissipation" 0.4
+			hull 34000
+			mass 1735
+			"outfit space" 778
+			"required crew" 794
+			shields 47000
+			"turret mounts" 8
+			"weapon capacity" 314
+		outfits
+			"Outfits Expansion" 7
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret" 2
+			"Korath Banisher" 2
+			"Intrusion Countermeasures" 799
+			"Steering (Planetary Class)"
+			"Triple Plasma Core"
+			"Korath Warder" 2
+			"Thruster (Planetary Class)"
+			"Systems Core (Small)"
+			"Generator (Candle Class)"
+			"Small Heat Shunt" 2
+			"Jump Drive"
+			"Korath Grab-Strike"
+			Ramscoop
+		engine -37 343 0.8
+		engine 0 343 0.9
+		engine 37 343 0.8
+		turret -76 -157 "Korath Slicer Turret"
+		turret 76 -157 "Korath Slicer Turret"
+		turret -59 -135 "Korath Warder"
+		turret 59 -135 "Korath Grab-Strike"
+		turret -61 -6 "Korath Banisher"
+		turret 61 -6
+		turret -66 210 "Korath Warder"
+		turret 66 210 "Korath Banisher"
+		explode "large explosion" 40
+		explode "small explosion" 45
+		explode "medium explosion" 50
+		explode "huge explosion" 50
+		explode "tiny explosion" 30
+		"final explode" "final explosion large" 1
+	ship "Korath World-Ship"
+		name "No Translation 5"
+		sprite "ship/world-ship a"
+		attributes
+			category "Heavy Freighter"
+			cost 27690000
+			bunks 1492
+			"cargo space" 264
+			drag 21
+			"engine capacity" 165
+			"fuel capacity" 1000
+			"heat dissipation" 0.4
+			hull 34000
+			mass 1735
+			"outfit space" 778
+			"required crew" 794
+			shields 47000
+			"turret mounts" 8
+			"weapon capacity" 314
+		outfits
+			"Outfits Expansion" 7
+			"Systems Core (Large)"
+			"Large Heat Shunt" 4
+			"Korath Slicer Turret" 2
+			"Korath Banisher" 2
+			"Intrusion Countermeasures" 799
+			"Steering (Planetary Class)"
+			"Triple Plasma Core"
+			"Korath Warder" 2
+			"Thruster (Planetary Class)"
+			"Systems Core (Small)"
+			"Generator (Candle Class)"
+			"Small Heat Shunt" 2
+			"Jump Drive"
+			"Korath Grab-Strike"
+			Ramscoop
+		engine -37 343 0.8
+		engine 0 343 0.9
+		engine 37 343 0.8
+		turret -76 -157 "Korath Slicer Turret"
+		turret 76 -157 "Korath Slicer Turret"
+		turret -59 -135 "Korath Warder"
+		turret 59 -135 "Korath Grab-Strike"
+		turret -61 -6 "Korath Banisher"
+		turret 61 -6
+		turret -66 210 "Korath Warder"
+		turret 66 210 "Korath Banisher"
+		explode "large explosion" 40
+		explode "small explosion" 45
+		explode "medium explosion" 50
+		explode "huge explosion" 50
+		explode "tiny explosion" 30
+		"final explode" "final explosion large" 1

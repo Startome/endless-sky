@@ -1,0 +1,5065 @@
+person "Militia Patrol 1"
+	government "Free Worlds"
+	personality
+		heroic vindictive swarming
+	system
+		government "Free Worlds"
+	phrase
+		word
+			"Pardon us, no time to talk. We are on patrol"
+
+	ship "Class C Freighter"
+		name "The Merrymaker"
+		sprite "ship/bulk freighter"
+		attributes
+			category "Heavy Warship"
+			cost 11400000
+			bunks 43
+			"cargo space" 20
+			drag 16.4
+			"engine capacity" 85
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 7600
+			mass 810
+			"outfit space" 400
+			"required crew" 18
+			shields 13500
+			"turret mounts" 4
+			"weapon capacity" 140
+		outfits
+			"X3700 Ion Thruster"
+			"Heavy Laser Turret" 2
+			"X3200 Ion Steering"
+			"Scram Drive"
+			"D94-YV Shield Generator"
+			"Heavy Anti-Missile Turret" 2
+			"Fission Reactor"
+			"LP072a Battery Pack"
+		engine -22 198 1
+		engine 22 198 1
+		turret -12 -155 "Heavy Laser Turret"
+		turret 12 -155 "Heavy Anti-Missile Turret"
+		turret 30 175 "Heavy Laser Turret"
+		turret -30 175 "Heavy Anti-Missile Turret"
+		drone -66 -115 left
+		drone -66 -65 left
+		drone -66 -15 left
+		drone -66 35 left
+		drone -66 85 left
+		drone -66 135 left
+		drone 66 -115 right
+		drone 66 -65 right
+		drone 66 -15 right
+		drone 66 35 right
+		drone 66 85 right
+		drone 66 135 right
+		explode "small explosion" 15
+		explode "huge explosion" 20
+		explode "medium explosion" 25
+		explode "large explosion" 35
+		"final explode" "final explosion large" 1
+	ship "Combat Drone"
+		name "Ambush Drone 1"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 2"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 3"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 4"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 5"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 6"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 7"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 8"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 9"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 10"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 11"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 12"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+
+person "Militia Patrol 2"
+	government "Free Worlds"
+	personality
+		heroic vindictive swarming
+	system
+		government "Free Worlds"
+	phrase
+		word
+			"Pardon us, no time to talk. We are on patrol"
+
+	ship "Class C Freighter"
+		name "The Merrymaker"
+		sprite "ship/bulk freighter"
+		attributes
+			category "Heavy Warship"
+			cost 11400000
+			bunks 43
+			"cargo space" 20
+			drag 16.4
+			"engine capacity" 85
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 7600
+			mass 810
+			"outfit space" 400
+			"required crew" 18
+			shields 13500
+			"turret mounts" 4
+			"weapon capacity" 140
+		outfits
+			"X3700 Ion Thruster"
+			"Heavy Laser Turret" 2
+			"X3200 Ion Steering"
+			"Scram Drive"
+			"D94-YV Shield Generator"
+			"Heavy Anti-Missile Turret" 2
+			"Fission Reactor"
+			"LP072a Battery Pack"
+		engine -22 198 1
+		engine 22 198 1
+		turret -12 -155 "Heavy Laser Turret"
+		turret 12 -155 "Heavy Anti-Missile Turret"
+		turret 30 175 "Heavy Laser Turret"
+		turret -30 175 "Heavy Anti-Missile Turret"
+		drone -66 -115 left
+		drone -66 -65 left
+		drone -66 -15 left
+		drone -66 35 left
+		drone -66 85 left
+		drone -66 135 left
+		drone 66 -115 right
+		drone 66 -65 right
+		drone 66 -15 right
+		drone 66 35 right
+		drone 66 85 right
+		drone 66 135 right
+		explode "small explosion" 15
+		explode "huge explosion" 20
+		explode "medium explosion" 25
+		explode "large explosion" 35
+		"final explode" "final explosion large" 1
+	ship "Combat Drone"
+		name "Ambush Drone 1"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 2"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 3"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 4"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 5"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 6"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 7"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 8"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 9"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 10"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 11"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Ambush Drone 12"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1200 Ion Steering"
+			"X1700 Ion Thruster"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Beam Laser"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Beam Laser"
+		explode "tiny explosion" 15
+
+person "Militia Patrol 3"
+	government "Free Worlds"
+	personality
+		heroic vindictive swarming surveillance
+	system
+		government "Free Worlds"
+	phrase
+		word
+			"Pardon us, no time to talk. We are on patrol"
+
+	ship Roost
+		name Dauntless
+		sprite ship/roost
+		attributes
+			category "Medium Warship"
+			cost 3000000
+			bunks 16
+			"cargo space" 80
+			drag 11.5
+			"engine capacity" 80
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.67
+			hull 5200
+			mass 360
+			"outfit space" 450
+			"required crew" 7
+			shields 2900
+			"turret mounts" 4
+			"weapon capacity" 140
+		outfits
+			Hyperdrive
+			"Large Radar Jammer"
+			"Greyhound Plasma Thruster"
+			"Impala Plasma Steering"
+			"Liquid Nitrogen Cooler"
+			"Meteor Missile" 70
+			"Anti-Missile Turret" 2
+			"D41-HY Shield Generator" 4
+			"Heavy Anti-Missile Turret" 2
+			"LP072a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"Fission Reactor"
+		engine -45 159 1
+		engine 45 159 1
+		gun -15 -128 "Meteor Missile Launcher"
+		gun 15 -128 "Meteor Missile Launcher"
+		turret -26 -85 "Anti-Missile Turret"
+		turret 26 -85 "Heavy Anti-Missile Turret"
+		turret -18 114 "Heavy Anti-Missile Turret"
+		turret 18 114 "Anti-Missile Turret"
+		fighter -47 -24 under
+		fighter 47 -24 under
+		fighter -47 50 under
+		fighter 47 50 under
+		explode "small explosion" 25
+		explode "large explosion" 15
+		explode "tiny explosion" 10
+		explode "medium explosion" 30
+		"final explode" "final explosion medium" 1
+	ship Roost
+		name Vincdictive
+		sprite ship/roost
+		attributes
+			category "Medium Warship"
+			cost 3000000
+			bunks 16
+			"cargo space" 80
+			drag 11.5
+			"engine capacity" 80
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.67
+			hull 5200
+			mass 360
+			"outfit space" 450
+			"required crew" 7
+			shields 2900
+			"turret mounts" 4
+			"weapon capacity" 140
+		outfits
+			Hyperdrive
+			"Large Radar Jammer"
+			"Greyhound Plasma Thruster"
+			"Impala Plasma Steering"
+			"Liquid Nitrogen Cooler"
+			"Meteor Missile" 70
+			"Anti-Missile Turret" 2
+			"D41-HY Shield Generator" 4
+			"Heavy Anti-Missile Turret" 2
+			"LP072a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"Fission Reactor"
+		engine -45 159 1
+		engine 45 159 1
+		gun -15 -128 "Meteor Missile Launcher"
+		gun 15 -128 "Meteor Missile Launcher"
+		turret -26 -85 "Anti-Missile Turret"
+		turret 26 -85 "Heavy Anti-Missile Turret"
+		turret -18 114 "Heavy Anti-Missile Turret"
+		turret 18 114 "Anti-Missile Turret"
+		fighter -47 -24 under
+		fighter 47 -24 under
+		fighter -47 50 under
+		fighter 47 50 under
+		explode "small explosion" 25
+		explode "large explosion" 15
+		explode "tiny explosion" 10
+		explode "medium explosion" 30
+		"final explode" "final explosion medium" 1
+	ship Finch
+		name "Miltia Fighter 1"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 70
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"nGVF-BB Fuel Cell"
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Miltia Fighter 2"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 70
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"nGVF-BB Fuel Cell"
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Miltia Fighter 3"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 70
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"nGVF-BB Fuel Cell"
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Miltia Fighter 4"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 70
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"nGVF-BB Fuel Cell"
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Miltia Fighter 5"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 70
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"nGVF-BB Fuel Cell"
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Miltia Fighter 6"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 70
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"nGVF-BB Fuel Cell"
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Miltia Fighter 7"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 70
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"nGVF-BB Fuel Cell"
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Miltia Fighter 8"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 70
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"nGVF-BB Fuel Cell"
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Hawk
+		name "Carrier Wing 1"
+		sprite ship/hawk
+		attributes
+			category Interceptor
+			cost 670000
+			bunks 4
+			"cargo space" 30
+			drag 2.1
+			"engine capacity" 70
+			"fuel capacity" 300
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 500
+			mass 150
+			"outfit space" 200
+			"required crew" 2
+			shields 2500
+			"weapon capacity" 40
+		outfits
+			Hyperdrive
+			"Particle Cannon"
+			"Greyhound Plasma Thruster"
+			"Greyhound Plasma Steering"
+			"Cargo Scanner"
+			"Water Coolant System"
+			"LP036a Battery Pack"
+			"D23-QP Shield Generator"
+			"Outfit Scanner"
+			"RT-I Radiothermal"
+		engine -24 41 1
+		engine 24 41 1
+		gun -9 -17 "Particle Cannon"
+		gun 9 -17
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+		"final explode" "final explosion small" 1
+	ship Hawk
+		name "Carrier Wing 2"
+		sprite ship/hawk
+		attributes
+			category Interceptor
+			cost 670000
+			bunks 4
+			"cargo space" 30
+			drag 2.1
+			"engine capacity" 70
+			"fuel capacity" 300
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 500
+			mass 150
+			"outfit space" 200
+			"required crew" 2
+			shields 2500
+			"weapon capacity" 40
+		outfits
+			Hyperdrive
+			"Particle Cannon"
+			"Greyhound Plasma Thruster"
+			"Greyhound Plasma Steering"
+			"Cargo Scanner"
+			"Water Coolant System"
+			"LP036a Battery Pack"
+			"D23-QP Shield Generator"
+			"Outfit Scanner"
+			"RT-I Radiothermal"
+		engine -24 41 1
+		engine 24 41 1
+		gun -9 -17 "Particle Cannon"
+		gun 9 -17
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+		"final explode" "final explosion small" 1
+
+person "Militia Patrol 4"
+	government "Free Worlds"
+	personality
+		heroic vindictive swarming surveillance
+	system
+		government "Free Worlds"
+	phrase
+		word
+			"Pardon us, no time to talk. We are on patrol"
+
+	ship Roost
+		name Dauntless
+		sprite ship/roost
+		attributes
+			category "Medium Warship"
+			cost 3000000
+			bunks 16
+			"cargo space" 80
+			drag 11.5
+			"engine capacity" 80
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.67
+			hull 5200
+			mass 360
+			"outfit space" 450
+			"required crew" 7
+			shields 2900
+			"turret mounts" 4
+			"weapon capacity" 140
+		outfits
+			Hyperdrive
+			"Large Radar Jammer"
+			"Greyhound Plasma Thruster"
+			"Impala Plasma Steering"
+			"Liquid Nitrogen Cooler"
+			"Meteor Missile" 70
+			"Anti-Missile Turret" 2
+			"D41-HY Shield Generator" 4
+			"Heavy Anti-Missile Turret" 2
+			"LP072a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"Fission Reactor"
+		engine -45 159 1
+		engine 45 159 1
+		gun -15 -128 "Meteor Missile Launcher"
+		gun 15 -128 "Meteor Missile Launcher"
+		turret -26 -85 "Anti-Missile Turret"
+		turret 26 -85 "Heavy Anti-Missile Turret"
+		turret -18 114 "Heavy Anti-Missile Turret"
+		turret 18 114 "Anti-Missile Turret"
+		fighter -47 -24 under
+		fighter 47 -24 under
+		fighter -47 50 under
+		fighter 47 50 under
+		explode "small explosion" 25
+		explode "large explosion" 15
+		explode "tiny explosion" 10
+		explode "medium explosion" 30
+		"final explode" "final explosion medium" 1
+	ship Roost
+		name Vincdictive
+		sprite ship/roost
+		attributes
+			category "Medium Warship"
+			cost 3000000
+			bunks 16
+			"cargo space" 80
+			drag 11.5
+			"engine capacity" 80
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.67
+			hull 5200
+			mass 360
+			"outfit space" 450
+			"required crew" 7
+			shields 2900
+			"turret mounts" 4
+			"weapon capacity" 140
+		outfits
+			Hyperdrive
+			"Large Radar Jammer"
+			"Greyhound Plasma Thruster"
+			"Impala Plasma Steering"
+			"Liquid Nitrogen Cooler"
+			"Meteor Missile" 70
+			"Anti-Missile Turret" 2
+			"D41-HY Shield Generator" 4
+			"Heavy Anti-Missile Turret" 2
+			"LP072a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"Fission Reactor"
+		engine -45 159 1
+		engine 45 159 1
+		gun -15 -128 "Meteor Missile Launcher"
+		gun 15 -128 "Meteor Missile Launcher"
+		turret -26 -85 "Anti-Missile Turret"
+		turret 26 -85 "Heavy Anti-Missile Turret"
+		turret -18 114 "Heavy Anti-Missile Turret"
+		turret 18 114 "Anti-Missile Turret"
+		fighter -47 -24 under
+		fighter 47 -24 under
+		fighter -47 50 under
+		fighter 47 50 under
+		explode "small explosion" 25
+		explode "large explosion" 15
+		explode "tiny explosion" 10
+		explode "medium explosion" 30
+		"final explode" "final explosion medium" 1
+	ship Finch
+		name "Miltia Fighter 1"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 70
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"nGVF-BB Fuel Cell"
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Miltia Fighter 2"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 70
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"nGVF-BB Fuel Cell"
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Miltia Fighter 3"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 70
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"nGVF-BB Fuel Cell"
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Miltia Fighter 4"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 70
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"nGVF-BB Fuel Cell"
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Miltia Fighter 5"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 70
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"nGVF-BB Fuel Cell"
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Miltia Fighter 6"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 70
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"nGVF-BB Fuel Cell"
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Miltia Fighter 7"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 70
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"nGVF-BB Fuel Cell"
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Miltia Fighter 8"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 70
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"nGVF-BB Fuel Cell"
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Hawk
+		name "Carrier Wing 1"
+		sprite ship/hawk
+		attributes
+			category Interceptor
+			cost 670000
+			bunks 4
+			"cargo space" 30
+			drag 2.1
+			"engine capacity" 70
+			"fuel capacity" 300
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 500
+			mass 150
+			"outfit space" 200
+			"required crew" 2
+			shields 2500
+			"weapon capacity" 40
+		outfits
+			Hyperdrive
+			"Particle Cannon"
+			"Greyhound Plasma Thruster"
+			"Greyhound Plasma Steering"
+			"Cargo Scanner"
+			"Water Coolant System"
+			"LP036a Battery Pack"
+			"D23-QP Shield Generator"
+			"Outfit Scanner"
+			"RT-I Radiothermal"
+		engine -24 41 1
+		engine 24 41 1
+		gun -9 -17 "Particle Cannon"
+		gun 9 -17
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+		"final explode" "final explosion small" 1
+	ship Hawk
+		name "Carrier Wing 2"
+		sprite ship/hawk
+		attributes
+			category Interceptor
+			cost 670000
+			bunks 4
+			"cargo space" 30
+			drag 2.1
+			"engine capacity" 70
+			"fuel capacity" 300
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 500
+			mass 150
+			"outfit space" 200
+			"required crew" 2
+			shields 2500
+			"weapon capacity" 40
+		outfits
+			Hyperdrive
+			"Particle Cannon"
+			"Greyhound Plasma Thruster"
+			"Greyhound Plasma Steering"
+			"Cargo Scanner"
+			"Water Coolant System"
+			"LP036a Battery Pack"
+			"D23-QP Shield Generator"
+			"Outfit Scanner"
+			"RT-I Radiothermal"
+		engine -24 41 1
+		engine 24 41 1
+		gun -9 -17 "Particle Cannon"
+		gun 9 -17
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+		"final explode" "final explosion small" 1
+
+person "The Swarmers"
+	government "Pirate"
+	personality
+		harvests swarming coward timid mute
+	system
+		government "Pirate"
+
+	ship Berserker
+		name "Captain Swarm"
+		sprite ship/berserker
+		attributes
+			category Interceptor
+			cost 520000
+			bunks 2
+			"cargo space" 10
+			drag 2.2
+			"engine capacity" 65
+			"fuel capacity" 400
+			"gun ports" 4
+			"heat dissipation" 0.85
+			hull 500
+			mass 110
+			"outfit space" 200
+			"required crew" 1
+			shields 2200
+			"weapon capacity" 35
+		outfits
+			Hyperdrive
+			"X2700 Ion Thruster"
+			"X3200 Ion Steering"
+			"Sidewinder Missile" 50
+			"Sidewinder Missile Launcher"
+			"LP072a Battery Pack"
+			"Meteor Missile" 70
+			"Meteor Missile Launcher" 2
+			"D23-QP Shield Generator"
+			"nGVF-CC Fuel Cell"
+		engine -10 45 1
+		engine 10 45 1
+		gun -20 12 "Sidewinder Missile Launcher"
+		gun 20 12 "Meteor Missile Launcher"
+		gun -44 10 "Meteor Missile Launcher"
+		gun 44 10
+		explode "tiny explosion" 10
+		explode "small explosion" 15
+		"final explode" "final explosion small" 1
+	ship Sparrow
+		name "Hero Captain"
+		sprite ship/sparrow
+		attributes
+			category Interceptor
+			cost 225000
+			bunks 2
+			"cargo space" 15
+			drag 1
+			"engine capacity" 40
+			"fuel capacity" 300
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 300
+			mass 50
+			"outfit space" 130
+			"required crew" 1
+			shields 1200
+			"weapon capacity" 20
+		outfits
+			Hyperdrive
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"Beam Laser" 2
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"nGVF-BB Fuel Cell"
+		engine -5 35 1
+		engine 5 35 1
+		gun -7 -10 "Beam Laser"
+		gun 7 -10 "Beam Laser"
+		explode "tiny explosion" 15
+		explode "small explosion" 5
+	ship Sparrow
+		name "Swarmer 1"
+		sprite ship/sparrow
+		attributes
+			category Interceptor
+			cost 225000
+			bunks 2
+			"cargo space" 15
+			drag 1
+			"engine capacity" 40
+			"fuel capacity" 300
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 300
+			mass 50
+			"outfit space" 130
+			"required crew" 1
+			shields 1200
+			"weapon capacity" 20
+		outfits
+			Hyperdrive
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"Beam Laser" 2
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"nGVF-BB Fuel Cell"
+		engine -5 35 1
+		engine 5 35 1
+		gun -7 -10 "Beam Laser"
+		gun 7 -10 "Beam Laser"
+		explode "tiny explosion" 15
+		explode "small explosion" 5
+	ship Sparrow
+		name "Swarmer 2"
+		sprite ship/sparrow
+		attributes
+			category Interceptor
+			cost 225000
+			bunks 2
+			"cargo space" 15
+			drag 1
+			"engine capacity" 40
+			"fuel capacity" 300
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 300
+			mass 50
+			"outfit space" 130
+			"required crew" 1
+			shields 1200
+			"weapon capacity" 20
+		outfits
+			Hyperdrive
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"Beam Laser" 2
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"nGVF-BB Fuel Cell"
+		engine -5 35 1
+		engine 5 35 1
+		gun -7 -10 "Beam Laser"
+		gun 7 -10 "Beam Laser"
+		explode "tiny explosion" 15
+		explode "small explosion" 5
+	ship Sparrow
+		name "Swarmer 3"
+		sprite ship/sparrow
+		attributes
+			category Interceptor
+			cost 225000
+			bunks 2
+			"cargo space" 15
+			drag 1
+			"engine capacity" 40
+			"fuel capacity" 300
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 300
+			mass 50
+			"outfit space" 130
+			"required crew" 1
+			shields 1200
+			"weapon capacity" 20
+		outfits
+			Hyperdrive
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"Beam Laser" 2
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"nGVF-BB Fuel Cell"
+		engine -5 35 1
+		engine 5 35 1
+		gun -7 -10 "Beam Laser"
+		gun 7 -10 "Beam Laser"
+		explode "tiny explosion" 15
+		explode "small explosion" 5
+	ship Sparrow
+		name "Swarmer 4"
+		sprite ship/sparrow
+		attributes
+			category Interceptor
+			cost 225000
+			bunks 2
+			"cargo space" 15
+			drag 1
+			"engine capacity" 40
+			"fuel capacity" 300
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 300
+			mass 50
+			"outfit space" 130
+			"required crew" 1
+			shields 1200
+			"weapon capacity" 20
+		outfits
+			Hyperdrive
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"Beam Laser" 2
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"nGVF-BB Fuel Cell"
+		engine -5 35 1
+		engine 5 35 1
+		gun -7 -10 "Beam Laser"
+		gun 7 -10 "Beam Laser"
+		explode "tiny explosion" 15
+		explode "small explosion" 5
+	ship Sparrow
+		name "Swarmer 5"
+		sprite ship/sparrow
+		attributes
+			category Interceptor
+			cost 225000
+			bunks 2
+			"cargo space" 15
+			drag 1
+			"engine capacity" 40
+			"fuel capacity" 300
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 300
+			mass 50
+			"outfit space" 130
+			"required crew" 1
+			shields 1200
+			"weapon capacity" 20
+		outfits
+			Hyperdrive
+			"Chipmunk Plasma Thruster"
+			"Chipmunk Plasma Steering"
+			"Beam Laser" 2
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"nGVF-BB Fuel Cell"
+		engine -5 35 1
+		engine 5 35 1
+		gun -7 -10 "Beam Laser"
+		gun 7 -10 "Beam Laser"
+		explode "tiny explosion" 15
+		explode "small explosion" 5
+
+person" Syndicate Patrol 1"
+	government "Syndicate"
+	personality
+		heroic disables
+	system
+		government "Syndicate"
+	phrase
+		word
+			"Once, Twice, Thrice, and you're out!"
+
+	ship Vanguard
+		name Once
+		sprite ship/vanguard
+		attributes
+			category "Heavy Warship"
+			cost 7200000
+			bunks 45
+			"cargo space" 50
+			drag 8
+			"engine capacity" 120
+			"fuel capacity" 400
+			"gun ports" 7
+			"heat dissipation" 0.6
+			hull 6000
+			mass 500
+			"outfit space" 560
+			"required crew" 23
+			shields 9800
+			"turret mounts" 1
+			"weapon capacity" 220
+		outfits
+			"Outfits Expansion" 2
+			Hyperdrive
+			"A370 Atomic Thruster"
+			"A375 Atomic Steering"
+			"D94-YV Shield Generator" 2
+			Supercapacitor 2
+			"Armageddon Core"
+			"Water Coolant System"
+			"Liquid Helium Cooler"
+			"Proton Gun" 5
+			"Heavy Anti-Missile Turret"
+			"Small Radar Jammer"
+		engine -15 130 1
+		engine 15 130 1
+		gun 0 -132
+		gun -22 -122
+		gun 22 -122 "Proton Gun"
+		gun -21 -45 "Proton Gun"
+		gun 21 -45 "Proton Gun"
+		gun -31 -45 "Proton Gun"
+		gun 31 -45 "Proton Gun"
+		turret 0 42 "Heavy Anti-Missile Turret"
+		explode "large explosion" 8
+		explode "medium explosion" 24
+		explode "tiny explosion" 18
+		explode "small explosion" 36
+		"final explode" "final explosion medium" 1
+	ship Vanguard
+		name Twice
+		sprite ship/vanguard
+		attributes
+			category "Heavy Warship"
+			cost 7200000
+			bunks 45
+			"cargo space" 50
+			drag 8
+			"engine capacity" 120
+			"fuel capacity" 400
+			"gun ports" 7
+			"heat dissipation" 0.6
+			hull 6000
+			mass 500
+			"outfit space" 560
+			"required crew" 23
+			shields 9800
+			"turret mounts" 1
+			"weapon capacity" 220
+		outfits
+			"Outfits Expansion" 2
+			Hyperdrive
+			"A370 Atomic Thruster"
+			"A375 Atomic Steering"
+			"D94-YV Shield Generator" 2
+			Supercapacitor
+			"Armageddon Core"
+			"D67-TM Shield Generator"
+			"Plasma Cannon" 4
+			"Liquid Helium Cooler"
+			"Heavy Anti-Missile Turret"
+			"Small Radar Jammer"
+			"Outfit Scanner"
+			"Cargo Scanner"
+		engine -15 130 1
+		engine 15 130 1
+		gun 0 -132 "Plasma Cannon"
+		gun -22 -122 "Plasma Cannon"
+		gun 22 -122 "Plasma Cannon"
+		gun -21 -45 "Plasma Cannon"
+		gun 21 -45
+		gun -31 -45
+		gun 31 -45
+		turret 0 42 "Heavy Anti-Missile Turret"
+		explode "large explosion" 8
+		explode "medium explosion" 24
+		explode "tiny explosion" 18
+		explode "small explosion" 36
+		"final explode" "final explosion medium" 1
+	ship Vanguard
+		name Thrice
+		sprite ship/vanguard
+		attributes
+			category "Heavy Warship"
+			cost 7200000
+			bunks 45
+			"cargo space" 50
+			drag 8
+			"engine capacity" 120
+			"fuel capacity" 400
+			"gun ports" 7
+			"heat dissipation" 0.6
+			hull 6000
+			mass 500
+			"outfit space" 560
+			"required crew" 23
+			shields 9800
+			"turret mounts" 1
+			"weapon capacity" 220
+		outfits
+			"Outfits Expansion" 2
+			Hyperdrive
+			"Particle Cannon" 6
+			"A250 Atomic Thruster"
+			"A375 Atomic Steering"
+			"D94-YV Shield Generator"
+			Supercapacitor
+			"Armageddon Core"
+			"Anti-Missile Turret"
+			"Liquid Helium Cooler"
+			"Small Radar Jammer"
+			"Outfit Scanner"
+			"Cargo Scanner"
+		engine -15 130 1
+		engine 15 130 1
+		gun 0 -132 "Particle Cannon"
+		gun -22 -122 "Particle Cannon"
+		gun 22 -122 "Particle Cannon"
+		gun -21 -45 "Particle Cannon"
+		gun 21 -45 "Particle Cannon"
+		gun -31 -45 "Particle Cannon"
+		gun 31 -45
+		turret 0 42 "Anti-Missile Turret"
+		explode "large explosion" 8
+		explode "medium explosion" 24
+		explode "tiny explosion" 18
+		explode "small explosion" 36
+		"final explode" "final explosion medium" 1
+
+person "New Boston Merchants"
+	government "Merchant"
+	personality
+		timid
+	phrase
+		word
+			"You bask in the glory of royalty."
+			"Bow before me, and you may receive my favor."
+			"Are you interested in becoming one of my serfs?"
+
+	ship Behemoth
+		name "Duke of New Boston"
+		sprite ship/behemoth
+		attributes
+			category "Heavy Freighter"
+			cost 10800000
+			bunks 30
+			"cargo space" 490
+			drag 11.7
+			"engine capacity" 90
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.4
+			hull 6300
+			mass 540
+			"outfit space" 510
+			"required crew" 12
+			shields 7600
+			"turret mounts" 6
+			"weapon capacity" 280
+		outfits
+			"Heavy Laser Turret" 4
+			"A255 Atomic Steering"
+			"A250 Atomic Thruster"
+			"Scram Drive"
+			"D94-YV Shield Generator"
+			"Liquid Nitrogen Cooler"
+			"Fusion Reactor"
+			"Heavy Anti-Missile Turret" 2
+			"Small Radar Jammer"
+			"LP036a Battery Pack"
+		engine -34 154 1
+		engine 34 154 1
+		gun -27 -83
+		gun 27 -83
+		turret -34 -64 "Heavy Laser Turret"
+		turret 34 -64 "Heavy Anti-Missile Turret"
+		turret -58 11 "Heavy Laser Turret"
+		turret 58 11 "Heavy Laser Turret"
+		turret -24 78 "Heavy Anti-Missile Turret"
+		turret 24 78 "Heavy Laser Turret"
+		explode "medium explosion" 25
+		explode "small explosion" 15
+		explode "large explosion" 35
+		explode "huge explosion" 20
+		"final explode" "final explosion large" 1
+	ship Freighter
+		name "Peasant of New Boston"
+		sprite ship/freighter
+		attributes
+			category "Light Freighter"
+			cost 730000
+			bunks 7
+			"cargo space" 150
+			drag 5.6
+			"engine capacity" 70
+			"fuel capacity" 600
+			"heat dissipation" 0.6
+			hull 2000
+			mass 240
+			"outfit space" 250
+			"required crew" 2
+			shields 2000
+			"turret mounts" 3
+			"weapon capacity" 80
+		outfits
+			"X2200 Ion Steering"
+			"X2700 Ion Thruster"
+			"Scram Drive"
+			"Heavy Anti-Missile Turret"
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"Blaster Turret" 2
+			"nGVF-EE Fuel Cell"
+		engine -9 97 1
+		engine 9 97 1
+		turret 0 -52 "Blaster Turret"
+		turret 0 65 "Blaster Turret"
+		turret 0 6 "Heavy Anti-Missile Turret"
+		explode "medium explosion" 20
+		explode "tiny explosion" 10
+		explode "small explosion" 30
+		"final explode" "final explosion small" 1
+	ship Freighter
+		name "Serf of New Boston"
+		sprite ship/freighter
+		attributes
+			category "Light Freighter"
+			cost 730000
+			bunks 7
+			"cargo space" 150
+			drag 5.6
+			"engine capacity" 70
+			"fuel capacity" 600
+			"heat dissipation" 0.6
+			hull 2000
+			mass 240
+			"outfit space" 250
+			"required crew" 2
+			shields 2000
+			"turret mounts" 3
+			"weapon capacity" 80
+		outfits
+			"X2200 Ion Steering"
+			"X2700 Ion Thruster"
+			"Scram Drive"
+			"Heavy Anti-Missile Turret"
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"Blaster Turret" 2
+			"nGVF-EE Fuel Cell"
+		engine -9 97 1
+		engine 9 97 1
+		turret 0 -52 "Blaster Turret"
+		turret 0 65 "Blaster Turret"
+		turret 0 6 "Heavy Anti-Missile Turret"
+		explode "medium explosion" 20
+		explode "tiny explosion" 10
+		explode "small explosion" 30
+		"final explode" "final explosion small" 1
+
+person "Dirt Belt Race"
+	government "Merchant"
+	frequency 300
+	personality
+		pacifist coward appeasing mute
+	system
+		government "Free Worlds"
+
+	ship Blackbird
+		name Judge
+		sprite ship/blackbird
+		attributes
+			category Transport
+			cost 2230000
+			bunks 28
+			"cargo space" 60
+			drag 5
+			"engine capacity" 110
+			"fuel capacity" 700
+			"heat dissipation" 0.7
+			hull 900
+			mass 220
+			"outfit space" 350
+			"required crew" 3
+			shields 4400
+			"turret mounts" 2
+			"weapon capacity" 90
+		outfits
+			Hyperdrive
+			"Heavy Laser Turret"
+			"Impala Plasma Steering"
+			"Impala Plasma Thruster"
+			"Small Radar Jammer"
+			"D23-QP Shield Generator"
+			"Heavy Anti-Missile Turret"
+			"S3 Thermionic"
+			"LP072a Battery Pack"
+		engine -40 55 1
+		engine 40 55 1
+		turret -18 0 "Heavy Anti-Missile Turret"
+		turret 18 0 "Heavy Laser Turret"
+		explode "tiny explosion" 15
+		explode "medium explosion" 18
+		explode "small explosion" 34
+		explode "large explosion" 2
+		"final explode" "final explosion small" 1
+	ship Flivver
+		name "Racer 1"
+		sprite ship/flivver
+		attributes
+			category Transport
+			cost 180000
+			bunks 3
+			"cargo space" 5
+			drag 1
+			"engine capacity" 45
+			"fuel capacity" 500
+			"gun ports" 2
+			"heat dissipation" 0.9
+			hull 200
+			mass 40
+			"outfit space" 130
+			"required crew" 1
+			shields 1400
+			"weapon capacity" 25
+		outfits
+			Hyperdrive
+			"X1200 Ion Steering"
+			"A120 Atomic Thruster"
+			"LP036a Battery Pack"
+			"Water Coolant System"
+			"nGVF-CC Fuel Cell"
+			"D14-RN Shield Generator"
+		engine -16 27 1
+		engine 16 27 1
+		gun -6 -31
+		gun 6 -31
+		explode "tiny explosion" 10
+		explode "small explosion" 10
+	ship Flivver
+		name "Racer 2"
+		sprite ship/flivver
+		attributes
+			category Transport
+			cost 180000
+			bunks 3
+			"cargo space" 5
+			drag 1
+			"engine capacity" 45
+			"fuel capacity" 500
+			"gun ports" 2
+			"heat dissipation" 0.9
+			hull 200
+			mass 40
+			"outfit space" 130
+			"required crew" 1
+			shields 1400
+			"weapon capacity" 25
+		outfits
+			Hyperdrive
+			"X1200 Ion Steering"
+			"A120 Atomic Thruster"
+			"LP036a Battery Pack"
+			"Water Coolant System"
+			"nGVF-CC Fuel Cell"
+			"D14-RN Shield Generator"
+		engine -16 27 1
+		engine 16 27 1
+		gun -6 -31
+		gun 6 -31
+		explode "tiny explosion" 10
+		explode "small explosion" 10
+	ship Flivver
+		name "Racer 3"
+		sprite ship/flivver
+		attributes
+			category Transport
+			cost 180000
+			bunks 3
+			"cargo space" 5
+			drag 1
+			"engine capacity" 45
+			"fuel capacity" 500
+			"gun ports" 2
+			"heat dissipation" 0.9
+			hull 200
+			mass 40
+			"outfit space" 130
+			"required crew" 1
+			shields 1400
+			"weapon capacity" 25
+		outfits
+			Hyperdrive
+			"X1200 Ion Steering"
+			"A120 Atomic Thruster"
+			"LP036a Battery Pack"
+			"Water Coolant System"
+			"nGVF-CC Fuel Cell"
+			"D14-RN Shield Generator"
+		engine -16 27 1
+		engine 16 27 1
+		gun -6 -31
+		gun 6 -31
+		explode "tiny explosion" 10
+		explode "small explosion" 10
+	ship Flivver
+		name "Racer 4"
+		sprite ship/flivver
+		attributes
+			category Transport
+			cost 180000
+			bunks 3
+			"cargo space" 5
+			drag 1
+			"engine capacity" 45
+			"fuel capacity" 500
+			"gun ports" 2
+			"heat dissipation" 0.9
+			hull 200
+			mass 40
+			"outfit space" 130
+			"required crew" 1
+			shields 1400
+			"weapon capacity" 25
+		outfits
+			Hyperdrive
+			"X1200 Ion Steering"
+			"A120 Atomic Thruster"
+			"LP036a Battery Pack"
+			"Water Coolant System"
+			"nGVF-CC Fuel Cell"
+			"D14-RN Shield Generator"
+		engine -16 27 1
+		engine 16 27 1
+		gun -6 -31
+		gun 6 -31
+		explode "tiny explosion" 10
+		explode "small explosion" 10
+	ship Flivver
+		name "Racer 5"
+		sprite ship/flivver
+		attributes
+			category Transport
+			cost 180000
+			bunks 3
+			"cargo space" 5
+			drag 1
+			"engine capacity" 45
+			"fuel capacity" 500
+			"gun ports" 2
+			"heat dissipation" 0.9
+			hull 200
+			mass 40
+			"outfit space" 130
+			"required crew" 1
+			shields 1400
+			"weapon capacity" 25
+		outfits
+			Hyperdrive
+			"X1200 Ion Steering"
+			"A120 Atomic Thruster"
+			"LP036a Battery Pack"
+			"Water Coolant System"
+			"nGVF-CC Fuel Cell"
+			"D14-RN Shield Generator"
+		engine -16 27 1
+		engine 16 27 1
+		gun -6 -31
+		gun 6 -31
+		explode "tiny explosion" 10
+		explode "small explosion" 10
+	ship Flivver
+		name "Racer 6"
+		sprite ship/flivver
+		attributes
+			category Transport
+			cost 180000
+			bunks 3
+			"cargo space" 5
+			drag 1
+			"engine capacity" 45
+			"fuel capacity" 500
+			"gun ports" 2
+			"heat dissipation" 0.9
+			hull 200
+			mass 40
+			"outfit space" 130
+			"required crew" 1
+			shields 1400
+			"weapon capacity" 25
+		outfits
+			Hyperdrive
+			"X1200 Ion Steering"
+			"A120 Atomic Thruster"
+			"LP036a Battery Pack"
+			"Water Coolant System"
+			"nGVF-CC Fuel Cell"
+			"D14-RN Shield Generator"
+		engine -16 27 1
+		engine 16 27 1
+		gun -6 -31
+		gun 6 -31
+		explode "tiny explosion" 10
+		explode "small explosion" 10
+	ship Flivver
+		name "Racer 7"
+		sprite ship/flivver
+		attributes
+			category Transport
+			cost 180000
+			bunks 3
+			"cargo space" 5
+			drag 1
+			"engine capacity" 45
+			"fuel capacity" 500
+			"gun ports" 2
+			"heat dissipation" 0.9
+			hull 200
+			mass 40
+			"outfit space" 130
+			"required crew" 1
+			shields 1400
+			"weapon capacity" 25
+		outfits
+			Hyperdrive
+			"X1200 Ion Steering"
+			"A120 Atomic Thruster"
+			"LP036a Battery Pack"
+			"Water Coolant System"
+			"nGVF-CC Fuel Cell"
+			"D14-RN Shield Generator"
+		engine -16 27 1
+		engine 16 27 1
+		gun -6 -31
+		gun 6 -31
+		explode "tiny explosion" 10
+		explode "small explosion" 10
+	ship Flivver
+		name "Racer 8"
+		sprite ship/flivver
+		attributes
+			category Transport
+			cost 180000
+			bunks 3
+			"cargo space" 5
+			drag 1
+			"engine capacity" 45
+			"fuel capacity" 500
+			"gun ports" 2
+			"heat dissipation" 0.9
+			hull 200
+			mass 40
+			"outfit space" 130
+			"required crew" 1
+			shields 1400
+			"weapon capacity" 25
+		outfits
+			Hyperdrive
+			"X1200 Ion Steering"
+			"A120 Atomic Thruster"
+			"LP036a Battery Pack"
+			"Water Coolant System"
+			"nGVF-CC Fuel Cell"
+			"D14-RN Shield Generator"
+		engine -16 27 1
+		engine 16 27 1
+		gun -6 -31
+		gun 6 -31
+		explode "tiny explosion" 10
+		explode "small explosion" 10
+	ship Flivver
+		name "Racer 9"
+		sprite ship/flivver
+		attributes
+			category Transport
+			cost 180000
+			bunks 3
+			"cargo space" 5
+			drag 1
+			"engine capacity" 45
+			"fuel capacity" 500
+			"gun ports" 2
+			"heat dissipation" 0.9
+			hull 200
+			mass 40
+			"outfit space" 130
+			"required crew" 1
+			shields 1400
+			"weapon capacity" 25
+		outfits
+			Hyperdrive
+			"X1200 Ion Steering"
+			"A120 Atomic Thruster"
+			"LP036a Battery Pack"
+			"Water Coolant System"
+			"nGVF-CC Fuel Cell"
+			"D14-RN Shield Generator"
+		engine -16 27 1
+		engine 16 27 1
+		gun -6 -31
+		gun 6 -31
+		explode "tiny explosion" 10
+		explode "small explosion" 10
+	ship Flivver
+		name "Racer 10"
+		sprite ship/flivver
+		attributes
+			category Transport
+			cost 180000
+			bunks 3
+			"cargo space" 5
+			drag 1
+			"engine capacity" 45
+			"fuel capacity" 500
+			"gun ports" 2
+			"heat dissipation" 0.9
+			hull 200
+			mass 40
+			"outfit space" 130
+			"required crew" 1
+			shields 1400
+			"weapon capacity" 25
+		outfits
+			Hyperdrive
+			"X1200 Ion Steering"
+			"A120 Atomic Thruster"
+			"LP036a Battery Pack"
+			"Water Coolant System"
+			"nGVF-CC Fuel Cell"
+			"D14-RN Shield Generator"
+		engine -16 27 1
+		engine 16 27 1
+		gun -6 -31
+		gun 6 -31
+		explode "tiny explosion" 10
+		explode "small explosion" 10
+
+person "Murder of Crows"
+	government "Pirate"
+	personality
+		vindictive coward
+	system
+		government "Pirate"
+	phrase
+		word
+			"CAW"
+
+	ship Raven
+		name Murder
+		sprite ship/raven
+		attributes
+			category "Light Warship"
+			cost 1800000
+			bunks 13
+			"cargo space" 30
+			drag 3.7
+			"engine capacity" 100
+			"fuel capacity" 500
+			"gun ports" 4
+			"heat dissipation" 0.8
+			hull 1400
+			mass 130
+			"outfit space" 280
+			"required crew" 6
+			shields 4700
+			"weapon capacity" 90
+		outfits
+			"Outfits Expansion"
+			Hyperdrive
+			"A125 Atomic Steering"
+			"A370 Atomic Thruster"
+			Supercapacitor
+			"D94-YV Shield Generator"
+			"Liquid Nitrogen Cooler"
+			"Fission Reactor"
+			"Meteor Missile Launcher" 4
+			"Meteor Missile" 194
+			"Meteor Missile Box" 3
+		engine -12 43 1
+		engine 12 43 1
+		gun -10 -33 "Meteor Missile Launcher"
+		gun 10 -33 "Meteor Missile Launcher"
+		gun -16 -28 "Meteor Missile Launcher"
+		gun 16 -28 "Meteor Missile Launcher"
+		explode "tiny explosion" 28
+		explode "medium explosion" 24
+		explode "large explosion" 16
+		explode "small explosion" 40
+		"final explode" "final explosion small" 1
+	ship Raven
+		name Murder
+		sprite ship/raven
+		attributes
+			category "Light Warship"
+			cost 1800000
+			bunks 13
+			"cargo space" 30
+			drag 3.7
+			"engine capacity" 100
+			"fuel capacity" 500
+			"gun ports" 4
+			"heat dissipation" 0.8
+			hull 1400
+			mass 130
+			"outfit space" 280
+			"required crew" 6
+			shields 4700
+			"weapon capacity" 90
+		outfits
+			"Outfits Expansion"
+			Hyperdrive
+			"A125 Atomic Steering"
+			"A370 Atomic Thruster"
+			Supercapacitor
+			"D94-YV Shield Generator"
+			"Liquid Nitrogen Cooler"
+			"Fission Reactor"
+			"Meteor Missile Launcher" 4
+			"Meteor Missile" 194
+			"Meteor Missile Box" 3
+		engine -12 43 1
+		engine 12 43 1
+		gun -10 -33 "Meteor Missile Launcher"
+		gun 10 -33 "Meteor Missile Launcher"
+		gun -16 -28 "Meteor Missile Launcher"
+		gun 16 -28 "Meteor Missile Launcher"
+		explode "tiny explosion" 28
+		explode "medium explosion" 24
+		explode "large explosion" 16
+		explode "small explosion" 40
+		"final explode" "final explosion small" 1
+	ship Raven
+		name Murder
+		sprite ship/raven
+		attributes
+			category "Light Warship"
+			cost 1800000
+			bunks 13
+			"cargo space" 30
+			drag 3.7
+			"engine capacity" 100
+			"fuel capacity" 500
+			"gun ports" 4
+			"heat dissipation" 0.8
+			hull 1400
+			mass 130
+			"outfit space" 280
+			"required crew" 6
+			shields 4700
+			"weapon capacity" 90
+		outfits
+			"Outfits Expansion"
+			Hyperdrive
+			"A125 Atomic Steering"
+			"A370 Atomic Thruster"
+			Supercapacitor
+			"D94-YV Shield Generator"
+			"Liquid Nitrogen Cooler"
+			"Fission Reactor"
+			"Meteor Missile Launcher" 4
+			"Meteor Missile" 194
+			"Meteor Missile Box" 3
+		engine -12 43 1
+		engine 12 43 1
+		gun -10 -33 "Meteor Missile Launcher"
+		gun 10 -33 "Meteor Missile Launcher"
+		gun -16 -28 "Meteor Missile Launcher"
+		gun 16 -28 "Meteor Missile Launcher"
+		explode "tiny explosion" 28
+		explode "medium explosion" 24
+		explode "large explosion" 16
+		explode "small explosion" 40
+		"final explode" "final explosion small" 1
+
+person "Another Life"
+	government "Hai"
+	personality
+		vindictive
+	system
+		government "Hai"
+	phrase
+		word
+			"Nice to meet you again."
+			"Peace be with you."
+			"Stay safe, the unfettered are a dangerous lot."
+
+	ship Solifuge
+		name "Another Life"
+		sprite "ship/hai solifuge"
+		attributes
+			category "Heavy Warship"
+			cost 22800000
+			bunks 118
+			"cargo space" 142
+			drag 15.4
+			"engine capacity" 166
+			"fuel capacity" 600
+			"gun ports" 5
+			"heat dissipation" 0.42
+			hull 11000
+			mass 925
+			"outfit space" 828
+			"required crew" 62
+			shields 37800
+			"turret mounts" 7
+			"weapon capacity" 342
+		outfits
+			"Chameleon Anti-Missile" 7
+			"Boulder Reactor" 2
+			`"Bondir" Atomic Thruster`
+			Hyperdrive
+			"Quantum Keystone"
+			"Hai Tracker Pod" 5
+			"Hai Tracker" 336
+			`"Benga" Atomic Steering`
+			`"Bondir" Atomic Steering`
+			"Hai Diamond Regenerator" 3
+			"Tracker Storage Pod" 2
+			"Hai Gorge Batteries"
+			"Hai Williwaw Cooling" 6
+		engine -28 135.5 1
+		engine 28 135 1
+		gun 0 -140 "Hai Tracker Pod"
+		gun -11.5 -138.5 "Hai Tracker Pod"
+		gun 11.5 -138.5 "Hai Tracker Pod"
+		gun -9.5 -101 "Hai Tracker Pod"
+		gun 9.5 -101 "Hai Tracker Pod"
+		turret 0 -109.5 "Chameleon Anti-Missile"
+		turret 54.5 -48.5 "Chameleon Anti-Missile"
+		turret -54.5 -48.5 "Chameleon Anti-Missile"
+		turret 55 1 "Chameleon Anti-Missile"
+		turret -55 1 "Chameleon Anti-Missile"
+		turret 54.5 50.5 "Chameleon Anti-Missile"
+		turret -54.5 50.5 "Chameleon Anti-Missile"
+		fighter -51.5 -71 under
+		fighter 51.5 -71 under
+		fighter -58.5 2 under
+		fighter 58.5 2 under
+		fighter -51.5 76 under
+		fighter 51.5 76 under
+		explode "medium explosion" 50
+		explode "small explosion" 50
+		explode "large explosion" 50
+		explode "tiny explosion" 50
+		explode "huge explosion" 20
+		"final explode" "final explosion large" 1
+	ship "Violin Spider"
+		name "Violin 1"
+		sprite "ship/hai violin spider"
+		attributes
+			category Fighter
+			cost 139000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.7
+			hull 600
+			mass 31
+			"outfit space" 92
+			"required crew" 1
+			shields 1400
+			"turret mounts" 1
+			"weapon capacity" 19
+		outfits
+			"Thermoelectric Cooler"
+			`"Baellie" Atomic Engines`
+			"Pebble Core"
+			"Hai Corundum Regenerator"
+			Railgun
+			"Hai Chasm Batteries"
+			"Small Radar Jammer"
+			"Railgun Slug" 450
+		engine -15 30 1
+		engine 15 30 1
+		gun 0 -31 Railgun
+		turret 0 5
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship "Violin Spider"
+		name "Violin 2"
+		sprite "ship/hai violin spider"
+		attributes
+			category Fighter
+			cost 139000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.7
+			hull 600
+			mass 31
+			"outfit space" 92
+			"required crew" 1
+			shields 1400
+			"turret mounts" 1
+			"weapon capacity" 19
+		outfits
+			"Thermoelectric Cooler"
+			`"Baellie" Atomic Engines`
+			"Pebble Core"
+			"Hai Corundum Regenerator"
+			Railgun
+			"Hai Chasm Batteries"
+			"Small Radar Jammer"
+			"Railgun Slug" 450
+		engine -15 30 1
+		engine 15 30 1
+		gun 0 -31 Railgun
+		turret 0 5
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship "Violin Spider"
+		name "Violin 3"
+		sprite "ship/hai violin spider"
+		attributes
+			category Fighter
+			cost 139000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.7
+			hull 600
+			mass 31
+			"outfit space" 92
+			"required crew" 1
+			shields 1400
+			"turret mounts" 1
+			"weapon capacity" 19
+		outfits
+			"Thermoelectric Cooler"
+			`"Baellie" Atomic Engines`
+			"Pebble Core"
+			"Hai Corundum Regenerator"
+			Railgun
+			"Hai Chasm Batteries"
+			"Small Radar Jammer"
+			"Railgun Slug" 450
+		engine -15 30 1
+		engine 15 30 1
+		gun 0 -31 Railgun
+		turret 0 5
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship "Violin Spider"
+		name "Violin 4"
+		sprite "ship/hai violin spider"
+		attributes
+			category Fighter
+			cost 139000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.7
+			hull 600
+			mass 31
+			"outfit space" 92
+			"required crew" 1
+			shields 1400
+			"turret mounts" 1
+			"weapon capacity" 19
+		outfits
+			"Thermoelectric Cooler"
+			`"Baellie" Atomic Engines`
+			"Pebble Core"
+			"Hai Corundum Regenerator"
+			Railgun
+			"Hai Chasm Batteries"
+			"Small Radar Jammer"
+			"Railgun Slug" 450
+		engine -15 30 1
+		engine 15 30 1
+		gun 0 -31 Railgun
+		turret 0 5
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship "Violin Spider"
+		name "Violin 5"
+		sprite "ship/hai violin spider"
+		attributes
+			category Fighter
+			cost 139000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.7
+			hull 600
+			mass 31
+			"outfit space" 92
+			"required crew" 1
+			shields 1400
+			"turret mounts" 1
+			"weapon capacity" 19
+		outfits
+			"Thermoelectric Cooler"
+			`"Baellie" Atomic Engines`
+			"Pebble Core"
+			"Hai Corundum Regenerator"
+			Railgun
+			"Hai Chasm Batteries"
+			"Small Radar Jammer"
+			"Railgun Slug" 450
+		engine -15 30 1
+		engine 15 30 1
+		gun 0 -31 Railgun
+		turret 0 5
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship "Violin Spider"
+		name "Violin 6"
+		sprite "ship/hai violin spider"
+		attributes
+			category Fighter
+			cost 139000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.7
+			hull 600
+			mass 31
+			"outfit space" 92
+			"required crew" 1
+			shields 1400
+			"turret mounts" 1
+			"weapon capacity" 19
+		outfits
+			"Thermoelectric Cooler"
+			`"Baellie" Atomic Engines`
+			"Pebble Core"
+			"Hai Corundum Regenerator"
+			Railgun
+			"Hai Chasm Batteries"
+			"Small Radar Jammer"
+			"Railgun Slug" 450
+		engine -15 30 1
+		engine 15 30 1
+		gun 0 -31 Railgun
+		turret 0 5
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+
+person "Merchant Marines"
+	government "Merchant"
+	frequency 250
+	personality
+		heroic vindictive
+	system
+		near Sol 0 10
+	phrase
+		word
+			"Merchant Marine, at your service."
+			"We've been awarded the Gallant medal several times in the last decade."
+			"We protect merchants, no matter who their foe may be."
+			"They said it wasn't our nature to fight. They were wrong."
+
+	ship "Marauder Leviathan"
+		name Gallant
+		sprite ship/mleviathans
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			cost 10800000
+			bunks 69
+			"cargo space" 40
+			drag 7.6
+			"engine capacity" 140
+			"fuel capacity" 500
+			"gun ports" 4
+			"heat dissipation" 0.5
+			hull 5500
+			mass 640
+			"outfit space" 680
+			"required crew" 48
+			"self destruct" 0.15
+			shields 16000
+			"turret mounts" 4
+			"weapon capacity" 265
+		outfits
+			"Plasma Turret" 2
+			Hyperdrive
+			"Outfits Expansion" 2
+			"Large Heat Shunt"
+			"Systems Core (Medium)"
+			"Chameleon Anti-Missile" 2
+			"A525 Atomic Steering"
+			"Liquid Nitrogen Cooler"
+			"Thruster (Lunar Class)"
+			"Double Plasma Core"
+			"Liquid Helium Cooler"
+			"Breeder Reactor"
+			"Plasma Cannon" 4
+			"KP-6 Photovoltaic Panel" 2
+			"LP036a Battery Pack"
+			"Laser Rifle" 69
+		engine -25 125 1
+		engine 25 125 1
+		gun -38 -34 "Plasma Cannon"
+		gun 38 -34 "Plasma Cannon"
+		gun -50 -26 "Plasma Cannon"
+		gun 50 -26 "Plasma Cannon"
+		turret -15 -50 "Chameleon Anti-Missile"
+		turret 15 -50 "Chameleon Anti-Missile"
+		turret -25 10 "Plasma Turret"
+		turret 25 10 "Plasma Turret"
+		explode "tiny explosion" 18
+		explode "medium explosion" 24
+		explode "small explosion" 36
+		explode "large explosion" 8
+		"final explode" "final explosion large" 1
+	ship "Star Queen"
+		name "Cape Ann"
+		sprite "ship/star queen"
+		"never disabled"
+		attributes
+			category Transport
+			cost 5500000
+			bunks 112
+			"cargo space" 60
+			drag 5.5
+			"engine capacity" 100
+			"fuel capacity" 500
+			"gun ports" 3
+			"heat dissipation" 0.65
+			hull 2200
+			mass 230
+			"outfit space" 360
+			"required crew" 43
+			shields 4100
+			"turret mounts" 2
+			"weapon capacity" 120
+		outfits
+			"Small Heat Shunt"
+			Hyperdrive
+			"Outfits Expansion" 3
+			"A250 Atomic Thruster"
+			"A255 Atomic Steering"
+			"D94-YV Shield Generator" 2
+			"LP144a Battery Pack"
+			"D23-QP Shield Generator"
+			"Fission Reactor"
+			"Heavy Anti-Missile Turret"
+			"Sidewinder Missile" 150
+			"Sidewinder Missile Launcher" 3
+		engine -18 116 1
+		engine 18 116 1
+		gun 0 -116 "Sidewinder Missile Launcher"
+		gun -22 -80 "Sidewinder Missile Launcher"
+		gun 22 -80 "Sidewinder Missile Launcher"
+		turret -28 -9
+		turret 28 -9 "Heavy Anti-Missile Turret"
+		explode "tiny explosion" 10
+		explode "medium explosion" 25
+		explode "small explosion" 25
+		explode "large explosion" 10
+		"final explode" "final explosion medium" 1
+	ship Argosy
+		name "Cotton State"
+		plural Argosies
+		sprite ship/argosy
+		"never disabled"
+		attributes
+			category "Light Freighter"
+			cost 1960000
+			bunks 14
+			"cargo space" 120
+			drag 5.9
+			"engine capacity" 80
+			"fuel capacity" 400
+			"gun ports" 4
+			"heat dissipation" 0.7
+			hull 2600
+			mass 330
+			"outfit space" 270
+			"required crew" 4
+			shields 4200
+			"turret mounts" 2
+			"weapon capacity" 90
+		outfits
+			Hyperdrive
+			"Outfits Expansion" 2
+			"Greyhound Plasma Thruster"
+			"Greyhound Plasma Steering"
+			"D94-YV Shield Generator"
+			"Meteor Missile" 194
+			"Meteor Missile Launcher" 4
+			"Heavy Anti-Missile Turret"
+			"S3 Thermionic"
+			"LP072a Battery Pack"
+			"Meteor Missile Box" 3
+		engine -20 91 1
+		engine 20 91 1
+		gun -22 -37 "Meteor Missile Launcher"
+		gun 22 -37 "Meteor Missile Launcher"
+		gun -23 -37 "Meteor Missile Launcher"
+		gun 23 -37 "Meteor Missile Launcher"
+		turret 0 -12 "Heavy Anti-Missile Turret"
+		turret 0 8
+		explode "tiny explosion" 10
+		explode "medium explosion" 25
+		explode "small explosion" 25
+		explode "large explosion" 10
+		"final explode" "final explosion medium" 1
+	ship Clipper
+		name Weissenburg
+		sprite ship/clipper
+		"never disabled"
+		attributes
+			category "Light Freighter"
+			cost 900000
+			bunks 9
+			"cargo space" 70
+			drag 3.7
+			"engine capacity" 80
+			"fuel capacity" 500
+			"gun ports" 4
+			"heat dissipation" 0.8
+			hull 800
+			mass 150
+			"outfit space" 260
+			"required crew" 3
+			shields 2700
+			"weapon capacity" 60
+		outfits
+			"Systems Core (Small)"
+			Hyperdrive
+			"Outfits Expansion" 2
+			"Greyhound Plasma Thruster"
+			"Greyhound Plasma Steering"
+			"D41-HY Shield Generator"
+			"NT-200 Nucleovoltaic"
+			"Sidewinder Missile" 300
+			"Sidewinder Missile Launcher" 4
+			"Sidewinder Missile Rack" 4
+		engine -20 45 1
+		engine 20 45 1
+		gun -23 -19 "Sidewinder Missile Launcher"
+		gun 23 -19 "Sidewinder Missile Launcher"
+		gun -12 -7 "Sidewinder Missile Launcher"
+		gun 12 -7 "Sidewinder Missile Launcher"
+		explode "tiny explosion" 15
+		explode "medium explosion" 10
+		explode "small explosion" 20
+		"final explode" "final explosion small" 1
+	ship "Class C Freighter"
+		name "Khian Star"
+		sprite "ship/bulk freighter"
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			cost 11400000
+			bunks 43
+			"cargo space" 20
+			drag 16.4
+			"engine capacity" 85
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 7600
+			mass 810
+			"outfit space" 400
+			"required crew" 18
+			shields 13500
+			"turret mounts" 4
+			"weapon capacity" 140
+		outfits
+			"Chameleon Anti-Missile"
+			"Pulse Turret" 2
+			"Scram Drive"
+			`"Benga" Atomic Thruster`
+			Supercapacitor
+			`"Benga" Atomic Steering`
+			"D94-YV Shield Generator" 2
+			"Breeder Reactor"
+			"Water Coolant System"
+			"LP072a Battery Pack"
+		engine -22 198 1
+		engine 22 198 1
+		turret -12 -155 "Pulse Turret"
+		turret 12 -155 "Pulse Turret"
+		turret 30 175 "Chameleon Anti-Missile"
+		turret -30 175
+		drone -66 -115 left
+		drone -66 -65 left
+		drone -66 -15 left
+		drone -66 35 left
+		drone -66 85 left
+		drone -66 135 left
+		drone 66 -115 right
+		drone 66 -65 right
+		drone 66 -15 right
+		drone 66 35 right
+		drone 66 85 right
+		drone 66 135 right
+		explode "medium explosion" 25
+		explode "small explosion" 15
+		explode "large explosion" 35
+		explode "huge explosion" 20
+		"final explode" "final explosion large" 1
+	ship "Combat Drone"
+		name "Merchant Protection Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 70
+			"turret mounts" 1
+			"weapon capacity" 10
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"KP-6 Photovoltaic Panel"
+			"D14-RN Shield Generator"
+		engine -9 29 1
+		engine 9 29 1
+		turret 0 -29 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Merchant Protection Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 70
+			"turret mounts" 1
+			"weapon capacity" 10
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"KP-6 Photovoltaic Panel"
+			"D14-RN Shield Generator"
+		engine -9 29 1
+		engine 9 29 1
+		turret 0 -29 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Merchant Protection Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 70
+			"turret mounts" 1
+			"weapon capacity" 10
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"KP-6 Photovoltaic Panel"
+			"D14-RN Shield Generator"
+		engine -9 29 1
+		engine 9 29 1
+		turret 0 -29 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Merchant Protection Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 70
+			"turret mounts" 1
+			"weapon capacity" 10
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"KP-6 Photovoltaic Panel"
+			"D14-RN Shield Generator"
+		engine -9 29 1
+		engine 9 29 1
+		turret 0 -29 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Merchant Protection Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 70
+			"turret mounts" 1
+			"weapon capacity" 10
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"KP-6 Photovoltaic Panel"
+			"D14-RN Shield Generator"
+		engine -9 29 1
+		engine 9 29 1
+		turret 0 -29 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Merchant Protection Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 70
+			"turret mounts" 1
+			"weapon capacity" 10
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"KP-6 Photovoltaic Panel"
+			"D14-RN Shield Generator"
+		engine -9 29 1
+		engine 9 29 1
+		turret 0 -29 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Merchant Protection Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 70
+			"turret mounts" 1
+			"weapon capacity" 10
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"KP-6 Photovoltaic Panel"
+			"D14-RN Shield Generator"
+		engine -9 29 1
+		engine 9 29 1
+		turret 0 -29 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Merchant Protection Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 70
+			"turret mounts" 1
+			"weapon capacity" 10
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"KP-6 Photovoltaic Panel"
+			"D14-RN Shield Generator"
+		engine -9 29 1
+		engine 9 29 1
+		turret 0 -29 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Merchant Protection Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 70
+			"turret mounts" 1
+			"weapon capacity" 10
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"KP-6 Photovoltaic Panel"
+			"D14-RN Shield Generator"
+		engine -9 29 1
+		engine 9 29 1
+		turret 0 -29 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Merchant Protection Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 70
+			"turret mounts" 1
+			"weapon capacity" 10
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"KP-6 Photovoltaic Panel"
+			"D14-RN Shield Generator"
+		engine -9 29 1
+		engine 9 29 1
+		turret 0 -29 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Merchant Protection Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 70
+			"turret mounts" 1
+			"weapon capacity" 10
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"KP-6 Photovoltaic Panel"
+			"D14-RN Shield Generator"
+		engine -9 29 1
+		engine 9 29 1
+		turret 0 -29 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Merchant Protection Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 70
+			"turret mounts" 1
+			"weapon capacity" 10
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"KP-6 Photovoltaic Panel"
+			"D14-RN Shield Generator"
+		engine -9 29 1
+		engine 9 29 1
+		turret 0 -29 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+
+person "Chervona's Wing"
+	government "Republic"
+	personality
+		heroic vindictive
+	system
+		government "Republic"
+	phrase
+		word
+			"Comrades defend the Republic."
+			"Join us, fight for the people."
+			"Hail the Republic! Protect those who cannot stand for themselves!"
+
+	ship Cruiser
+		name Chervona
+		sprite ship/cruiser
+		attributes
+			category "Heavy Warship"
+			cost 11200000
+			bunks 136
+			"cargo space" 60
+			drag 10.1
+			"engine capacity" 170
+			"fuel capacity" 600
+			"gun ports" 6
+			"heat dissipation" 0.45
+			hull 6400
+			mass 680
+			"outfit space" 760
+			"required crew" 81
+			shields 19600
+			"turret mounts" 4
+			"weapon capacity" 320
+		outfits
+			"Outfits Expansion" 3
+			"LP288a Battery Pack"
+			Hyperdrive
+			"A250 Atomic Thruster"
+			"A255 Atomic Steering"
+			"Electron Turret" 2
+			Supercapacitor 2
+			"Fusion Reactor"
+			"D94-YV Shield Generator" 5
+			"Liquid Nitrogen Cooler"
+			"Heavy Anti-Missile Turret"
+			"Sidewinder Missile" 300
+			"Sidewinder Missile Launcher" 6
+		engine -29 156 1
+		engine 29 156 1
+		gun -31 -63 "Sidewinder Missile Launcher"
+		gun 31 -63 "Sidewinder Missile Launcher"
+		gun -41 -52 "Sidewinder Missile Launcher"
+		gun 41 -52 "Sidewinder Missile Launcher"
+		gun -20 -44 "Sidewinder Missile Launcher"
+		gun 20 -44 "Sidewinder Missile Launcher"
+		turret 0 -40 "Electron Turret"
+		turret -33 -19 "Electron Turret"
+		turret 33 -19
+		turret 0 0 "Heavy Anti-Missile Turret"
+		drone -25 18
+		drone 25 18
+		drone -25 49
+		drone 25 49
+		explode "small explosion" 45
+		explode "tiny explosion" 20
+		explode "large explosion" 40
+		explode "medium explosion" 50
+		explode "huge explosion" 10
+		"final explode" "final explosion large" 1
+	ship Cruiser
+		name "Krasny Kavkaz"
+		sprite ship/cruiser
+		attributes
+			category "Heavy Warship"
+			cost 11200000
+			bunks 136
+			"cargo space" 60
+			drag 10.1
+			"engine capacity" 170
+			"fuel capacity" 600
+			"gun ports" 6
+			"heat dissipation" 0.45
+			hull 6400
+			mass 680
+			"outfit space" 760
+			"required crew" 81
+			shields 19600
+			"turret mounts" 4
+			"weapon capacity" 320
+		outfits
+			"Outfits Expansion" 3
+			"LP288a Battery Pack"
+			Hyperdrive
+			"A250 Atomic Thruster"
+			"A255 Atomic Steering"
+			"Electron Turret" 2
+			Supercapacitor 2
+			"Fusion Reactor"
+			"D94-YV Shield Generator" 5
+			"Liquid Nitrogen Cooler"
+			"Heavy Anti-Missile Turret"
+			"Sidewinder Missile" 300
+			"Sidewinder Missile Launcher" 6
+		engine -29 156 1
+		engine 29 156 1
+		gun -31 -63 "Sidewinder Missile Launcher"
+		gun 31 -63 "Sidewinder Missile Launcher"
+		gun -41 -52 "Sidewinder Missile Launcher"
+		gun 41 -52 "Sidewinder Missile Launcher"
+		gun -20 -44 "Sidewinder Missile Launcher"
+		gun 20 -44 "Sidewinder Missile Launcher"
+		turret 0 -40 "Electron Turret"
+		turret -33 -19 "Electron Turret"
+		turret 33 -19
+		turret 0 0 "Heavy Anti-Missile Turret"
+		drone -25 18
+		drone 25 18
+		drone -25 49
+		drone 25 49
+		explode "small explosion" 45
+		explode "tiny explosion" 20
+		explode "large explosion" 40
+		explode "medium explosion" 50
+		explode "huge explosion" 10
+		"final explode" "final explosion large" 1
+	ship Frigate
+		name Profintern
+		sprite ship/frigate
+		attributes
+			category "Medium Warship"
+			cost 5200000
+			bunks 44
+			"cargo space" 35
+			drag 5.2
+			"engine capacity" 100
+			"fuel capacity" 500
+			"gun ports" 4
+			"heat dissipation" 0.7
+			hull 2500
+			mass 310
+			"outfit space" 410
+			"required crew" 21
+			shields 8000
+			"turret mounts" 3
+			"weapon capacity" 170
+		outfits
+			"Outfits Expansion"
+			"Particle Cannon" 4
+			Hyperdrive
+			"A250 Atomic Thruster"
+			"A375 Atomic Steering"
+			"Fusion Reactor"
+			"D94-YV Shield Generator"
+			"Liquid Nitrogen Cooler"
+			"D23-QP Shield Generator"
+			"LP036a Battery Pack"
+		engine -26 92 1
+		engine 26 92 1
+		gun -10 -83 "Particle Cannon"
+		gun 10 -83 "Particle Cannon"
+		gun -10 -83 "Particle Cannon"
+		gun 10 -83 "Particle Cannon"
+		turret 0 -37
+		turret -12 -12
+		turret 12 -12
+		explode "small explosion" 36
+		explode "tiny explosion" 18
+		explode "large explosion" 8
+		explode "medium explosion" 24
+		"final explode" "final explosion medium" 1
+	ship Frigate
+		name "Krasnyi Krym"
+		sprite ship/frigate
+		attributes
+			category "Medium Warship"
+			cost 5200000
+			bunks 44
+			"cargo space" 35
+			drag 5.2
+			"engine capacity" 100
+			"fuel capacity" 500
+			"gun ports" 4
+			"heat dissipation" 0.7
+			hull 2500
+			mass 310
+			"outfit space" 410
+			"required crew" 21
+			shields 8000
+			"turret mounts" 3
+			"weapon capacity" 170
+		outfits
+			"Outfits Expansion"
+			"Particle Cannon" 4
+			Hyperdrive
+			"A250 Atomic Thruster"
+			"A375 Atomic Steering"
+			"Fusion Reactor"
+			"D94-YV Shield Generator"
+			"Liquid Nitrogen Cooler"
+			"D23-QP Shield Generator"
+			"LP036a Battery Pack"
+		engine -26 92 1
+		engine 26 92 1
+		gun -10 -83 "Particle Cannon"
+		gun 10 -83 "Particle Cannon"
+		gun -10 -83 "Particle Cannon"
+		gun 10 -83 "Particle Cannon"
+		turret 0 -37
+		turret -12 -12
+		turret 12 -12
+		explode "small explosion" 36
+		explode "tiny explosion" 18
+		explode "large explosion" 8
+		explode "medium explosion" 24
+		"final explode" "final explosion medium" 1
+
+person "Otto Von Bismarck"
+	government "Free Worlds"
+	personality
+		vindictive
+	system
+		government "Free Worlds"
+	phrase
+		word
+			"I will not let my ship be shot out from under my self."
+			"The Republic has killed many of my brothers, this will not stand."
+			"I better not see you try to flee battle with the Republic, that's practically treason."
+
+	ship Dreadnought
+		name Bismarck
+		sprite ship/dreadnought
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			cost 11900000
+			bunks 147
+			"cargo space" 100
+			drag 10.1
+			"engine capacity" 190
+			"fuel capacity" 600
+			"gun ports" 4
+			"heat dissipation" 0.65
+			hull 7300
+			mass 630
+			"outfit space" 790
+			"required crew" 84
+			shields 18100
+			"turret mounts" 5
+			"weapon capacity" 360
+			"hull repair rate" 6
+		outfits
+			Hyperdrive
+			"Plasma Turret" 2
+			"Quad Blaster Turret" 2
+			"A375 Atomic Steering"
+			"A370 Atomic Thruster"
+			"Liquid Nitrogen Cooler"
+			Torpedo 120
+			"LP144a Battery Pack"
+			"D94-YV Shield Generator" 3
+			"Torpedo Launcher" 4
+			"Heavy Anti-Missile Turret"
+			"Cooling Ducts"
+			"Small Radar Jammer"
+			"Armageddon Core"
+		engine -25 172 1
+		engine 25 172 1
+		gun -10 -167 "Torpedo Launcher"
+		gun 10 -167 "Torpedo Launcher"
+		gun -20 -151 "Torpedo Launcher"
+		gun 20 -151 "Torpedo Launcher"
+		turret 0 -94 "Plasma Turret"
+		turret -38 -56 "Plasma Turret"
+		turret 38 -56 "Quad Blaster Turret"
+		turret -44 118 "Quad Blaster Turret"
+		turret 44 118 "Heavy Anti-Missile Turret"
+		explode "tiny explosion" 50
+		explode "large explosion" 50
+		explode "small explosion" 50
+		explode "medium explosion" 50
+		explode "huge explosion" 20
+		"final explode" "final explosion large" 1
+	ship Firebird
+		name "Prinz Eugen"
+		sprite ship/firebird
+		attributes
+			category "Medium Warship"
+			cost 3700000
+			bunks 22
+			"cargo space" 50
+			drag 4.5
+			"engine capacity" 100
+			"fuel capacity" 400
+			"gun ports" 4
+			"heat dissipation" 0.6
+			hull 2800
+			mass 290
+			"outfit space" 400
+			"required crew" 7
+			shields 6400
+			"turret mounts" 2
+			"weapon capacity" 160
+		outfits
+			"Outfits Expansion" 2
+			Hyperdrive
+			"Heavy Laser Turret" 2
+			"Greyhound Plasma Thruster"
+			"Impala Plasma Steering"
+			Supercapacitor
+			"D94-YV Shield Generator" 2
+			"Meteor Missile Launcher" 4
+			"Water Coolant System"
+			"Breeder Reactor"
+		engine -33 65 1
+		engine 33 65 1
+		gun -28 -27 "Meteor Missile Launcher"
+		gun 28 -27 "Meteor Missile Launcher"
+		gun -39 -13 "Meteor Missile Launcher"
+		gun 39 -13 "Meteor Missile Launcher"
+		turret -5 3 "Heavy Laser Turret"
+		turret 5 3 "Heavy Laser Turret"
+		explode "tiny explosion" 18
+		explode "large explosion" 8
+		explode "small explosion" 36
+		explode "medium explosion" 24
+		"final explode" "final explosion medium" 1
+
+person "The Armada"
+	government "Merchant"
+	personality
+		vindictive
+	system
+		government "Merchant"
+	phrase
+		word
+			"I know that the future is scary at times. But there's just no escaping it."
+			"If there were other civilizations out there, why would they ever want to make contact with humanity?"
+			"If this is how we treat each other, how much kindness can we possibly show to some race of bug-eyed beings from beyond?"
+			"The only thing crazier than hallucinating a fictional videogame spaceship would be to blame it on a frosted breakfast pastry."
+			"Maybe they seeded life on Earth millions of years ago, and now they're here to punish us for turning out to be such a lame species and inventing reality TV?"
+
+	ship Headhunter
+		name "Iron Beagle"
+		sprite ship/headhunter
+		attributes
+			category "Light Warship"
+			cost 1850000
+			bunks 4
+			"cargo space" 50
+			drag 2.6
+			"engine capacity" 80
+			"fuel capacity" 400
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 700
+			mass 120
+			"outfit space" 250
+			"required crew" 2
+			shields 3800
+			"turret mounts" 1
+			"weapon capacity" 60
+		outfits
+			"Outfits Expansion" 2
+			"Electron Beam" 2
+			"Greyhound Plasma Thruster"
+			"Greyhound Plasma Steering"
+			Hyperdrive
+			Supercapacitor 2
+			"D94-YV Shield Generator"
+			"Anti-Missile Turret"
+			"Cooling Ducts" 2
+			"Fission Reactor"
+			"KP-6 Photovoltaic Panel"
+		engine -16 47 1
+		engine 16 47 1
+		gun -13 -27 "Electron Beam"
+		gun 13 -27 "Electron Beam"
+		turret 0 9 "Anti-Missile Turret"
+		explode "small explosion" 25
+		explode "tiny explosion" 20
+		explode "medium explosion" 15
+		"final explode" "final explosion small" 1
+	ship Headhunter
+		name "Atomic Mom"
+		sprite ship/headhunter
+		attributes
+			category "Light Warship"
+			cost 1850000
+			bunks 4
+			"cargo space" 50
+			drag 2.6
+			"engine capacity" 80
+			"fuel capacity" 400
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 700
+			mass 120
+			"outfit space" 250
+			"required crew" 2
+			shields 3800
+			"turret mounts" 1
+			"weapon capacity" 60
+		outfits
+			"Outfits Expansion" 2
+			"Electron Beam" 2
+			"Greyhound Plasma Thruster"
+			"Greyhound Plasma Steering"
+			Hyperdrive
+			Supercapacitor 2
+			"D94-YV Shield Generator"
+			"Anti-Missile Turret"
+			"Cooling Ducts" 2
+			"Fission Reactor"
+			"KP-6 Photovoltaic Panel"
+		engine -16 47 1
+		engine 16 47 1
+		gun -13 -27 "Electron Beam"
+		gun 13 -27 "Electron Beam"
+		turret 0 9 "Anti-Missile Turret"
+		explode "small explosion" 25
+		explode "tiny explosion" 20
+		explode "medium explosion" 15
+		"final explode" "final explosion small" 1
+	ship Headhunter
+		name CrazyJi
+		sprite ship/headhunter
+		attributes
+			category "Light Warship"
+			cost 1850000
+			bunks 4
+			"cargo space" 50
+			drag 2.6
+			"engine capacity" 80
+			"fuel capacity" 400
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 700
+			mass 120
+			"outfit space" 250
+			"required crew" 2
+			shields 3800
+			"turret mounts" 1
+			"weapon capacity" 60
+		outfits
+			"Outfits Expansion" 2
+			"Electron Beam" 2
+			"Greyhound Plasma Thruster"
+			"Greyhound Plasma Steering"
+			Hyperdrive
+			Supercapacitor 2
+			"D94-YV Shield Generator"
+			"Anti-Missile Turret"
+			"Cooling Ducts" 2
+			"Fission Reactor"
+			"KP-6 Photovoltaic Panel"
+		engine -16 47 1
+		engine 16 47 1
+		gun -13 -27 "Electron Beam"
+		gun 13 -27 "Electron Beam"
+		turret 0 9 "Anti-Missile Turret"
+		explode "small explosion" 25
+		explode "tiny explosion" 20
+		explode "medium explosion" 15
+		"final explode" "final explosion small" 1
+	ship Headhunter
+		name Whoadie
+		sprite ship/headhunter
+		attributes
+			category "Light Warship"
+			cost 1850000
+			bunks 4
+			"cargo space" 50
+			drag 2.6
+			"engine capacity" 80
+			"fuel capacity" 400
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 700
+			mass 120
+			"outfit space" 250
+			"required crew" 2
+			shields 3800
+			"turret mounts" 1
+			"weapon capacity" 60
+		outfits
+			"Outfits Expansion" 2
+			"Electron Beam" 2
+			"Greyhound Plasma Thruster"
+			"Greyhound Plasma Steering"
+			Hyperdrive
+			Supercapacitor 2
+			"D94-YV Shield Generator"
+			"Anti-Missile Turret"
+			"Cooling Ducts" 2
+			"Fission Reactor"
+			"KP-6 Photovoltaic Panel"
+		engine -16 47 1
+		engine 16 47 1
+		gun -13 -27 "Electron Beam"
+		gun 13 -27 "Electron Beam"
+		turret 0 9 "Anti-Missile Turret"
+		explode "small explosion" 25
+		explode "tiny explosion" 20
+		explode "medium explosion" 15
+		"final explode" "final explosion small" 1
+	ship Headhunter
+		name Redjive
+		sprite ship/headhunter
+		attributes
+			category "Light Warship"
+			cost 1850000
+			bunks 4
+			"cargo space" 50
+			drag 2.6
+			"engine capacity" 80
+			"fuel capacity" 400
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 700
+			mass 120
+			"outfit space" 250
+			"required crew" 2
+			shields 3800
+			"turret mounts" 1
+			"weapon capacity" 60
+		outfits
+			"Outfits Expansion" 2
+			"Electron Beam" 2
+			"Greyhound Plasma Thruster"
+			"Greyhound Plasma Steering"
+			Hyperdrive
+			Supercapacitor 2
+			"D94-YV Shield Generator"
+			"Anti-Missile Turret"
+			"Cooling Ducts" 2
+			"Fission Reactor"
+			"KP-6 Photovoltaic Panel"
+		engine -16 47 1
+		engine 16 47 1
+		gun -13 -27 "Electron Beam"
+		gun 13 -27 "Electron Beam"
+		turret 0 9 "Anti-Missile Turret"
+		explode "small explosion" 25
+		explode "tiny explosion" 20
+		explode "medium explosion" 15
+		"final explode" "final explosion small" 1
+	ship Headhunter
+		name Viper
+		sprite ship/headhunter
+		attributes
+			category "Light Warship"
+			cost 1850000
+			bunks 4
+			"cargo space" 50
+			drag 2.6
+			"engine capacity" 80
+			"fuel capacity" 400
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 700
+			mass 120
+			"outfit space" 250
+			"required crew" 2
+			shields 3800
+			"turret mounts" 1
+			"weapon capacity" 60
+		outfits
+			"Outfits Expansion" 2
+			"Electron Beam" 2
+			"Greyhound Plasma Thruster"
+			"Greyhound Plasma Steering"
+			Hyperdrive
+			Supercapacitor 2
+			"D94-YV Shield Generator"
+			"Anti-Missile Turret"
+			"Cooling Ducts" 2
+			"Fission Reactor"
+			"KP-6 Photovoltaic Panel"
+		engine -16 47 1
+		engine 16 47 1
+		gun -13 -27 "Electron Beam"
+		gun 13 -27 "Electron Beam"
+		turret 0 9 "Anti-Missile Turret"
+		explode "small explosion" 25
+		explode "tiny explosion" 20
+		explode "medium explosion" 15
+		"final explode" "final explosion small" 1
+	ship Headhunter
+		name KushMaster5000
+		sprite ship/headhunter
+		attributes
+			category "Light Warship"
+			cost 1850000
+			bunks 4
+			"cargo space" 50
+			drag 2.6
+			"engine capacity" 80
+			"fuel capacity" 400
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 700
+			mass 120
+			"outfit space" 250
+			"required crew" 2
+			shields 3800
+			"turret mounts" 1
+			"weapon capacity" 60
+		outfits
+			"Outfits Expansion" 2
+			"Electron Beam" 2
+			"Greyhound Plasma Thruster"
+			"Greyhound Plasma Steering"
+			Hyperdrive
+			Supercapacitor 2
+			"D94-YV Shield Generator"
+			"Anti-Missile Turret"
+			"Cooling Ducts" 2
+			"Fission Reactor"
+			"KP-6 Photovoltaic Panel"
+		engine -16 47 1
+		engine 16 47 1
+		gun -13 -27 "Electron Beam"
+		gun 13 -27 "Electron Beam"
+		turret 0 9 "Anti-Missile Turret"
+		explode "small explosion" 25
+		explode "tiny explosion" 20
+		explode "medium explosion" 15
+		"final explode" "final explosion small" 1
+
+person "Shangri-La"
+	government "Free Worlds"
+	personality
+		heroic vindictive
+	system
+		government "Free Worlds"
+	phrase
+		word
+			"Defending every sector, every time."
+			"The Shangri-La will sacrifice everything to protect the free peoples of the galaxy."
+
+	ship Skein
+		name Shangri-La
+		sprite ship/skein
+		"never disabled"
+		attributes
+			category "Medium Warship"
+			cost 3500000
+			bunks 18
+			"cargo space" 120
+			drag 12.5
+			"engine capacity" 80
+			"fuel capacity" 700
+			"gun ports" 2
+			"heat dissipation" 0.71
+			hull 9700
+			mass 470
+			"outfit space" 500
+			"required crew" 7
+			shields 13300
+			"turret mounts" 4
+			"weapon capacity" 140
+		outfits
+			"Large Radar Jammer"
+			Hyperdrive
+			"Impala Plasma Steering"
+			"A120 Atomic Thruster"
+			Supercapacitor 3
+			"D94-YV Shield Generator" 4
+			"D14-RN Shield Generator"
+			"Heavy Anti-Missile Turret" 2
+			"Breeder Reactor"
+		engine -45 197 1
+		engine 45 197 1
+		gun -15 -165
+		gun 15 -165
+		turret -26 -123
+		turret 26 -123 "Heavy Anti-Missile Turret"
+		turret -18.5 154 "Heavy Anti-Missile Turret"
+		turret 18.5 154
+		fighter -47 -61 under
+		fighter 47 -61 under
+		fighter -47 14 under
+		fighter 47 14 under
+		fighter -47 88 under
+		fighter 47 88 under
+		explode "small explosion" 15
+		explode "medium explosion" 30
+		explode "large explosion" 20
+		explode "huge explosion" 5
+		"final explode" "final explosion large" 1
+	ship Finch
+		name "Missile Net"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Steering"
+			"Chipmunk Plasma Thruster"
+			"nGVF-BB Fuel Cell"
+			"Meteor Missile Launcher" 2
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"Meteor Missile" 70
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Missile Net"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Steering"
+			"Chipmunk Plasma Thruster"
+			"nGVF-BB Fuel Cell"
+			"Meteor Missile Launcher" 2
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"Meteor Missile" 70
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Missile Net"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Steering"
+			"Chipmunk Plasma Thruster"
+			"nGVF-BB Fuel Cell"
+			"Meteor Missile Launcher" 2
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"Meteor Missile" 70
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Missile Net"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Steering"
+			"Chipmunk Plasma Thruster"
+			"nGVF-BB Fuel Cell"
+			"Meteor Missile Launcher" 2
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"Meteor Missile" 70
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Missile Net"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Steering"
+			"Chipmunk Plasma Thruster"
+			"nGVF-BB Fuel Cell"
+			"Meteor Missile Launcher" 2
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"Meteor Missile" 70
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Finch
+		name "Missile Net"
+		plural Finches
+		sprite ship/finch
+		attributes
+			category Fighter
+			cost 126000
+			bunks 1
+			drag 0.83
+			"engine capacity" 40
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 200
+			mass 40
+			"outfit space" 110
+			"required crew" 1
+			shields 1100
+			"weapon capacity" 20
+		outfits
+			"Chipmunk Plasma Steering"
+			"Chipmunk Plasma Thruster"
+			"nGVF-BB Fuel Cell"
+			"Meteor Missile Launcher" 2
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"Meteor Missile" 70
+		engine -5 32 1
+		engine 5 32 1
+		gun -7 -14 "Meteor Missile Launcher"
+		gun 7 -14 "Meteor Missile Launcher"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Osprey
+		name Guam
+		sprite ship/osprey
+		attributes
+			category "Medium Warship"
+			cost 4400000
+			bunks 24
+			"cargo space" 40
+			drag 6.1
+			"engine capacity" 130
+			"fuel capacity" 600
+			"gun ports" 4
+			"heat dissipation" 0.8
+			hull 1600
+			mass 270
+			"outfit space" 450
+			"required crew" 9
+			shields 7200
+			"turret mounts" 2
+			"weapon capacity" 180
+		outfits
+			"Outfits Expansion" 2
+			"Plasma Turret"
+			Hyperdrive
+			"Impala Plasma Thruster"
+			"Impala Plasma Steering"
+			"D94-YV Shield Generator"
+			"KP-6 Photovoltaic Array"
+			"LP072a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"Plasma Cannon" 2
+			"D67-TM Shield Generator"
+			"Meteor Missile" 70
+			"Breeder Reactor"
+		engine -40 67 1
+		engine 40 67 1
+		gun -8 -100 "Meteor Missile Launcher"
+		gun 8 -100 "Meteor Missile Launcher"
+		gun -26 -53 "Plasma Cannon"
+		gun 26 -53 "Plasma Cannon"
+		turret -16 -16 "Plasma Turret"
+		turret 16 -16
+		explode "small explosion" 40
+		explode "medium explosion" 24
+		explode "tiny explosion" 28
+		explode "large explosion" 16
+		"final explode" "final explosion medium" 1
+	ship Corvette
+		name "Harry E Hubbard"
+		sprite ship/corvette
+		attributes
+			category "Medium Warship"
+			cost 4400000
+			bunks 32
+			"cargo space" 40
+			drag 3.5
+			"engine capacity" 100
+			"fuel capacity" 500
+			"gun ports" 4
+			"heat dissipation" 0.7
+			hull 1200
+			mass 150
+			"outfit space" 420
+			"required crew" 8
+			shields 6100
+			"turret mounts" 2
+			"weapon capacity" 150
+		outfits
+			"Outfits Expansion" 2
+			Hyperdrive
+			"A250 Atomic Thruster"
+			"A125 Atomic Steering"
+			Torpedo 150
+			"Torpedo Launcher" 4
+			"D94-YV Shield Generator" 2
+			"KP-6 Photovoltaic Panel"
+			"NT-200 Nucleovoltaic"
+			"KP-6 Photovoltaic Array"
+			"Torpedo Storage Rack" 2
+			"LP072a Battery Pack"
+			"Heavy Anti-Missile Turret"
+		engine -11 118 1
+		engine 11 118 1
+		gun -12 -68 "Torpedo Launcher"
+		gun 12 -68 "Torpedo Launcher"
+		gun -14 -60 "Torpedo Launcher"
+		gun 14 -60 "Torpedo Launcher"
+		turret 0 -11 "Heavy Anti-Missile Turret"
+		turret 0 74
+		explode "small explosion" 36
+		explode "medium explosion" 24
+		explode "tiny explosion" 18
+		explode "large explosion" 8
+		"final explode" "final explosion medium" 1
+	ship Aerie
+		name Haggard
+		sprite ship/aerie
+		attributes
+			category "Medium Warship"
+			cost 3500000
+			bunks 28
+			"cargo space" 50
+			drag 4.1
+			"engine capacity" 95
+			"fuel capacity" 500
+			"gun ports" 2
+			"heat dissipation" 0.7
+			hull 1900
+			mass 130
+			"outfit space" 390
+			"required crew" 10
+			shields 5700
+			"turret mounts" 3
+			"weapon capacity" 150
+		outfits
+			"Outfits Expansion" 2
+			Hyperdrive
+			"A250 Atomic Thruster"
+			"A125 Atomic Steering"
+			"D94-YV Shield Generator" 2
+			"LP072a Battery Pack"
+			"D67-TM Shield Generator"
+			"Heavy Anti-Missile Turret"
+			"Fission Reactor"
+			"Typhoon Launcher" 2
+			"Typhoon Torpedo" 60
+		engine -10 91 1
+		engine 10 91 1
+		gun -13 -79 "Typhoon Launcher"
+		gun 13 -79 "Typhoon Launcher"
+		turret 0 0 "Heavy Anti-Missile Turret"
+		turret -17 14
+		turret 17 14
+		fighter -42 -2
+		fighter 42 2
+		explode "small explosion" 25
+		explode "medium explosion" 25
+		explode "tiny explosion" 10
+		explode "large explosion" 10
+		"final explode" "final explosion medium" 1
+	ship Barb
+		name "Missile Screen"
+		sprite ship/barb
+		attributes
+			category Fighter
+			cost 50000
+			bunks 2
+			drag 0.8
+			"engine capacity" 22
+			"gun ports" 1
+			"heat dissipation" 0.78
+			hull 200
+			mass 20
+			"outfit space" 85
+			"required crew" 1
+			shields 800
+			"turret mounts" 1
+			"weapon capacity" 24
+		outfits
+			"X1050 Ion Engines"
+			"KP-6 Photovoltaic Panel"
+			"nGVF-AA Fuel Cell"
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"Anti-Missile Turret"
+		engine -10 28 1
+		engine 9 28 1
+		gun -9 -29
+		turret 8 6 "Anti-Missile Turret"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Barb
+		name "Missile Screen"
+		sprite ship/barb
+		attributes
+			category Fighter
+			cost 50000
+			bunks 2
+			drag 0.8
+			"engine capacity" 22
+			"gun ports" 1
+			"heat dissipation" 0.78
+			hull 200
+			mass 20
+			"outfit space" 85
+			"required crew" 1
+			shields 800
+			"turret mounts" 1
+			"weapon capacity" 24
+		outfits
+			"X1050 Ion Engines"
+			"KP-6 Photovoltaic Panel"
+			"nGVF-AA Fuel Cell"
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"Anti-Missile Turret"
+		engine -10 28 1
+		engine 9 28 1
+		gun -9 -29
+		turret 8 6 "Anti-Missile Turret"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Aerie
+		name Stembel
+		sprite ship/aerie
+		attributes
+			category "Medium Warship"
+			cost 3500000
+			bunks 28
+			"cargo space" 50
+			drag 4.1
+			"engine capacity" 95
+			"fuel capacity" 500
+			"gun ports" 2
+			"heat dissipation" 0.7
+			hull 1900
+			mass 130
+			"outfit space" 390
+			"required crew" 10
+			shields 5700
+			"turret mounts" 3
+			"weapon capacity" 150
+		outfits
+			"Outfits Expansion" 2
+			Hyperdrive
+			"A250 Atomic Thruster"
+			"A125 Atomic Steering"
+			"D94-YV Shield Generator" 2
+			"LP072a Battery Pack"
+			"D67-TM Shield Generator"
+			"Heavy Anti-Missile Turret"
+			"Fission Reactor"
+			"Typhoon Launcher" 2
+			"Typhoon Torpedo" 60
+		engine -10 91 1
+		engine 10 91 1
+		gun -13 -79 "Typhoon Launcher"
+		gun 13 -79 "Typhoon Launcher"
+		turret 0 0 "Heavy Anti-Missile Turret"
+		turret -17 14
+		turret 17 14
+		fighter -42 -2
+		fighter 42 2
+		explode "small explosion" 25
+		explode "medium explosion" 25
+		explode "tiny explosion" 10
+		explode "large explosion" 10
+		"final explode" "final explosion medium" 1
+	ship Barb
+		name "Missile Screen"
+		sprite ship/barb
+		attributes
+			category Fighter
+			cost 50000
+			bunks 2
+			drag 0.8
+			"engine capacity" 22
+			"gun ports" 1
+			"heat dissipation" 0.78
+			hull 200
+			mass 20
+			"outfit space" 85
+			"required crew" 1
+			shields 800
+			"turret mounts" 1
+			"weapon capacity" 24
+		outfits
+			"X1050 Ion Engines"
+			"KP-6 Photovoltaic Panel"
+			"nGVF-AA Fuel Cell"
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"Anti-Missile Turret"
+		engine -10 28 1
+		engine 9 28 1
+		gun -9 -29
+		turret 8 6 "Anti-Missile Turret"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship Barb
+		name "Missile Screen"
+		sprite ship/barb
+		attributes
+			category Fighter
+			cost 50000
+			bunks 2
+			drag 0.8
+			"engine capacity" 22
+			"gun ports" 1
+			"heat dissipation" 0.78
+			hull 200
+			mass 20
+			"outfit space" 85
+			"required crew" 1
+			shields 800
+			"turret mounts" 1
+			"weapon capacity" 24
+		outfits
+			"X1050 Ion Engines"
+			"KP-6 Photovoltaic Panel"
+			"nGVF-AA Fuel Cell"
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"Anti-Missile Turret"
+		engine -10 28 1
+		engine 9 28 1
+		gun -9 -29
+		turret 8 6 "Anti-Missile Turret"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+
+person "Calm Waters Merchants"
+	government Hai
+	frequency 300
+	personality
+		pacifist
+	system
+		government Hai
+	phrase
+		word
+			"Calm be upon you."
+			"Smooth sailing, and calm space, those are the Hai way."
+			"Keep your eyes open, for storms upon the horizon."
+			"Have you picked a favorite Acornball team?"
+			"Hai! Oh, I meant… hi!"
+
+	ship "Water Bug"
+		name "Calm Seas"
+		sprite "ship/hai water bug"
+		attributes
+			category "Heavy Freighter"
+			cost 6500000
+			bunks 29
+			"cargo space" 197
+			drag 5.9
+			"engine capacity" 64
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.75
+			hull 4500
+			mass 270
+			"outfit space" 368
+			"required crew" 5
+			shields 7900
+			"turret mounts" 3
+			"weapon capacity" 145
+		outfits
+			"Boulder Reactor"
+			Hyperdrive
+			"Bullfrog Anti-Missile"
+			"Chameleon Anti-Missile" 2
+			"Quantum Keystone"
+			"Hai Diamond Regenerator" 2
+			"Hai Corundum Regenerator" 2
+			`"Benga" Atomic Thruster`
+			"Hai Williwaw Cooling"
+			"Hai Chasm Batteries"
+			`"Biroo" Atomic Steering`
+		engine -50 33 1
+		engine 50 33 1
+		gun -24 -53
+		gun 24 -53
+		turret 0 -10 "Bullfrog Anti-Missile"
+		turret -17 17 "Chameleon Anti-Missile"
+		turret 17 17 "Chameleon Anti-Missile"
+		explode "medium explosion" 30
+		explode "large explosion" 20
+		explode "small explosion" 15
+		explode "huge explosion" 5
+		"final explode" "final explosion medium" 1
+	ship "Water Bug"
+		name "Calm Oceans"
+		sprite "ship/hai water bug"
+		attributes
+			category "Heavy Freighter"
+			cost 6500000
+			bunks 29
+			"cargo space" 197
+			drag 5.9
+			"engine capacity" 64
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.75
+			hull 4500
+			mass 270
+			"outfit space" 368
+			"required crew" 5
+			shields 7900
+			"turret mounts" 3
+			"weapon capacity" 145
+		outfits
+			"Boulder Reactor"
+			Hyperdrive
+			"Bullfrog Anti-Missile"
+			"Chameleon Anti-Missile" 2
+			"Quantum Keystone"
+			"Hai Diamond Regenerator" 2
+			"Hai Corundum Regenerator" 2
+			`"Benga" Atomic Thruster`
+			"Hai Williwaw Cooling"
+			"Hai Chasm Batteries"
+			`"Biroo" Atomic Steering`
+		engine -50 33 1
+		engine 50 33 1
+		gun -24 -53
+		gun 24 -53
+		turret 0 -10 "Bullfrog Anti-Missile"
+		turret -17 17 "Chameleon Anti-Missile"
+		turret 17 17 "Chameleon Anti-Missile"
+		explode "medium explosion" 30
+		explode "large explosion" 20
+		explode "small explosion" 15
+		explode "huge explosion" 5
+		"final explode" "final explosion medium" 1
+	ship "Water Bug"
+		name "Calm Lakes"
+		sprite "ship/hai water bug"
+		attributes
+			category "Heavy Freighter"
+			cost 6500000
+			bunks 29
+			"cargo space" 197
+			drag 5.9
+			"engine capacity" 64
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.75
+			hull 4500
+			mass 270
+			"outfit space" 368
+			"required crew" 5
+			shields 7900
+			"turret mounts" 3
+			"weapon capacity" 145
+		outfits
+			"Boulder Reactor"
+			Hyperdrive
+			"Bullfrog Anti-Missile"
+			"Chameleon Anti-Missile" 2
+			"Quantum Keystone"
+			"Hai Diamond Regenerator" 2
+			"Hai Corundum Regenerator" 2
+			`"Benga" Atomic Thruster`
+			"Hai Williwaw Cooling"
+			"Hai Chasm Batteries"
+			`"Biroo" Atomic Steering`
+		engine -50 33 1
+		engine 50 33 1
+		gun -24 -53
+		gun 24 -53
+		turret 0 -10 "Bullfrog Anti-Missile"
+		turret -17 17 "Chameleon Anti-Missile"
+		turret 17 17 "Chameleon Anti-Missile"
+		explode "medium explosion" 30
+		explode "large explosion" 20
+		explode "small explosion" 15
+		explode "huge explosion" 5
+		"final explode" "final explosion medium" 1
+	ship "Water Bug"
+		name "Calm Rivers"
+		sprite "ship/hai water bug"
+		attributes
+			category "Heavy Freighter"
+			cost 6500000
+			bunks 29
+			"cargo space" 197
+			drag 5.9
+			"engine capacity" 64
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.75
+			hull 4500
+			mass 270
+			"outfit space" 368
+			"required crew" 5
+			shields 7900
+			"turret mounts" 3
+			"weapon capacity" 145
+		outfits
+			"Boulder Reactor"
+			Hyperdrive
+			"Bullfrog Anti-Missile"
+			"Chameleon Anti-Missile" 2
+			"Quantum Keystone"
+			"Hai Diamond Regenerator" 2
+			"Hai Corundum Regenerator" 2
+			`"Benga" Atomic Thruster`
+			"Hai Williwaw Cooling"
+			"Hai Chasm Batteries"
+			`"Biroo" Atomic Steering`
+		engine -50 33 1
+		engine 50 33 1
+		gun -24 -53
+		gun 24 -53
+		turret 0 -10 "Bullfrog Anti-Missile"
+		turret -17 17 "Chameleon Anti-Missile"
+		turret 17 17 "Chameleon Anti-Missile"
+		explode "medium explosion" 30
+		explode "large explosion" 20
+		explode "small explosion" 15
+		explode "huge explosion" 5
+		"final explode" "final explosion medium" 1
+	ship "Water Bug"
+		name "Calm Ponds"
+		sprite "ship/hai water bug"
+		attributes
+			category "Heavy Freighter"
+			cost 6500000
+			bunks 29
+			"cargo space" 197
+			drag 5.9
+			"engine capacity" 64
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.75
+			hull 4500
+			mass 270
+			"outfit space" 368
+			"required crew" 5
+			shields 7900
+			"turret mounts" 3
+			"weapon capacity" 145
+		outfits
+			"Boulder Reactor"
+			Hyperdrive
+			"Bullfrog Anti-Missile"
+			"Chameleon Anti-Missile" 2
+			"Quantum Keystone"
+			"Hai Diamond Regenerator" 2
+			"Hai Corundum Regenerator" 2
+			`"Benga" Atomic Thruster`
+			"Hai Williwaw Cooling"
+			"Hai Chasm Batteries"
+			`"Biroo" Atomic Steering`
+		engine -50 33 1
+		engine 50 33 1
+		gun -24 -53
+		gun 24 -53
+		turret 0 -10 "Bullfrog Anti-Missile"
+		turret -17 17 "Chameleon Anti-Missile"
+		turret 17 17 "Chameleon Anti-Missile"
+		explode "medium explosion" 30
+		explode "large explosion" 20
+		explode "small explosion" 15
+		explode "huge explosion" 5
+		"final explode" "final explosion medium" 1
+	ship "Water Bug"
+		name "Calm Brooks"
+		sprite "ship/hai water bug"
+		attributes
+			category "Heavy Freighter"
+			cost 6500000
+			bunks 29
+			"cargo space" 197
+			drag 5.9
+			"engine capacity" 64
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.75
+			hull 4500
+			mass 270
+			"outfit space" 368
+			"required crew" 5
+			shields 7900
+			"turret mounts" 3
+			"weapon capacity" 145
+		outfits
+			"Boulder Reactor"
+			Hyperdrive
+			"Bullfrog Anti-Missile"
+			"Chameleon Anti-Missile" 2
+			"Quantum Keystone"
+			"Hai Diamond Regenerator" 2
+			"Hai Corundum Regenerator" 2
+			`"Benga" Atomic Thruster`
+			"Hai Williwaw Cooling"
+			"Hai Chasm Batteries"
+			`"Biroo" Atomic Steering`
+		engine -50 33 1
+		engine 50 33 1
+		gun -24 -53
+		gun 24 -53
+		turret 0 -10 "Bullfrog Anti-Missile"
+		turret -17 17 "Chameleon Anti-Missile"
+		turret 17 17 "Chameleon Anti-Missile"
+		explode "medium explosion" 30
+		explode "large explosion" 20
+		explode "small explosion" 15
+		explode "huge explosion" 5
+		"final explode" "final explosion medium" 1
+	ship "Water Bug"
+		name "Calm Streams"
+		sprite "ship/hai water bug"
+		attributes
+			category "Heavy Freighter"
+			cost 6500000
+			bunks 29
+			"cargo space" 197
+			drag 5.9
+			"engine capacity" 64
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.75
+			hull 4500
+			mass 270
+			"outfit space" 368
+			"required crew" 5
+			shields 7900
+			"turret mounts" 3
+			"weapon capacity" 145
+		outfits
+			"Boulder Reactor"
+			Hyperdrive
+			"Bullfrog Anti-Missile"
+			"Chameleon Anti-Missile" 2
+			"Quantum Keystone"
+			"Hai Diamond Regenerator" 2
+			"Hai Corundum Regenerator" 2
+			`"Benga" Atomic Thruster`
+			"Hai Williwaw Cooling"
+			"Hai Chasm Batteries"
+			`"Biroo" Atomic Steering`
+		engine -50 33 1
+		engine 50 33 1
+		gun -24 -53
+		gun 24 -53
+		turret 0 -10 "Bullfrog Anti-Missile"
+		turret -17 17 "Chameleon Anti-Missile"
+		turret 17 17 "Chameleon Anti-Missile"
+		explode "medium explosion" 30
+		explode "large explosion" 20
+		explode "small explosion" 15
+		explode "huge explosion" 5
+		"final explode" "final explosion medium" 1
+	ship "Water Bug"
+		name "Calm Canal"
+		sprite "ship/hai water bug"
+		attributes
+			category "Heavy Freighter"
+			cost 6500000
+			bunks 29
+			"cargo space" 197
+			drag 5.9
+			"engine capacity" 64
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.75
+			hull 4500
+			mass 270
+			"outfit space" 368
+			"required crew" 5
+			shields 7900
+			"turret mounts" 3
+			"weapon capacity" 145
+		outfits
+			"Boulder Reactor"
+			Hyperdrive
+			"Bullfrog Anti-Missile"
+			"Chameleon Anti-Missile" 2
+			"Quantum Keystone"
+			"Hai Diamond Regenerator" 2
+			"Hai Corundum Regenerator" 2
+			`"Benga" Atomic Thruster`
+			"Hai Williwaw Cooling"
+			"Hai Chasm Batteries"
+			`"Biroo" Atomic Steering`
+		engine -50 33 1
+		engine 50 33 1
+		gun -24 -53
+		gun 24 -53
+		turret 0 -10 "Bullfrog Anti-Missile"
+		turret -17 17 "Chameleon Anti-Missile"
+		turret 17 17 "Chameleon Anti-Missile"
+		explode "medium explosion" 30
+		explode "large explosion" 20
+		explode "small explosion" 15
+		explode "huge explosion" 5
+		"final explode" "final explosion medium" 1

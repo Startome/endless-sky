@@ -1,0 +1,5701 @@
+person "Krye"
+	government "Author"
+	frequency 150
+	personality
+		frugal disables unconstrained harvests
+	system
+		near Sol 1 10
+	phrase
+		word
+			"Tehhowch has become the codemaster."
+			"You will suffer the wrath of Gru."
+			"If you are trying to learn from me, don't take after my lazy topology."
+			"Oh helo theer."
+			"Did you edit your save?"
+			".flif is the superior format."
+			"Modding the game on your first playthrough? Ugh."
+			"Communism isn't a joke, Comrade."
+			"A fair warning, docked fighters will slow your ship down."
+			"Alms for the poor?"
+			"I'm not going to argue with someone so uncultured."
+			"You're not a challenge."
+			"I could simply rename the Sparrow to <first> <last> and enjoy destroying hordes of you."
+			"Clearly, I am the only Omega that has ever existed."
+			"The Star Barge is OP."
+			"Buy Tarazed ships."
+			"Ion Thrusters are for babies."
+
+	ship "Marauder Falcon"
+	name "The Omega"
+	sprite ship/mfalcons
+	"never disabled"
+	attributes
+		category "Heavy Warship"
+		cost 13900000
+		bunks 80
+		"cargo space" 100
+		drag 6.4
+		"engine capacity" 260
+		"fuel capacity" 600
+		"gun ports" 8
+		"heat dissipation" 0.8
+		hull 9100
+		mass 560
+		"outfit space" 980
+		"required crew" 43
+		"self destruct" 1
+		shields 22100
+		"turret mounts" 5
+		"weapon capacity" 360
+	outfits
+		"Outfits Expansion" 3
+		"White Sun Reactor"
+		"Type 4 Radiant Thruster" 2
+		"Blue Sun Reactor"
+		"Dark Storm Shielding" 4
+		"Type 4 Radiant Steering" 2
+		Hyperdrive
+		"Ionic Afterburner"
+		"Wanderer Ramscoop"
+		"Intrusion Countermeasures" 100
+		"Torpedo Launcher"
+		Torpedo 30
+		"Wanderer Heat Sink" 2
+		"Sidewinder Missile" 100
+		"Sidewinder Missile Launcher" 2
+		"Heavy Anti-Missile Turret" 5
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 70
+		"Proton Gun" 2
+		"Small Radar Jammer"
+	engine -16 143 1
+	engine 16 143 1
+	gun -16 -89 "Proton Gun"
+	gun 16 -89 "Proton Gun"
+	gun -16 -89 "Meteor Missile Launcher"
+	gun 16 -89 "Meteor Missile Launcher"
+	gun -16 -89 "Sidewinder Missile Launcher"
+	gun 16 -89 "Sidewinder Missile Launcher"
+	gun -16 -89 "Torpedo Launcher"
+	gun 16 -89
+	turret -16 -25 "Heavy Anti-Missile Turret"
+	turret 16 -25 "Heavy Anti-Missile Turret"
+	turret -57 32.5 "Heavy Anti-Missile Turret"
+	turret 57 32.5 "Heavy Anti-Missile Turret"
+	turret 0 0 "Heavy Anti-Missile Turret"
+	explode "large explosion" 40
+	explode "small explosion" 55
+	explode "tiny explosion" 40
+	explode "medium explosion" 60
+	"final explode" "final explosion large" 1
+
+person "Ferocious Fiend"
+	government "Pirate"
+	frequency 300
+	personality
+		plunders heroic harvests
+	system
+		near "Beta Lupi" 0 2
+	phrase
+		word
+			"Fear the dread pirate Ferocious Fiend!"
+	phrase
+		word
+			"It's "
+			"It is "
+		word
+			"funny "
+			"cute "
+			"quite hilarious "
+			"amusing "
+		word
+			"that you think I care about your "
+		word
+			"big guns"
+			"shiny ships"
+			"intimidating fleet"
+		word
+			". "
+			"... "
+			"! "
+		word
+			"Surrender now or I'll have to surrender first!"
+
+	phrase
+		word
+			""
+			""
+			"Really. "
+			"Honestly. "
+			"Honestly? "
+			"To be honest... "
+			"Let's be real for a moment. "
+		word
+			"Your guns "
+			"Those guns "
+			"Those guns of yours "
+			"Your ships "
+			"Those ships "
+			"Those ships of yours "
+		word
+			"are "
+			"seem to be "
+			"must be "
+		word
+			""
+			"really "
+			"quite "
+		word
+			"something special. "
+			"out of this world. "
+			"astonishing. "
+			"amazing. "
+			"terrifying. "
+			"alluring. "
+		word
+			""
+			""
+			""
+			"Where did you get them?"
+			"Can you send me some coordinates?"
+			"Can you lend me one or two? Or four?"
+			"What if you just let me borrow one?"
+			"Don't try anything funny, alright?"
+			"Don't blow me up, okay?"
+			"Just don't hurt me, okay?"
+
+	ship "Marauder Raven"
+	name Fancy
+	sprite ship/mravens
+	"never disabled"
+	attributes
+		category "Light Warship"
+		cost 2250000
+		bunks 14
+		drag 3.7
+		"engine capacity" 110
+		"fuel capacity" 1000
+		"gun ports" 6
+		"heat dissipation" 0.8
+		hull 2500
+		mass 145
+		"outfit space" 510
+		"required crew" 7
+		"self destruct" 1
+		shields 9200
+		"turret mounts" 2
+		"weapon capacity" 175
+	outfits
+		"Outfits Expansion"
+		Hyperdrive
+		"Wanderer Ramscoop" 2
+		"A250 Atomic Thruster"
+		Afterburner
+		"A375 Atomic Steering"
+		Supercapacitor 3
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Anti-Missile Turret" 2
+		"S-270 Regenerator"
+		"Breeder Reactor"
+		"Liquid Helium Cooler"
+		"Plasma Cannon" 4
+		"Heavy Laser" 2
+	engine -12 45 1
+	engine 12 45 1
+	gun -10 -33 "Plasma Cannon"
+	gun 10 -33 "Plasma Cannon"
+	gun -10 -33 "Plasma Cannon"
+	gun 10 -33 "Plasma Cannon"
+	gun -16 -28 "Heavy Laser"
+	gun 16 -28 "Heavy Laser"
+	turret 0 -19 "Anti-Missile Turret"
+	turret 0 -19 "Anti-Missile Turret"
+	explode "medium explosion" 24
+	explode "tiny explosion" 28
+	explode "small explosion" 40
+	explode "large explosion" 16
+	"final explode" "final explosion small" 1
+
+person "The Unfettered One"
+	government "Author"
+	frequency 200
+	personality
+		pacifist coward appeasing harvests mining
+	phrase
+		word
+			"I hold the hand of the Derp."
+			"Derpy has informed me that my missions are in the game."
+			"Enough about me, tell me your woes."
+			"I am Unfettered, hear me roar."
+			"Rawr"
+			"Derpy says hi. Talk to you guys later."
+			"Baby celebration time! Join the party!"
+			"You called me a squirrel? What kind of weirdos do you think we are?"
+			"Beanbag chairs are the best chairs."
+			"I am Queen, no exceptions."
+
+	phrase
+		word
+			"I may be an unfettered, but I realize how important life is."
+			"Lotsa hugs going around here."
+			"Trade and Prosperity are vital of the Hai are to grow together."
+	system
+		government Hai
+
+	ship "Water Bug"
+		name "Trade and Prosperity"
+		sprite "ship/hai water bug"
+		"never disabled"
+		attributes
+			category "Heavy Freighter"
+			cost 6500000
+			bunks 29
+			"cargo space" 197
+			drag 5.9
+			"engine capacity" 64
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.75
+			hull 4500
+			mass 270
+			"outfit space" 368
+			"required crew" 5
+			shields 7900
+			"turret mounts" 3
+			"weapon capacity" 145
+		outfits
+			Hyperdrive
+			"Chameleon Anti-Missile" 3
+			"Cargo Expansion" 2
+			"Hai Tracker Pod" 2
+			"Hai Tracker" 112
+			`"Benga" Atomic Thruster`
+			"Hai Williwaw Cooling"
+			"Hai Chasm Batteries"
+			"Geode Reactor"
+			"Hai Gorge Batteries"
+			"Quantum Keystone"
+			"Hai Diamond Regenerator"
+			`"Benga" Atomic Steering`
+		engine -50 33 1
+		engine 50 33 1
+		gun -24 -53 "Hai Tracker Pod"
+		gun 24 -53 "Hai Tracker Pod"
+		turret 0 -10 "Chameleon Anti-Missile"
+		turret -17 17 "Chameleon Anti-Missile"
+		turret 17 17 "Chameleon Anti-Missile"
+		explode "medium explosion" 30
+		explode "large explosion" 20
+		explode "small explosion" 15
+		explode "huge explosion" 5
+		"final explode" "final explosion medium" 1
+	ship "Lightning Bug"
+		name Peace
+		sprite "ship/hai lightning bug"
+		"never disabled"
+		attributes
+			category "Light Warship"
+			cost 3200000
+			bunks 10
+			"cargo space" 73
+			drag 3.8
+			"engine capacity" 93
+			"fuel capacity" 600
+			"gun ports" 1
+			"heat dissipation" 0.85
+			hull 1700
+			mass 220
+			"outfit space" 278
+			"required crew" 4
+			shields 6700
+			"turret mounts" 2
+			"weapon capacity" 87
+		outfits
+			Hyperdrive
+			"Chameleon Anti-Missile" 2
+			"Cargo Expansion" 2
+			`"Benga" Atomic Thruster`
+			"Hai Williwaw Cooling"
+			"Geode Reactor"
+			"Hai Gorge Batteries"
+			"Hai Corundum Regenerator"
+			"Quantum Keystone"
+			`"Biroo" Atomic Steering`
+		engine -40 22 1
+		engine 40 22 1
+		gun 0 -40
+		turret -47 18 "Chameleon Anti-Missile"
+		turret 47 18 "Chameleon Anti-Missile"
+		explode "medium explosion" 24
+		explode "large explosion" 8
+		explode "small explosion" 36
+		explode "tiny explosion" 18
+		"final explode" "final explosion small" 1
+	ship "Lightning Bug"
+		name Joy
+		sprite "ship/hai lightning bug"
+		"never disabled"
+		attributes
+			category "Light Warship"
+			cost 3200000
+			bunks 10
+			"cargo space" 73
+			drag 3.8
+			"engine capacity" 93
+			"fuel capacity" 600
+			"gun ports" 1
+			"heat dissipation" 0.85
+			hull 1700
+			mass 220
+			"outfit space" 278
+			"required crew" 4
+			shields 6700
+			"turret mounts" 2
+			"weapon capacity" 87
+		outfits
+			Hyperdrive
+			"Chameleon Anti-Missile" 2
+			"Cargo Expansion" 2
+			`"Benga" Atomic Thruster`
+			"Hai Williwaw Cooling"
+			"Geode Reactor"
+			"Hai Gorge Batteries"
+			"Hai Corundum Regenerator"
+			"Quantum Keystone"
+			`"Biroo" Atomic Steering`
+		engine -40 22 1
+		engine 40 22 1
+		gun 0 -40
+		turret -47 18 "Chameleon Anti-Missile"
+		turret 47 18 "Chameleon Anti-Missile"
+		explode "medium explosion" 24
+		explode "large explosion" 8
+		explode "small explosion" 36
+		explode "tiny explosion" 18
+		"final explode" "final explosion small" 1
+
+Person "Tehhowch (Game Start)"
+	government "Author"
+	frequency 5000
+	personality
+		heroic swarming surveillance
+	phrase
+		word
+			"Don't plunder what you plan to capture."
+
+	ship Sparrow
+		name Sparrow
+		sprite ship/sparrow
+		"never disabled"
+		attributes
+			category Interceptor
+			cost 225000
+			bunks 2
+			"cargo space" 15
+			drag 1
+			"engine capacity" 40
+			"fuel capacity" 300
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 300
+			mass 50
+			"outfit space" 230
+			"required crew" 1
+			shields 1200
+			"weapon capacity" 20
+		outfits
+			"Intrusion Countermeasures" 20
+			"Red Sun Reactor"
+			"Bright Cloud Shielding"
+			Hyperdrive
+			"Small Heat Shunt"
+			"Small Repair Module"
+			"Steering (Asteroid Class)"
+			"Thruster (Asteroid Class)"
+			"D14-RN Shield Generator"
+			"Heavy Laser"
+			"Small Radar Jammer"
+			"Cargo Scanner"
+			"Outfit Scanner"
+		engine -5 35 1
+		engine 5 35 1
+		gun -7 -10 "Heavy Laser"
+		gun 7 -10
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+
+person "Captain Hyratel"
+	government "Navy (Oathkeeper)"
+	frequency 300
+	personality
+		heroic vindictive opportunistic surveillance
+	system
+		near Mintaka 1 3
+	phrase
+		word
+			"More room = more mass for guns!"
+			"I was summoned."
+			"If you can't run, try to extend the fight until reinforcements can arrive."
+			"Just give me a call anytime you need help with pirates."
+			"Down with Pirate scum."
+			"Are you trying to equipment-loot or what?"
+			"Is that your biggest-baddest ship?"
+			"Even though you've been brought into the Free Worlds Militia, to the Republic you're just a hair better than a Merchant civvy."
+	
+	ship "Marauder Leviathan"
+		name "Pirate Damnation"
+		sprite ship/mleviathans
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			cost 10800000
+			bunks 69
+			"cargo space" 40
+			drag 7.6
+			"engine capacity" 240
+			"fuel capacity" 500
+			"gun ports" 8
+			"heat dissipation" 0.5
+			hull 9500
+			mass 940
+			"outfit space" 1300
+			"required crew" 48
+			"self destruct" 0.15
+			shields 26000
+			"turret mounts" 8
+			"weapon capacity" 565
+		outfits
+			"Outfits Expansion" 2
+			"Large Radar Jammer"
+			Hyperdrive
+			"Ionic Afterburner"
+			"Quad Blaster Turret" 4
+			"Heavy Laser Turret" 2
+			"Particle Cannon" 8
+			"A525 Atomic Steering"
+			"A370 Atomic Thruster"
+			"LP144a Battery Pack"
+			"D94-YV Shield Generator" 4
+			"Liquid Helium Cooler" 3
+			"Heavy Anti-Missile Turret" 2
+			"Nerve Gas" 100
+			"D14-RN Shield Generator"
+			"Armageddon Core" 2
+		engine -25 125 1
+		engine 25 125 1
+		gun -38 -34 "Particle Cannon"
+		gun 38 -34 "Particle Cannon"
+		gun -50 -26 "Particle Cannon"
+		gun 50 -26 "Particle Cannon"
+		gun -38 -34 "Particle Cannon"
+		gun 38 -34 "Particle Cannon"
+		gun -50 -26 "Particle Cannon"
+		gun 50 -26 "Particle Cannon"
+		turret -15 -50 "Heavy Anti-Missile Turret"
+		turret 15 -50 "Heavy Anti-Missile Turret"
+		turret -25 10 "Quad Blaster Turret"
+		turret 25 10 "Quad Blaster Turret"
+		turret -15 -50 "Quad Blaster Turret"
+		turret 15 -50 "Quad Blaster Turret"
+		turret -25 10 "Heavy Laser Turret"
+		turret 25 10 "Heavy Laser Turret"
+		explode "tiny explosion" 18
+		explode "small explosion" 36
+		explode "large explosion" 8
+		explode "medium explosion" 24
+		"final explode" "final explosion large" 1
+
+person "Torpedo Jake"
+	government "Pirate"
+	personality
+		frugal timid plunders unconstrained
+	system
+		near Sumar 0 2
+	phrase
+		word
+			"Fear me, pipsqueak!"
+			"Torpedoes are clearly superior."
+			"Pirates shall take over the galaxy one day."
+			"Catch me if you can!"
+			"My Sparrow couldn't hold enough Torpedoes."
+			"Soon, the Torpedoes will wash over the system in a cleansing hellfire."
+			"It's ok Torpy, you don't have to explode... Augh, hot mic!"
+			"I fought the law and my torpedoes won!"
+			"Smart captains use nothing but torpedoes."
+
+	ship Clipper
+	name "Guilty Galley"
+	sprite ship/clipper
+	"never disabled"
+	attributes
+		category "Light Freighter"
+		cost 900000
+		bunks 9
+		"cargo space" 70
+		drag 3.4
+		"engine capacity" 80
+		"fuel capacity" 500
+		"gun ports" 6
+		"heat dissipation" 0.8
+		hull 800
+		mass 125
+		"outfit space" 460
+		"required crew" 3
+		shields 2700
+		"weapon capacity" 160
+	outfits
+		"Small Reactor Module"
+		Hyperdrive
+		"Small Heat Shunt" 2
+		"Systems Core (Small)"
+		"Wanderer Ramscoop" 2
+		"Large Collector Module"
+		"Thruster (Lunar Class)"
+		"Steering (Lunar Class)"
+		"Meteor Missile" 70
+		"Meteor Missile Launcher" 2
+		"Typhoon Torpedo" 240
+		"Typhoon Launcher" 4
+		"Typhoon Storage Tube" 8
+	engine -20 45 1
+	engine 20 45 1
+	gun -23 -19 "Typhoon Launcher"
+	gun 23 -19 "Typhoon Launcher"
+	gun -12 -7 "Typhoon Launcher"
+	gun 12 -7 "Typhoon Launcher"
+	gun -23 -19 "Meteor Missile Launcher"
+	gun 23 -19 "Meteor Missile Launcher"
+	explode "tiny explosion" 15
+	explode "medium explosion" 10
+	explode "small explosion" 20
+	"final explode" "final explosion small" 1
+
+person "Kiko"
+	government "Author"
+	personality
+		disables
+	system
+		near Sol 1 10
+	phrase
+		word
+			"Yes, compete with me. Do it!"
+			"Remember, a strict sleep schedule is important!"
+			"It's being work on, ok!"
+			"Go south and spam spaceport!"
+			"Wrzl I miss you."
+			"Radar and tag."
+			"Hurray someone appreciates me!"
+			"I'm going to cry about this."
+			"Marauders were created by Wrzlprnft."
+			"Censor Reddit."
+
+	ship Clipper
+		name Edgelord
+		sprite ship/clipper
+		"never disabled"
+		attributes
+			category "Light Freighter"
+			cost 900000
+			bunks 9
+			"cargo space" 70
+			drag 3
+			"engine capacity" 100
+			"fuel capacity" 500
+			"gun ports" 6
+			"heat dissipation" 0.8
+			hull 800
+			mass 1
+			"outfit space" 1360
+			"required crew" 3
+			shields 2700
+			"weapon capacity" 60
+		outfits
+			"Systems Core (Large)" 2
+			"Large Heat Shunt"
+			"Blue Sun Reactor"
+			"Steering (Planetary Class)"
+			Flamethrower 6
+			Hyperdrive
+			"Small Thrust Module"
+			"Wanderer Ramscoop" 100
+			"Type 1 Radiant Thruster"
+			"Large Shield Module" 2
+			"Thruster (Comet Class)"
+		engine -20 45 1
+		engine 20 45 1
+		gun -23 -19 Flamethrower
+		gun 23 -19 Flamethrower
+		gun -12 -7 Flamethrower
+		gun 12 -7 Flamethrower
+		gun -23 -19 Flamethrower
+		gun 23 -19 Flamethrower
+		explode "small explosion" 20
+		explode "medium explosion" 10
+		explode "tiny explosion" 15
+		"final explode" "final explosion small" 1
+
+person Dylan
+	government "Free Worlds"
+	personality
+		vindictive opportunistic mining
+	system
+		government "Free Worlds"
+	phrase
+		word
+			"Plasma is the only weapon."
+			"You shall burn in the hellfires of my Plasma!"
+			"Plasma, that is all."
+			"Sleep is for the weak."
+			"Time for crippling pain."
+			"It's not wrong being so in love with Plasma."
+			"Did somebody say Plasma?"
+			"Always use freighters."
+			"They'll never expect the Plasma Inquisition."
+			"Good Sir, do you have any Plasma?"
+
+	ship Mule
+		name "Plasma Reign"
+		sprite ship/mule
+		"never disabled"
+		attributes
+			category "Medium Warship"
+			cost 4580000
+			bunks 43
+			"cargo space" 270
+			drag 5.7
+			"engine capacity" 110
+			"fuel capacity" 600
+			"heat dissipation" 0.5
+			hull 6400
+			mass 428
+			"outfit space" 1050
+			"required crew" 6
+			shields 10400
+			"turret mounts" 6
+			"weapon capacity" 310
+		outfits
+			"Large Heat Shunt" 4
+			Hyperdrive
+			"Large Radar Jammer"
+			"Point Defense Turret" 2
+			"Plasma Turret" 4
+			"Small Heat Shunt"
+			"Wanderer Ramscoop" 2
+			"X3700 Ion Thruster"
+			"X3200 Ion Steering"
+			"D94-YV Shield Generator" 4
+			"Armageddon Core" 2
+			"LP036a Battery Pack"
+		engine -12 123 1
+		engine 12 123 1
+		turret 22 -65 "Point Defense Turret"
+		turret -37 -21 "Point Defense Turret"
+		turret 39 35 "Plasma Turret"
+		turret -9 59 "Plasma Turret"
+		turret -37 -21 "Plasma Turret"
+		turret 39 35 "Plasma Turret"
+		fighter -16 -9
+		explode "medium explosion" 20
+		explode "tiny explosion" 10
+		explode "small explosion" 30
+		"final explode" "final explosion medium" 1
+	ship Lance
+		name "Why No Plasma"
+		sprite ship/lance
+		attributes
+			category Fighter
+			cost 93000
+			bunks 1
+			drag 0.7
+			"engine capacity" 30
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 400
+			mass 30
+			"outfit space" 100
+			"required crew" 1
+			shields 800
+			"weapon capacity" 20
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			"D14-RN Shield Generator"
+			"Meteor Missile Launcher" 2
+			"LP036a Battery Pack"
+			"Meteor Missile" 88
+			"nGVF-AA Fuel Cell"
+			"Meteor Missile Box"
+		engine -15 30 1
+		engine 15 30 1
+		gun -14 -10 "Meteor Missile Launcher"
+		gun 14 -10 "Meteor Missile Launcher"
+		explode "tiny explosion" 15
+		explode "small explosion" 5
+
+person "Blackbeard"
+	government "Pirate"
+	personality
+		vindictive plunders harvests
+	system
+		government "Pirate"
+	phrase
+		word
+			"It is a blessing for a man to have a hand in determining his own fate."
+			"Aye, tough mermaids are, the lot of them."
+			"Damnation seize my soul if I give you quarters, or take any from you."
+			"And what fate befalls mutineers?"
+			"Your words surround you like fog and make you hard to see."
+			"I am descended from one of the greatest pirates of history!"
+			"You know you're a real pirate when people name their ships after yours."
+
+	ship "Modified Argosy"
+		name "Queen Anne's Revenge"
+		sprite "ship/modified argosy"
+		attributes
+			category "Light Warship"
+			cost 1960000
+			bunks 12
+			"cargo space" 60
+			drag 6.2
+			"engine capacity" 80
+			"fuel capacity" 400
+			"gun ports" 4
+			"heat dissipation" 0.6
+			hull 1900
+			mass 250
+			"outfit space" 340
+			"required crew" 5
+			shields 4800
+			"turret mounts" 2
+			"weapon capacity" 140
+		outfits
+			"A120 Atomic Thruster"
+			Hyperdrive
+			"Quad Blaster Turret" 2
+			"A255 Atomic Steering"
+			"Fusion Reactor"
+			"Outfit Scanner"
+			"Cargo Scanner"
+			"Nerve Gas" 20
+			"LP072a Battery Pack"
+			"Modified Blaster" 4
+			"Liquid Helium Cooler"
+			"D41-HY Shield Generator"
+			"Small Radar Jammer"
+		engine -20 91 1
+		engine 20 91 1
+		gun -22 -37 "Modified Blaster"
+		gun 22 -37 "Modified Blaster"
+		gun -23 -37 "Modified Blaster"
+		gun 23 -37 "Modified Blaster"
+		turret 0 -12 "Quad Blaster Turret"
+		turret 0 8 "Quad Blaster Turret"
+		explode "small explosion" 25
+		explode "large explosion" 15
+		explode "medium explosion" 30
+		explode "tiny explosion" 10
+		"final explode" "final explosion medium" 1
+
+person "Andy Anarchy"
+	government "Pirate"
+	frequency 150
+	personality
+		vindictive harvests plunders
+	system
+		government "Pirate"
+	phrase
+		word
+			"When a pirate grows rich enough, they make him a prince."
+			"We're going to come on board, and cut you to pieces."
+			"It’s more fun to be a pirate than to join the navy."
+			"The real money is the fond memories we are creating."
+			"A friend can betray you, but an enemy will always stay the same."
+			"Take what you can, give nothing back."
+
+	ship Firebird
+		name Freedom
+		sprite ship/firebird
+		attributes
+			category "Medium Warship"
+			cost 3700000
+			bunks 22
+			"cargo space" 50
+			drag 4.5
+			"engine capacity" 100
+			"fuel capacity" 400
+			"gun ports" 4
+			"heat dissipation" 0.6
+			hull 2800
+			mass 290
+			"outfit space" 400
+			"required crew" 7
+			shields 6400
+			"turret mounts" 2
+			"weapon capacity" 160
+			self destruct .9
+		outfits
+			Hyperdrive
+			"S-970 Regenerator" 2
+			"A255 Atomic Steering"
+			"A250 Atomic Thruster"
+			"Hai Chasm Batteries"
+			"Liquid Nitrogen Cooler"
+			"Fusion Reactor"
+			"Heavy Anti-Missile Turret" 2
+			"Heavy Laser" 4
+		engine -33 65 1
+		engine 33 65 1
+		gun -28 -27 "Heavy Laser"
+		gun 28 -27 "Heavy Laser"
+		gun -39 -13 "Heavy Laser"
+		gun 39 -13 "Heavy Laser"
+		turret -5 3 "Heavy Anti-Missile Turret"
+		turret 5 3 "Heavy Anti-Missile Turret"
+		explode "large explosion" 8
+		explode "small explosion" 36
+		explode "medium explosion" 24
+		explode "tiny explosion" 18
+		"final explode" "final explosion medium" 1
+
+person "Petty Officer Spender"
+	government "Syndicate"
+	frequency 150
+	personality
+		timid coward appeasing
+	system
+		government "Syndicate"
+	phrase
+		word
+			"Money is the spice of life."
+			"Home is where the money is."
+			"I just joined the Syndicate Navy for the immunity."
+			"Before you know it, I'll be a Seargent!"
+			"Maybe once I'm promoted I'll get a Manta."
+			"Unless you're buying, back off."
+
+	ship Quicksilver
+		name "Three Faces"
+		sprite ship/quicksilver
+		attributes
+			category "Light Warship"
+			cost 1090000
+			bunks 6
+			"cargo space" 10
+			drag 2.7
+			"engine capacity" 70
+			"fuel capacity" 400
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 800
+			mass 120
+			"outfit space" 240
+			"required crew" 3
+			shields 3000
+			"weapon capacity" 60
+		outfits
+			Hyperdrive
+			"Greyhound Plasma Thruster"
+			"Greyhound Plasma Steering"
+			"D94-YV Shield Generator"
+			"Meteor Missile Box"
+			"Cooling Ducts"
+			"Dwarf Core"
+			"D23-QP Shield Generator"
+			"Meteor Missile Launcher" 2
+			"LP036a Battery Pack"
+			"Meteor Missile" 88
+		engine -17 54 1
+		engine 17 54 1
+		gun -6 -38 "Meteor Missile Launcher"
+		gun 6 -38 "Meteor Missile Launcher"
+		explode "small explosion" 16
+		explode "tiny explosion" 12
+		"final explode" "final explosion small" 1
+
+person "Captain Jean"
+	government "Syndicate"
+	frequency 150
+	personality
+		heroic vindictive
+	system
+		government "Syndicate"
+	phrase
+		word
+			"Pirates are the biggest threat to corporate business."
+			"Don't stand in the way of profit, or you will share these Pirate's fates."
+			"Those Pirates are cutting into by bottom line."
+			"Why can't those Pirates get a real job?"
+			"Those dumb Pirates rejected my offer to work for me!"
+			"Credits are the merchant's only friend!"
+			"To the poorhouse with you!"
+			"Jean has wares if you have the credit."
+
+	ship Splinter
+		name "Gold and Silver"
+		sprite ship/splinter
+		attributes
+			category "Medium Warship"
+			cost 3100000
+			bunks 21
+			"cargo space" 75
+			drag 4
+			"engine capacity" 100
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.7
+			hull 1700
+			mass 250
+			"outfit space" 400
+			"required crew" 12
+			shields 5200
+			"turret mounts" 3
+			"weapon capacity" 150
+		outfits
+			Hyperdrive
+			"Particle Cannon" 2
+			"A120 Atomic Thruster"
+			"A255 Atomic Steering"
+			"Liquid Nitrogen Cooler"
+			"D94-YV Shield Generator" 2
+			"Heavy Anti-Missile Turret"
+			"Small Radar Jammer" 2
+			"LP036a Battery Pack"
+			"Breeder Reactor"
+			"KP-6 Photovoltaic Panel"
+		engine -15 115 1
+		engine 15 115 1
+		gun -15 -80 "Particle Cannon"
+		gun 15 -80 "Particle Cannon"
+		turret -17 -28 "Heavy Anti-Missile Turret"
+		turret 0 -28
+		turret 17 -28
+		explode "small explosion" 36
+		explode "large explosion" 8
+		explode "medium explosion" 24
+		explode "tiny explosion" 18
+		"final explode" "final explosion medium" 1
+
+person "Lt Danforth"
+	government "Republic"
+	frequency 200
+	personality
+		heroic disables
+	system
+		near Turais 0 3
+	phrase
+		word
+			"You may have met my father, he's an Admiral."
+			"Please be respectful to the merchants, they keep us supplied."
+			"Honor and Dignity, that's the standard my family brings to the Navy."
+			"Honestly, I've had to work very hard to get out of my father's shadow."
+			"My goal is to make my own reputation, but I'm also very proud to be a Danforth."
+			"Please report any Pirate sightings, we are trying to keep these trade lanes safe."
+			"Please visit the Job Board at the local spaceport, there are Pirate bounties waiting."
+			"The dirt belt is full of hard working people."
+			"Join the Navy, fight for the people."
+
+	ship Cruiser
+		name "Code of Honor"
+		sprite ship/cruiser
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			cost 11200000
+			bunks 136
+			"cargo space" 60
+			drag 10.1
+			"engine capacity" 170
+			"fuel capacity" 600
+			"gun ports" 6
+			"heat dissipation" 0.45
+			hull 6400
+			mass 680
+			"outfit space" 760
+			"required crew" 81
+			shields 19600
+			"turret mounts" 4
+			"weapon capacity" 320
+		outfits
+			"LP288a Battery Pack"
+			"Large Radar Jammer"
+			Hyperdrive
+			"A375 Atomic Steering"
+			"Electron Turret" 2
+			"A370 Atomic Thruster"
+			"Hai Diamond Regenerator" 2
+			"Liquid Helium Cooler"
+			"Armageddon Core"
+			"Heavy Anti-Missile Turret" 2
+			"D41-HY Shield Generator"
+			"Sidewinder Missile" 100
+			"Sidewinder Missile Launcher" 2
+			"Javelin Pod" 4
+		engine -29 156 1
+		engine 29 156 1
+		gun -31 -63 "Javelin Pod"
+		gun 31 -63 "Javelin Pod"
+		gun -41 -52 "Javelin Pod"
+		gun 41 -52 "Javelin Pod"
+		gun -20 -44 "Sidewinder Missile Launcher"
+		gun 20 -44 "Sidewinder Missile Launcher"
+		turret 0 -40 "Heavy Anti-Missile Turret"
+		turret -33 -19 "Heavy Anti-Missile Turret"
+		turret 33 -19 "Electron Turret"
+		turret 0 0 "Electron Turret"
+		drone -25 18
+		drone 25 18
+		drone -25 49
+		drone 25 49
+		explode "small explosion" 45
+		explode "tiny explosion" 20
+		explode "medium explosion" 50
+		explode "large explosion" 40
+		explode "huge explosion" 10
+		"final explode" "final explosion large" 1
+	ship "Combat Drone"
+		name "Sword"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun Ammo" 3000
+			"Gatling Gun"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Axe"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun Ammo" 3000
+			"Gatling Gun"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Spear"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun Ammo" 3000
+			"Gatling Gun"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Bow"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun Ammo" 3000
+			"Gatling Gun"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+
+person "Adventure Cruise"
+	government "Merchant"
+	frequency 150
+	personality
+		coward appeasing
+	system
+		government "Free Worlds"
+	phrase
+		word
+			"We go farther than any of the other Luxury Liners!"
+			"We bring wealthy Paradise Worlds citizens out to see the Free Worlds."
+			"I bet you don't see many other Star Queens all the way out here."
+			"This dirt belt route is becoming one of our most popular!"
+
+	ship "Star Queen"
+		name "Adventure Queen"
+		sprite "ship/star queen"
+		attributes
+			category Transport
+			cost 5500000
+			bunks 112
+			"cargo space" 60
+			drag 5.5
+			"engine capacity" 100
+			"fuel capacity" 500
+			"gun ports" 3
+			"heat dissipation" 0.65
+			hull 2200
+			mass 230
+			"outfit space" 360
+			"required crew" 43
+			shields 4100
+			"turret mounts" 2
+			"weapon capacity" 120
+		outfits
+			Hyperdrive
+			"X3200 Ion Steering"
+			"X3700 Ion Thruster"
+			"D94-YV Shield Generator"
+			"NT-200 Nucleovoltaic"
+			"Laser Rifle" 24
+			"Heavy Anti-Missile Turret" 2
+			"Security Station" 19
+			"Small Radar Jammer" 3
+			"KP-6 Photovoltaic Array"
+		engine -18 116 1
+		engine 18 116 1
+		gun 0 -116
+		gun -22 -80
+		gun 22 -80
+		turret -28 -9 "Heavy Anti-Missile Turret"
+		turret 28 -9 "Heavy Anti-Missile Turret"
+		explode "tiny explosion" 10
+		explode "medium explosion" 25
+		explode "large explosion" 10
+		explode "small explosion" 25
+		"final explode" "final explosion medium" 1
+
+person "Cargo Bargo"
+	government "Merchant"
+	system
+		government "Syndicate"
+	phrase
+		word
+			"Cargo Bargo, the newest line in economical shipping, now with the lowest rates on the market!"
+
+	ship "Star Barge"
+		name "Cargo Bargo"
+		sprite "ship/star barge"
+		attributes
+			category "Light Freighter"
+			cost 210000
+			bunks 3
+			"cargo space" 80
+			drag 2.4
+			"engine capacity" 40
+			"fuel capacity" 300
+			"heat dissipation" 0.7
+			hull 1000
+			mass 70
+			"outfit space" 130
+			"required crew" 1
+			shields 600
+			"turret mounts" 1
+			"weapon capacity" 20
+		outfits
+			Hyperdrive
+			"Cargo Expansion"
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			"KP-6 Photovoltaic Array"
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+		engine -9 38 1
+		engine 9 38 1
+		turret 0 -8
+		explode "small explosion" 10
+		explode "tiny explosion" 10
+
+person "Jack Sparrow"
+	government "Pirate"
+	personality
+		plunders timid opportunistic harvests
+	system
+		government "Pirate"
+	phrase
+		word
+			"None can escape the Black Pearl."
+			"The Black Pearl is the fastest ship in space."
+			"Have you seen Will?"
+			"Excuse me, I must get going."
+			"Why is the rum gone?"
+			"You will always remember this as the day you almost caught Captain Jack Sparrow."
+
+	ship Rainmaker
+		name "Black Pearl"
+		sprite ship/rainmaker
+		attributes
+			category "Light Warship"
+			cost 1580000
+			bunks 14
+			"cargo space" 25
+			drag 3.8
+			"engine capacity" 150
+			"fuel capacity" 500
+			"gun ports" 12
+			"heat dissipation" 0.6
+			hull 5200
+			mass 180
+			"outfit space" 630
+			"required crew" 7
+			shields 3500
+			"weapon capacity" 180
+		outfits
+			"Cooling Module" 5
+			"Thruster (Planetary Class)"
+			Hyperdrive
+			"Steering (Planetary Class)"
+			"S-970 Regenerator" 2
+			"Meteor Missile Launcher" 6
+			"Meteor Missile" 336
+			"Armageddon Core"
+			"LP036a Battery Pack"
+			"Sidewinder Missile Launcher" 6
+			"Sidewinder Missile Rack" 10
+			"Meteor Missile Box" 7
+			"Sidewinder Missile" 550
+		engine -8 46 1
+		engine 8 46 1
+		gun -10 -30 "Sidewinder Missile Launcher"
+		gun 10 -30 "Sidewinder Missile Launcher"
+		gun -27 -5 "Sidewinder Missile Launcher"
+		gun 27 -5 "Sidewinder Missile Launcher"
+		gun -17 -5 "Sidewinder Missile Launcher"
+		gun 17 -5 "Sidewinder Missile Launcher"
+		gun -10 -30 "Meteor Missile Launcher"
+		gun 10 -30 "Meteor Missile Launcher"
+		gun -27 -5 "Meteor Missile Launcher"
+		gun 27 -5 "Meteor Missile Launcher"
+		gun -17 -5 "Meteor Missile Launcher"
+		gun 17 -5 "Meteor Missile Launcher"
+		explode "tiny explosion" 10
+		explode "medium explosion" 15
+		explode "small explosion" 20
+		"final explode" "final explosion small" 1
+
+person "Jack-Sparrow"
+	government "Pirate"
+	personality
+		plunders timid opportunistic harvests
+	system
+		government "Pirate"
+	phrase
+		word
+			"None can escape the Black Pearl."
+			"The Black Pearl is the fastest ship in space."
+			"Have you seen Will?"
+			"Excuse me, I must get going."
+			"Why is the rum gone?"
+			"You will always remember this as the day you almost caught Captain Jack Sparrow."
+
+	ship Sparrow
+		name Dingy
+		sprite ship/sparrow
+		attributes
+			category Interceptor
+			cost 225000
+			bunks 2
+			"cargo space" 15
+			drag 1
+			"engine capacity" 80
+			"fuel capacity" 300
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 300
+			mass 50
+			"outfit space" 330
+			"required crew" 1
+			shields 1200
+			"weapon capacity" 20
+		outfits
+			Hyperdrive
+			"Steering (Comet Class)"
+			"D94-YV Shield Generator"
+			"Thruster (Asteroid Class)"
+			"Meteor Missile Launcher" 2
+			"Meteor Missile" 430
+			"S3 Thermionic"
+			"D14-RN Shield Generator"
+			"Cooling Ducts"
+			"LP036a Battery Pack"
+			"Water Coolant System"
+			"Meteor Missile Box" 20
+		engine -5 35 1
+		engine 5 35 1
+		gun -7 -10 "Meteor Missile Launcher"
+		gun 7 -10 "Meteor Missile Launcher"
+		explode "tiny explosion" 15
+		explode "small explosion" 5
+
+person "One Ship Challenge"
+	government "Author"
+	personality
+		timid disables appeasing unconstrained swarming
+	phrase
+		word
+			"Did you know, the main endless sky story can be completed in just a single clipper!"
+			"This game was actually designed to be completed with just one ship."
+
+	ship Clipper
+		name "Torpedo Clipper"
+		sprite ship/clipper
+		attributes
+			category "Light Freighter"
+			cost 900000
+			bunks 9
+			"cargo space" 70
+			drag 3.7
+			"engine capacity" 80
+			"fuel capacity" 500
+			"gun ports" 4
+			"heat dissipation" 0.8
+			hull 800
+			mass 150
+			"outfit space" 260
+			"required crew" 3
+			shields 2700
+			"weapon capacity" 60
+		outfits
+			"Wanderer Ramscoop"
+			"Large Shield Module"
+			"Small Collector Module"
+			"Type 3 Radiant Steering"
+			Hyperdrive
+			"Type 3 Radiant Thruster"
+			"Small Heat Shunt"
+			Supercapacitor
+			"Torpedo Launcher"
+			"RT-I Radiothermal"
+			"Typhoon Launcher"
+		engine -20 45 1
+		engine 20 45 1
+		gun -23 -19 "Typhoon Launcher"
+		gun 23 -19 "Torpedo Launcher"
+		gun -12 -7
+		gun 12 -7
+		explode "small explosion" 20
+		explode "tiny explosion" 15
+		explode "medium explosion" 10
+		"final explode" "final explosion small" 1
+
+person "Zeng He Darcy"
+	government "Merchant"
+	frequency 150
+	personality
+		heroic vindictive appeasing plunders
+	phrase
+		word
+			"Fight me."
+			"Your ship looks like a relic, you should upgrade."
+			"Imagine having a ship with 18 guns."
+			"Sleep schedules are overrated."
+			"Australia is not a British colony."
+			"Leviathans are amazing."
+			"You're a menace."
+			"I want to save for my Levy."
+			"Pessimism is a great way of looking at things."
+
+	ship Raven
+		name "Zheng He Raven"
+		sprite ship/raven
+		attributes
+			category "Light Warship"
+			cost 1800000
+			bunks 13
+			"cargo space" 30
+			drag 3.7
+			"engine capacity" 100
+			"fuel capacity" 500
+			"gun ports" 4
+			"heat dissipation" 0.8
+			hull 1400
+			mass 130
+			"outfit space" 280
+			"required crew" 6
+			shields 4700
+			"weapon capacity" 90
+		outfits
+			"Outfits Expansion"
+			"Water Coolant System"
+			"D23-QP Shield Generator"
+			"LP072a Battery Pack"
+			"Cooling Ducts"
+			"Fission Reactor"
+			Hyperdrive
+			"Particle Cannon" 2
+			"Quantum Keystone"
+			"A375 Atomic Steering"
+			"A370 Atomic Thruster"
+		engine -12 43 1
+		engine 12 43 1
+		gun -10 -33 "Particle Cannon"
+		gun 10 -33 "Particle Cannon"
+		gun -16 -28
+		gun 16 -28
+		explode "medium explosion" 24
+		explode "small explosion" 40
+		explode "tiny explosion" 28
+		explode "large explosion" 16
+		"final explode" "final explosion small" 1
+
+person "The Pony Express"
+	government "Merchant"
+	personality
+		pacifist coward appeasing
+	phrase
+		word
+			"Pardon me, I have important messages to deliver"
+
+	ship Flivver
+		name "The Pony Express"
+		sprite ship/flivver
+		attributes
+			category Transport
+			cost 180000
+			bunks 3
+			"cargo space" 5
+			drag 1
+			"engine capacity" 45
+			"fuel capacity" 500
+			"gun ports" 2
+			"heat dissipation" 0.9
+			hull 200
+			mass 40
+			"outfit space" 130
+			"required crew" 1
+			shields 1400
+			"weapon capacity" 25
+		outfits
+			Hyperdrive
+			"A120 Atomic Thruster"
+			"A125 Atomic Steering"
+			"nGVF-CC Fuel Cell"
+			"LP036a Battery Pack"
+			"D14-RN Shield Generator"
+			"KP-6 Photovoltaic Panel" 2
+		engine -16 27 1
+		engine 16 27 1
+		gun -6 -31
+		gun 6 -31
+		explode "small explosion" 10
+		explode "tiny explosion" 10
+
+person "James"
+	government "Merchant"
+	personality
+		vindictive
+	phrase
+		word
+			"Please don't joke about that sort of thing."
+			"Go South Spam Spaceport!"
+			"IT'S BEING WORKED ON, OK?"
+			"Beat it, old-timer, I've got more important things to do than chat with you."
+			"Unable to send hail: this unfathomable void is not inhabited."
+			"Fantasy: A computer that can run a Mesuket battle at 60 fps."
+			"Bactrian is OP please nerf."
+			"Pug Permitting."
+			"Choo Choo."
+			"It's a crime how much interest the banks charge to first-timers."
+			"You lose 1 crew, they lose 0. You have been killed, your ship is lost."
+			"MZ noed it."
+			"You're not my boss."
+			"Be strong, hide the pain."
+			"How about i put YOU in the airlock."
+
+	ship Arrow
+		name "James Bot"
+		sprite ship/arrow
+		"never disabled"
+		attributes
+			category Transport
+			cost 1200000
+			bunks 5
+			"cargo space" 10
+			drag 2.7
+			"engine capacity" 60
+			"fuel capacity" 400
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 400
+			"hull repair rate" 600
+			mass 130
+			"outfit space" 180
+			"required crew" 1
+			"shield generation" 600
+			shields 2000
+			"turret mounts" 1
+			"weapon capacity" 50
+		outfits
+			Hyperdrive
+			"A250 Atomic Thruster"
+			"A255 Atomic Steering"
+			Supercapacitor
+			"Sidewinder Missile" 100
+			"Anti-Missile Turret"
+			"Dwarf Core"
+			"D14-RN Shield Generator"
+			"Small Radar Jammer"
+			"Sidewinder Missile Launcher" 2
+		engine -10 60 1
+		engine 10 60 1
+		gun -8 -34 "Sidewinder Missile Launcher"
+		gun 8 -34 "Sidewinder Missile Launcher"
+		turret 0 16 "Anti-Missile Turret"
+		explode "medium explosion" 6
+		explode "tiny explosion" 12
+		explode "small explosion" 18
+		"final explode" "final explosion small" 1
+
+person "Bones Jones"
+	government "Pirate"
+	personality
+		heroic vindictive harvests
+	system
+		government "Pirate"
+	phrase
+		word
+			"There comes a time in most men’s lives where they feel the need to raise the Black Flag."
+			"If ye can’t trust a pirate, ye damn well can’t trust a merchant either!"
+			"Not all treasure is silver and gold."
+			"The rougher the solar winds, the smoother we sail. Ahoy!"
+			"Why is the rum gone?"
+			"STOP BLOWING HOLES IN MY SHIP!!!"
+			"It’s more fun to be a pirate than to join the navy."
+			"Always be yourself, unless you can be a pirate. Then always be a pirate."
+			"Where there is space, there are pirates."
+			"If you think you're ready to sail a beautiful ship, you better be ready to die in her."
+			"Life’s pretty good, and why wouldn’t it be? I’m a pirate, after all."
+			"How much does the pirate pay for an ear piercing? … A buccaneer!"
+			"They vilify us, the scoundrels do, when there is only this difference, they rob the poor under the cover of law, forsooth, and we plunder the rich under protection of our own courage."
+			"I am a free prince, and I have as much authority to make war on the whole galaxy, as he who has a hundred ships."
+			"In an honest service there is thin commons, low wages, and hard labor."
+			"Heaven you fool? Did you ever hear of any pirates going thither? Give me hell, it's a merrier place."
+			"Whether we wound or are wounded, the blood that flows is red."
+			"It takes a special kind of madness to try to be a pirate and a good man at the same time."
+
+	ship Bastion
+		name "Bone Crusher"
+		sprite ship/bastion
+		"never disabled"
+		attributes
+			category "Medium Warship"
+			cost 3560000
+			bunks 47
+			"cargo space" 110
+			drag 9.3
+			"engine capacity" 120
+			"fuel capacity" 500
+			"gun ports" 4
+			"heat dissipation" 0.5
+			hull 8200
+			mass 540
+			"outfit space" 470
+			"required crew" 32
+			shields 16700
+			"turret mounts" 3
+			"weapon capacity" 180
+		outfits
+			Hyperdrive
+			"Particle Cannon" 4
+			"A250 Atomic Thruster"
+			"A375 Atomic Steering"
+			"LP144a Battery Pack"
+			"Liquid Nitrogen Cooler"
+			"D94-YV Shield Generator"
+			"Anti-Missile Turret" 3
+			"Water Coolant System"
+			"Breeder Reactor"
+		engine -28 85 1
+		engine 28 85 1
+		gun -54 -14 "Particle Cannon"
+		gun 54 -14 "Particle Cannon"
+		gun -54 -14 "Particle Cannon"
+		gun 54 -14 "Particle Cannon"
+		turret 0 0 "Anti-Missile Turret"
+		turret -30 14 "Anti-Missile Turret"
+		turret 30 14 "Anti-Missile Turret"
+		explode "large explosion" 20
+		explode "medium explosion" 30
+		explode "tiny explosion" 5
+		explode "small explosion" 15
+		"final explode" "final explosion medium" 1
+
+person "Lucky Pete"
+	government "Pirate"
+	personality
+		heroic vindictive harvests
+	system
+		government "Pirate"
+	phrase
+		word
+			"There comes a time in most men’s lives where they feel the need to raise the Black Flag."
+			"If ye can’t trust a pirate, ye damn well can’t trust a merchant either!"
+			"Not all treasure is silver and gold."
+			"The rougher the solar winds, the smoother we sail. Ahoy!"
+			"Why is the rum gone?"
+			"STOP BLOWING HOLES IN MY SHIP!!!"
+			"It’s more fun to be a pirate than to join the navy."
+			"Always be yourself, unless you can be a pirate. Then always be a pirate."
+			"Where there is space, there are pirates."
+			"If you think you're ready to sail a beautiful ship, you better be ready to die in her."
+			"Life’s pretty good, and why wouldn’t it be? I’m a pirate, after all."
+			"How much does the pirate pay for an ear piercing? … A buccaneer!"
+			"They vilify us, the scoundrels do, when there is only this difference, they rob the poor under the cover of law, forsooth, and we plunder the rich under protection of our own courage."
+			"I am a free prince, and I have as much authority to make war on the whole galaxy, as he who has a hundred ships."
+			"In an honest service there is thin commons, low wages, and hard labor."
+			"Heaven you fool? Did you ever hear of any pirates going thither? Give me hell, it's a merrier place."
+			"Whether we wound or are wounded, the blood that flows is red."
+			"It takes a special kind of madness to try to be a pirate and a good man at the same time."
+
+	ship Leviathan
+		name Chance
+		sprite ship/leviathan
+		attributes
+			category "Heavy Warship"
+			cost 9800000
+			bunks 64
+			"cargo space" 80
+			drag 7.6
+			"engine capacity" 120
+			"fuel capacity" 500
+			"gun ports" 4
+			"heat dissipation" 0.5
+			hull 5000
+			mass 480
+			"outfit space" 620
+			"required crew" 43
+			shields 14400
+			"turret mounts" 4
+			"weapon capacity" 240
+		outfits
+			Hyperdrive
+			"Quad Blaster Turret" 4
+			"A255 Atomic Steering"
+			"A370 Atomic Thruster"
+			"LP144a Battery Pack"
+			"D94-YV Shield Generator" 3
+			"Liquid Helium Cooler"
+			"D23-QP Shield Generator"
+			"Water Coolant System"
+			"Armageddon Core"
+		engine -25 125 1
+		engine 25 125 1
+		gun -39 -33
+		gun 39 -33
+		gun -51 -21
+		gun 51 -21
+		turret -15 -50 "Quad Blaster Turret"
+		turret 15 -50 "Quad Blaster Turret"
+		turret -25 10 "Quad Blaster Turret"
+		turret 25 10 "Quad Blaster Turret"
+		explode "tiny explosion" 18
+		explode "medium explosion" 24
+		explode "large explosion" 8
+		explode "small explosion" 36
+		"final explode" "final explosion large" 1
+
+person "J Kirkman"
+	government "Republic"
+	personality
+		heroic vindictive
+	phrase
+		word
+			"A little suffering is good for the soul."
+			"How we deal with death is at least as important as how we deal with life."
+			"Conquest is easy. Control is not."
+			"Without freedom of choice there is no creativity. The body dies."
+			"Hang on tight and survive. Everybody does."
+			"You either believe in yourself or you don’t."
+			"Death. Destruction. Disease. Horror. That’s what war is all about. That’s what makes it a thing to be avoided."
+			"Most legends have their basis in fact."
+			"A balance of power — the trickiest, most difficult, dirtiest game of them all, but the only one that preserves both sides."
+			"Sometimes a feeling is all we humans have to go on."
+			"A captain of a ship, no matter his rank, must follow the book."
+			"Galloping around the cosmos is a game for the young."
+
+	ship Carrier
+		name Enterprise
+		sprite ship/carrier
+		attributes
+			category "Heavy Warship"
+			cost 15200000
+			bunks 184
+			"cargo space" 100
+			drag 17.7
+			"engine capacity" 210
+			"fuel capacity" 700
+			"gun ports" 8
+			"heat dissipation" 0.45
+			hull 8300
+			mass 910
+			"outfit space" 820
+			"required crew" 111
+			shields 21400
+			"turret mounts" 4
+			"weapon capacity" 370
+		outfits
+			"Outfits Expansion" 5
+			"Large Radar Jammer"
+			Hyperdrive
+			"Heavy Laser Turret" 3
+			"A520 Atomic Thruster"
+			"A525 Atomic Steering"
+			Torpedo 60
+			"Torpedo Launcher" 2
+			"D94-YV Shield Generator" 3
+			"Liquid Nitrogen Cooler"
+			"LP072a Battery Pack"
+			"Liquid Helium Cooler"
+			"Heavy Anti-Missile Turret"
+			"Meteor Missile Launcher" 2
+			"Meteor Missile" 70
+			"Armageddon Core"
+			"Sidewinder Missile Launcher" 2
+			"Sidewinder Missile" 100
+			"Typhoon Launcher" 2
+			"Typhoon Torpedo" 75
+			"Typhoon Storage Tube"
+		engine -35 200 1
+		engine 35 200 1
+		gun -16 -176 "Typhoon Launcher"
+		gun 16 -176 "Typhoon Launcher"
+		gun -16 -176 "Sidewinder Missile Launcher"
+		gun 16 -176 "Sidewinder Missile Launcher"
+		gun -25 -166 "Torpedo Launcher"
+		gun 25 -166 "Torpedo Launcher"
+		gun -25 -166 "Meteor Missile Launcher"
+		gun 25 -166 "Meteor Missile Launcher"
+		turret 0 -114 "Heavy Laser Turret"
+		turret 0 15 "Heavy Laser Turret"
+		turret 0 103 "Heavy Anti-Missile Turret"
+		turret 0 157 "Heavy Laser Turret"
+		explode "large explosion" 40
+		explode "medium explosion" 50
+		explode "tiny explosion" 20
+		explode "huge explosion" 10
+		explode "small explosion" 45
+		"final explode" "final explosion large" 1
+
+person Irwin
+	government "Merchant"
+	personality
+		vindictive
+	phrase
+		word
+			"Crikey!"
+
+	ship "Marauding Manta"
+		name Irwin
+		sprite ship/mmantas
+		attributes
+			category "Medium Warship"
+			cost 3740000
+			bunks 11
+			"cargo space" 10
+			drag 4.7
+			"engine capacity" 110
+			"fuel capacity" 400
+			"gun ports" 6
+			"heat dissipation" 0.8
+			hull 1750
+			mass 195
+			"outfit space" 390
+			"required crew" 7
+			"self destruct" 0.25
+			shields 6500
+			"turret mounts" 1
+			"weapon capacity" 155
+		outfits
+			Hyperdrive
+			"Particle Cannon" 4
+			"A525 Atomic Steering"
+			"A250 Atomic Thruster"
+			"Liquid Nitrogen Cooler"
+			"Fission Reactor"
+			"D14-RN Shield Generator"
+			"Heavy Anti-Missile Turret"
+			"Security Station" 3
+			"LP072a Battery Pack"
+			"Laser Rifle" 8
+		engine -33 38 1
+		engine 33 38 1
+		gun -66 -30
+		gun 66 -30 "Particle Cannon"
+		gun -27 -30 "Particle Cannon"
+		gun 27 -30 "Particle Cannon"
+		gun -20 -30 "Particle Cannon"
+		gun 20 -30 "Particle Cannon"
+		turret 0 -29 "Heavy Anti-Missile Turret"
+		explode "small explosion" 20
+		explode "medium explosion" 15
+		explode "tiny explosion" 10
+		"final explode" "final explosion medium" 1
+
+person "Friar Tucker"
+	government "Neutral"
+	personality
+		pacifist swarming coward
+	phrase
+		word
+			"I hope you don't mind, we stick near well armed ships just in case Pirates show up."
+			"Peace be upon you."
+			"I drink to your success, well I drink to about anything really."
+			"Let us give praise to our maker and glory to his bounty by learning about... BEER."
+			"Now, get out of it! We're wasting good celebration time!"
+			"Let us open a bottle and do our best to save each other's souls."
+
+	ship Berserker
+		name "Inner Peace"
+		sprite ship/berserker
+		attributes
+			category Interceptor
+			cost 520000
+			bunks 2
+			"cargo space" 10
+			drag 2.2
+			"engine capacity" 65
+			"fuel capacity" 400
+			"gun ports" 4
+			"heat dissipation" 0.85
+			hull 500
+			mass 110
+			"outfit space" 200
+			"required crew" 1
+			shields 2200
+			"weapon capacity" 35
+		outfits
+			Hyperdrive
+			"A120 Atomic Thruster"
+			"A125 Atomic Steering"
+			"Bunk Room" 3
+			"Dwarf Core"
+			"LP072a Battery Pack"
+			"D23-QP Shield Generator"
+			"Small Radar Jammer"
+		engine -10 45 1
+		engine 10 45 1
+		gun -20 12
+		gun 20 12
+		gun -44 10
+		gun 44 10
+		explode "tiny explosion" 10
+		explode "small explosion" 15
+		"final explode" "final explosion small" 1
+
+person "Thomas"
+	government "Merchant"
+	personality
+		harvests appeasing timid
+	system
+		near Turais 0 3
+	phrase
+		word
+			"Well, bust my shield buffers!"
+			"Why should I keep my passengers waiting, while Henry and James dwadle about all day on viaducts?"
+			"Express coming through!"
+			"He's after meeeee!"
+			"Hello, I am Thomas, Thomas the Bactrain"
+
+	ship Bactrian
+		name Thomas
+		sprite ship/bactrian
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			cost 17600000
+			bunks 245
+			"cargo space" 530
+			drag 16.1
+			"engine capacity" 580
+			"fuel capacity" 700
+			"gun ports" 4
+			"heat dissipation" 0.4
+			hull 8600
+			mass 940
+			"outfit space" 1240
+			"required crew" 70
+			shields 17500
+			"turret mounts" 6
+			"weapon capacity" 300
+		outfits
+			"Large Radar Jammer"
+			Hyperdrive
+			"Heavy Laser Turret" 4
+			"X4700 Ion Thruster"
+			"X5200 Ion Steering"
+			"Torpedo Launcher" 2
+			"LP144a Battery Pack"
+			Torpedo 60
+			"Fusion Reactor"
+			"D94-YV Shield Generator"
+			Ramscoop
+			"Heavy Anti-Missile Turret" 2
+			"Sidewinder Missile" 100
+			"Sidewinder Missile Launcher" 2
+		engine -18 230 1
+		engine 18 230 1
+		gun -15 -226 "Torpedo Launcher"
+		gun 15 -226 "Torpedo Launcher"
+		gun -40 -133 "Sidewinder Missile Launcher"
+		gun -45 -128 "Sidewinder Missile Launcher"
+		turret -22 -148 "Heavy Laser Turret"
+		turret 26 -80 "Heavy Anti-Missile Turret"
+		turret -41 -20 "Heavy Laser Turret"
+		turret 32 -7 "Heavy Laser Turret"
+		turret 53 82 "Heavy Laser Turret"
+		turret -37 186 "Heavy Anti-Missile Turret"
+		fighter -38 -26
+		fighter 35 36
+		fighter -47 97
+		explode "small explosion" 25
+		explode "medium explosion" 35
+		explode "large explosion" 45
+		explode "huge explosion" 30
+		"final explode" "final explosion large" 1
+
+person "Local God"
+	government "Author"
+	personality
+		surveillance timid frugal mute
+	system
+		government "Free Worlds"
+	phrase
+		word
+			"Where are the flamethrowers?"
+			"I feel for you, a little."
+			"Anybody can create a masterpiece, given enough time to write and edit."
+			"(radio silence)"
+			"Anyone remember me?"
+			"What do you mean, you don't know me?"
+
+	ship Bactrian
+		name "Local God"
+		sprite ship/bactrian
+		attributes
+			category "Heavy Warship"
+			cost 17600000
+			bunks 245
+			"cargo space" 530
+			drag 16.1
+			"engine capacity" 180
+			"fuel capacity" 700
+			"gun ports" 4
+			"heat dissipation" 0.4
+			hull 8600
+			mass 940
+			"outfit space" 740
+			"required crew" 70
+			shields 17500
+			"turret mounts" 6
+			"weapon capacity" 300
+		outfits
+			"Large Radar Jammer"
+			Hyperdrive
+			"X5200 Ion Steering"
+			"X4700 Ion Thruster"
+			"Electron Turret" 2
+			"LP144a Battery Pack"
+			"D94-YV Shield Generator" 3
+			"Fusion Reactor"
+			"KP-6 Photovoltaic Array"
+			"Heavy Anti-Missile Turret" 2
+			"Outfit Scanner"
+			"Cargo Scanner"
+			"Nuclear Missile"
+		engine -18 230 1
+		engine 18 230 1
+		gun -15 -226 "Nuclear Missile"
+		gun 15 -226
+		gun -40 -133
+		gun -45 -128
+		turret -22 -148 "Electron Turret"
+		turret 26 -80 "Heavy Anti-Missile Turret"
+		turret -41 -20 "Electron Turret"
+		turret 32 -7
+		turret 53 82
+		turret -37 186 "Heavy Anti-Missile Turret"
+		explode "large explosion" 45
+		explode "medium explosion" 35
+		explode "small explosion" 25
+		explode "huge explosion" 30
+		"final explode" "final explosion large" 1
+
+person "Captain Lasky"
+	government "Free Worlds"
+	personality
+		heroic disables plunders
+	phrase
+		word
+			"We're the dim kids at the back of the classroom."
+			"People make stupid decisions in war. Wrong kit, wrong assets, wrong places, egos taking precedence over common sense, politics"
+			"Men and women at the sharp end up dying when they don't have to because someone further away from danger is more concerned about budgets or votes or ambitions."
+			"Well, we cut the politicians out of it. We've only got ourselves to blame now."
+			"I'd like to take point, sir."
+			"Thanks, Captain. It was getting a bit dicey there for a minute."
+			"Captain Lasky to all hands, battlestations! This is not a drill!"
+			"Subtlety's going to have to take a back seat."
+			
+	ship Dreadnought
+		name Infinity
+		sprite ship/dreadnought
+		attributes
+			category "Heavy Warship"
+			cost 11900000
+			bunks 147
+			"cargo space" 100
+			drag 10.1
+			"engine capacity" 190
+			"fuel capacity" 600
+			"gun ports" 4
+			"heat dissipation" 0.65
+			hull 7300
+			mass 630
+			"outfit space" 790
+			"required crew" 84
+			shields 18100
+			"turret mounts" 5
+			"weapon capacity" 360
+		outfits
+			"Quad Blaster Turret" 5
+			"Outfits Expansion" 5
+			Hyperdrive
+			"Orca Plasma Steering"
+			"Orca Plasma Thruster"
+			"D94-YV Shield Generator" 3
+			"LP144a Battery Pack"
+			"Dwarf Core"
+			"D41-HY Shield Generator"
+			"Meteor Missile" 176
+			"Liquid Helium Cooler" 2
+			"Meteor Missile Launcher" 4
+			"Armageddon Core"
+			"Meteor Missile Box" 2
+		engine -25 172 1
+		engine 25 172 1
+		gun -10 -167 "Meteor Missile Launcher"
+		gun 10 -167 "Meteor Missile Launcher"
+		gun -20 -151 "Meteor Missile Launcher"
+		gun 20 -151 "Meteor Missile Launcher"
+		turret 0 -94 "Quad Blaster Turret"
+		turret -38 -56 "Quad Blaster Turret"
+		turret 38 -56 "Quad Blaster Turret"
+		turret -44 118 "Quad Blaster Turret"
+		turret 44 118 "Quad Blaster Turret"
+		explode "small explosion" 50
+		explode "medium explosion" 50
+		explode "large explosion" 50
+		explode "tiny explosion" 50
+		explode "huge explosion" 20
+		"final explode" "final explosion large" 1
+
+person "Grunt"
+	government "Merchant"
+	personality
+		pacifist fleeing appeasing
+	phrase
+		word
+			"Always carry two grenades with you everywhere you go."
+			"Run away!"
+			"The Alphas made me do it!"
+			"Remember, I'm unarmed"
+
+	ship Arrow
+		name Grunt
+		sprite ship/arrow
+		attributes
+			category Transport
+			cost 1200000
+			bunks 5
+			"cargo space" 10
+			drag 2.7
+			"engine capacity" 60
+			"fuel capacity" 400
+			"gun ports" 2
+			"heat dissipation" 0.85
+			hull 400
+			mass 130
+			"outfit space" 180
+			"required crew" 1
+			shields 2000
+			"turret mounts" 1
+			"weapon capacity" 50
+		outfits
+			Hyperdrive
+			"A255 Atomic Steering"
+			"A250 Atomic Thruster"
+			"Dwarf Core"
+			"LP036a Battery Pack"
+			"Water Coolant System"
+			"D41-HY Shield Generator"
+			"Small Radar Jammer"
+			"KP-6 Photovoltaic Panel" 3
+		engine -10 60 1
+		engine 10 60 1
+		gun -8 -34
+		gun 8 -34
+		turret 0 16
+		explode "tiny explosion" 12
+		explode "medium explosion" 6
+		explode "small explosion" 18
+		"final explode" "final explosion small" 1
+
+person "The Hawk"
+	government "Pirate"
+	personality
+		timid plunders harvests
+	system
+		government "Pirate"
+	phrase
+		word
+			"I'm Unique, don't hurt me!"
+
+	ship Hawk
+		name Hawk
+		sprite ship/hawk
+		attributes
+			category Interceptor
+			cost 670000
+			bunks 4
+			"cargo space" 30
+			drag 2.1
+			"engine capacity" 70
+			"fuel capacity" 300
+			"gun ports" 2
+			"heat dissipation" 0.8
+			hull 500
+			mass 150
+			"outfit space" 200
+			"required crew" 2
+			shields 2500
+			"weapon capacity" 40
+		outfits
+			Hyperdrive
+			"Greyhound Plasma Steering"
+			"Greyhound Plasma Thruster"
+			"nGVF-CC Fuel Cell"
+			"Heavy Laser" 2
+			"D23-QP Shield Generator"
+			"LP036a Battery Pack"
+		engine -24 41 1
+		engine 24 41 1
+		gun -9 -17 "Heavy Laser"
+		gun 9 -17 "Heavy Laser"
+		explode "tiny explosion" 15
+		explode "small explosion" 5
+		"final explode" "final explosion small" 1
+
+person "???"
+	government "Pug"
+	personality
+		pacifist unconstrained coward surveillance
+	phrase
+		word
+			"Nothing to see here Citizen."
+
+	ship "???"
+		name "Please Ignore"
+		sprite "ship/pug zibruka"
+		"never disabled"
+		attributes
+			category "Light Warship"
+			cost 1900000
+			bunks 60
+			"cargo space" 20
+			drag 3.1
+			"energy capacity" 1000
+			"energy generation" 10
+			"engine capacity" 76
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.8
+			"heat generation" 20
+			hull 1000
+			mass 240
+			"outfit space" 180
+			"required crew" 4
+			"shield energy" 6
+			"shield generation" 60000
+			shields 8000
+			"weapon capacity" 0
+		outfits
+			"Jump Drive" 5
+			"Outfit Scanner"
+			"Cargo Scanner"
+			"Pug Biodefenses" 60
+			"Pug Akfar Steering"
+			"Pug Akfar Thruster"
+		engine -7 35 1
+		engine 7 35 1
+		gun -15 -42
+		gun 15 -42
+		explode "medium explosion" 20
+		explode "large explosion" 10
+		explode "small explosion" 15
+		explode "tiny explosion" 10
+		"final explode" "final explosion small" 1
+
+person "Firelord Ozai"
+	government "Pirate"
+	frequency 50
+	personality
+		heroic vindictive plunders
+	system
+		government "Pirate"
+	phrase
+		word
+			"You will learn respect. And suffering will be your teacher."
+			"What I'm trying to say is -- There is no right or wrong apart from what you decide."
+			"My decision is final."
+
+	ship Vanguard
+		name Ozai
+		sprite ship/vanguard
+		attributes
+			category "Heavy Warship"
+			cost 7200000
+			bunks 45
+			"cargo space" 50
+			drag 8
+			"engine capacity" 120
+			"fuel capacity" 400
+			"gun ports" 7
+			"heat dissipation" 0.6
+			hull 6000
+			mass 500
+			"outfit space" 560
+			"required crew" 23
+			shields 9800
+			"turret mounts" 1
+			"weapon capacity" 220
+		outfits
+			Supercapacitor
+			"Wanderer Ramscoop" 3
+			Flamethrower 5
+			Hyperdrive
+			"A525 Atomic Steering"
+			"A370 Atomic Thruster"
+			"D94-YV Shield Generator" 2
+			"Pug Zapper" 2
+			"Anti-Missile Turret"
+			"Armageddon Core"
+			"Liquid Helium Cooler"
+		engine -15 130 1
+		engine 15 130 1
+		gun 0 -132 "Pug Zapper"
+		gun -22 -122 "Pug Zapper"
+		gun 22 -122 Flamethrower
+		gun -21 -45 Flamethrower
+		gun 21 -45 Flamethrower
+		gun -31 -45 Flamethrower
+		gun 31 -45 Flamethrower
+		turret 0 42 "Anti-Missile Turret"
+		explode "large explosion" 8
+		explode "tiny explosion" 18
+		explode "small explosion" 36
+		explode "medium explosion" 24
+		"final explode" "final explosion medium" 1
+	ship Splinter
+		name Zuko
+		sprite ship/splinter
+		attributes
+			category "Medium Warship"
+			cost 3100000
+			bunks 21
+			"cargo space" 75
+			drag 4
+			"engine capacity" 100
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.7
+			hull 1700
+			mass 250
+			"outfit space" 400
+			"required crew" 12
+			shields 5200
+			"turret mounts" 3
+			"weapon capacity" 150
+		outfits
+			"Outfits Expansion" 3
+			Supercapacitor
+			"Wanderer Ramscoop" 3
+			Flamethrower 2
+			Hyperdrive
+			"A250 Atomic Thruster"
+			"A375 Atomic Steering"
+			"Liquid Nitrogen Cooler"
+			"D94-YV Shield Generator" 3
+			"Breeder Reactor"
+			"Heavy Anti-Missile Turret"
+		engine -15 115 1
+		engine 15 115 1
+		gun -15 -80 Flamethrower
+		gun 15 -80 Flamethrower
+		turret -17 -28 "Heavy Anti-Missile Turret"
+		turret 0 -28
+		turret 17 -28
+		explode "large explosion" 8
+		explode "tiny explosion" 18
+		explode "small explosion" 36
+		explode "medium explosion" 24
+		"final explode" "final explosion medium" 1
+	ship Splinter
+		name Azula
+		sprite ship/splinter
+		attributes
+			category "Medium Warship"
+			cost 3100000
+			bunks 21
+			"cargo space" 75
+			drag 4
+			"engine capacity" 100
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.7
+			hull 1700
+			mass 250
+			"outfit space" 400
+			"required crew" 12
+			shields 5200
+			"turret mounts" 3
+			"weapon capacity" 150
+		outfits
+			"Outfits Expansion" 3
+			Supercapacitor
+			"Wanderer Ramscoop" 3
+			Flamethrower 2
+			Hyperdrive
+			"A250 Atomic Thruster"
+			"A375 Atomic Steering"
+			"Liquid Nitrogen Cooler"
+			"D94-YV Shield Generator" 3
+			"Breeder Reactor"
+			"Heavy Anti-Missile Turret"
+		engine -15 115 1
+		engine 15 115 1
+		gun -15 -80 Flamethrower
+		gun 15 -80 Flamethrower
+		turret -17 -28 "Heavy Anti-Missile Turret"
+		turret 0 -28
+		turret 17 -28
+		explode "large explosion" 8
+		explode "tiny explosion" 18
+		explode "small explosion" 36
+		explode "medium explosion" 24
+		"final explode" "final explosion medium" 1
+	ship Manta
+		name Iroh
+		sprite ship/manta
+		attributes
+			category "Medium Warship"
+			cost 3400000
+			bunks 10
+			"cargo space" 20
+			drag 4.7
+			"engine capacity" 100
+			"fuel capacity" 400
+			"gun ports" 6
+			"heat dissipation" 0.8
+			hull 1500
+			mass 170
+			"outfit space" 350
+			"required crew" 6
+			shields 5900
+			"weapon capacity" 140
+		outfits
+			Supercapacitor
+			"Wanderer Ramscoop" 3
+			Flamethrower 6
+			Hyperdrive
+			"A250 Atomic Thruster"
+			"A375 Atomic Steering"
+			"Liquid Nitrogen Cooler"
+			"D94-YV Shield Generator"
+			"Emergency Ramscoop"
+			"D41-HY Shield Generator"
+			"Fission Reactor"
+		engine -33 38 1
+		engine 33 38 1
+		gun -21 -35 Flamethrower
+		gun 21 -35 Flamethrower
+		gun -27 -35 Flamethrower
+		gun 27 -35 Flamethrower
+		gun -66 -32 Flamethrower
+		gun 66 -32 Flamethrower
+		explode "tiny explosion" 10
+		explode "small explosion" 20
+		explode "medium explosion" 15
+		"final explode" "final explosion small" 1
+
+person "Chevrolet"
+	government "Merchant"
+	personality
+		pacifist mute
+	system
+		near Sol 0 8
+
+	ship Corvette
+		name Z28
+		sprite ship/corvette
+		attributes
+			category "Medium Warship"
+			cost 4400000
+			bunks 32
+			"cargo space" 40
+			drag 3.5
+			"engine capacity" 100
+			"fuel capacity" 500
+			"gun ports" 4
+			"heat dissipation" 0.7
+			hull 1200
+			mass 150
+			"outfit space" 420
+			"required crew" 8
+			shields 6100
+			"turret mounts" 2
+			"weapon capacity" 150
+		outfits
+			Hyperdrive
+			"Large Radar Jammer"
+			"Fuel Pod"
+			"Cargo Expansion" 2
+			"A125 Atomic Steering"
+			"A520 Atomic Thruster"
+			"D94-YV Shield Generator" 2
+			"Small Bunk Room"
+			Supercapacitor
+			"Liquid Nitrogen Cooler"
+			"Breeder Reactor"
+			"Interference Plating"
+		engine -11 118 1
+		engine 11 118 1
+		gun -12 -68
+		gun 12 -68
+		gun -14 -60
+		gun 14 -60
+		turret 0 -11
+		turret 0 74
+		explode "medium explosion" 24
+		explode "tiny explosion" 18
+		explode "large explosion" 8
+		explode "small explosion" 36
+		"final explode" "final explosion medium" 1
+
+person "Captain Puget"
+	government "Republic"
+	personality
+		heroic vindictive
+	system
+		government "Republic"
+		near Alnitak 0 2
+	phrase
+		word
+			"Join the Navy, protect the people."
+			"Do you here those bells of Victory? No? I do."
+			"Thou can not escape my justice!"
+			"This ends now!"
+
+	ship Cruiser
+		name Temeraire
+		sprite ship/cruiser
+		attributes
+			category "Heavy Warship"
+			cost 11200000
+			bunks 136
+			"cargo space" 60
+			drag 10.1
+			"engine capacity" 170
+			"fuel capacity" 600
+			"gun ports" 6
+			"heat dissipation" 0.45
+			hull 6400
+			mass 680
+			"outfit space" 760
+			"required crew" 81
+			shields 19600
+			"turret mounts" 4
+			"weapon capacity" 320
+		outfits
+			"Outfits Expansion" 3
+			"Large Radar Jammer"
+			Hyperdrive
+			"A375 Atomic Steering"
+			"A520 Atomic Thruster"
+			Supercapacitor
+			"Torpedo Launcher" 2
+			"D94-YV Shield Generator" 5
+			"Liquid Nitrogen Cooler"
+			Torpedo 60
+			"Fusion Reactor"
+			"Dwarf Core"
+			"Water Coolant System"
+			"D67-TM Shield Generator"
+			"Meteor Missile" 70
+			"Heavy Anti-Missile Turret"
+			"Meteor Missile Launcher" 2
+			"Cargo Scanner"
+			"Outfit Scanner"
+			"Sidewinder Missile Launcher" 2
+			"Sidewinder Missile Rack"
+			"Sidewinder Missile" 125
+		engine -29 156 1
+		engine 29 156 1
+		gun -31 -63 "Meteor Missile Launcher"
+		gun 31 -63 "Meteor Missile Launcher"
+		gun -41 -52 "Torpedo Launcher"
+		gun 41 -52 "Torpedo Launcher"
+		gun -20 -44 "Sidewinder Missile Launcher"
+		gun 20 -44 "Sidewinder Missile Launcher"
+		turret 0 -40
+		turret -33 -19
+		turret 33 -19
+		turret 0 0 "Heavy Anti-Missile Turret"
+		drone -25 18
+		drone 25 18
+		drone -25 49
+		drone 25 49
+		explode "tiny explosion" 20
+		explode "small explosion" 45
+		explode "large explosion" 40
+		explode "medium explosion" 50
+		explode "huge explosion" 10
+		"final explode" "final explosion large" 1
+	ship "Combat Drone"
+		name "Pestilence"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun Ammo" 3000
+			"Gatling Gun"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "War"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun Ammo" 3000
+			"Gatling Gun"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Famine"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun Ammo" 3000
+			"Gatling Gun"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Death"
+		sprite "ship/combat drone"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun Ammo" 3000
+			"Gatling Gun"
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+
+person "Booze Cruise"
+	government "Merchant"
+	personality
+		timid
+	system
+		near Wazn 0 2
+	phrase
+		word
+			"*hic*"
+			"Wach wher yer goin!"
+			"Do you ave any rum?"
+			"Wait, put the beer down, someone is hailing us."
+			"I wonder what this button does."
+			"
+
+	ship "Star Queen"
+		name "Freedom and Freedom"
+		sprite "ship/star queen"
+		attributes
+			category Transport
+			cost 5500000
+			bunks 112
+			"cargo space" 60
+			drag 5.5
+			"engine capacity" 100
+			"fuel capacity" 500
+			"gun ports" 3
+			"heat dissipation" 0.65
+			hull 2200
+			mass 230
+			"outfit space" 360
+			"required crew" 43
+			shields 4100
+			"turret mounts" 2
+			"weapon capacity" 120
+		outfits
+			Hyperdrive
+			"X3700 Ion Thruster"
+			"X3200 Ion Steering"
+			"D94-YV Shield Generator"
+			"Sidewinder Missile" 50
+			"Sidewinder Missile Launcher"
+			"Meteor Missile Launcher"
+			"Cooling Ducts"
+			"Water Coolant System"
+			"LP072a Battery Pack"
+			"Heavy Anti-Missile Turret" 2
+			"Meteor Missile" 35
+			"Small Radar Jammer" 3
+			"Fission Reactor"
+		engine -18 116 1
+		engine 18 116 1
+		gun 0 -116 "Meteor Missile Launcher"
+		gun -22 -80
+		gun 22 -80 "Sidewinder Missile Launcher"
+		turret -28 -9 "Heavy Anti-Missile Turret"
+		turret 28 -9 "Heavy Anti-Missile Turret"
+		explode "small explosion" 25
+		explode "large explosion" 10
+		explode "tiny explosion" 10
+		explode "medium explosion" 25
+		"final explode" "final explosion medium" 1
+
+person "Kat-arina"
+	government "Wanderer"
+	personality
+		disables plunders mute
+	system
+		government "Wanderer"
+
+	ship Hurricane
+		name Katrina
+		sprite ship/hurricane
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			cost 39100000
+			bunks 117
+			"cargo space" 98
+			drag 11.9
+			"engine capacity" 140
+			"fuel capacity" 500
+			"gun ports" 6
+			"heat dissipation" 0.55
+			hull 46500
+			mass 770
+			"outfit space" 960
+			"required crew" 76
+			shields 72400
+			"turret mounts" 5
+			"weapon capacity" 428
+			"shield generation" 6
+			"energy generation" 4
+		outfits
+			"White Sun Reactor"
+			"Large Heat Shunt"
+			"Blue Sun Reactor"
+			Hyperdrive
+			"Dark Storm Shielding" 4
+			"Dual Sunbeam Turret" 2
+			"Type 4 Radiant Thruster"
+			"Outfits Expansion" 4
+			"Wanderer Anti-Missile" 2
+			"Thunderhead Storage Array" 2
+			"Type 4 Radiant Steering"
+			"Thunderhead Missile" 280
+			"Thunderhead Launcher" 6
+			"Wanderer Ramscoop"
+			"Type 2 Radiant Thruster"
+		engine -23 181 1
+		engine 23 181 1
+		gun -68 5 "Thunderhead Launcher"
+		gun 68 5 "Thunderhead Launcher"
+		gun -85 21 "Thunderhead Launcher"
+		gun 85 21 "Thunderhead Launcher"
+		gun -62 32 "Thunderhead Launcher"
+		gun 62 32 "Thunderhead Launcher"
+		turret -27 -80 "Dual Sunbeam Turret"
+		turret 27 -80 "Dual Sunbeam Turret"
+		turret 0 -33
+		turret -39 140 "Wanderer Anti-Missile"
+		turret 39 140 "Wanderer Anti-Missile"
+		explode "small explosion" 20
+		explode "large explosion" 70
+		explode "medium explosion" 80
+		explode "huge explosion" 30
+		"final explode" "final explosion large" 1
+
+person "Rocket Man"
+	government "Pirate"
+	personality
+		timid
+	system
+		government "Pirate"
+	phrase
+		word
+			"I'm 30 years old. I'm almost a grown man. "
+			"It wasn't me!"
+			"Have fun, kid."
+			"Sweet swirling onion rings!"
+			"I feel like a paleontologist that's been hunting dinosaurs his whole life and finally got to meet one!"
+			"Are we there yet?"
+			"Say it like you love me."
+			"Bud, your hunches are about as useless as dental floss at a Willie Nelson concert."
+			"Can you leave me alone for just five more minutes?"
+			"I have to go tinkle!"
+			"Look, it was an accident."
+			"Somebody stole my pants."
+
+	ship Vanguard
+		name "Worst Nightmare"
+		sprite ship/vanguard
+		attributes
+			category "Heavy Warship"
+			cost 7200000
+			bunks 45
+			"cargo space" 50
+			drag 8
+			"engine capacity" 120
+			"fuel capacity" 400
+			"gun ports" 7
+			"heat dissipation" 0.6
+			hull 6000
+			mass 500
+			"outfit space" 560
+			"required crew" 23
+			shields 9800
+			"turret mounts" 1
+			"weapon capacity" 220
+		outfits
+			"Outfits Expansion" 2
+			Hyperdrive
+			"A525 Atomic Steering"
+			"A370 Atomic Thruster"
+			"D94-YV Shield Generator" 2
+			"Liquid Nitrogen Cooler"
+			"LP072a Battery Pack"
+			"Laser Rifle" 60
+			"Heavy Rocket" 200
+			"Heavy Anti-Missile Turret"
+			"Breeder Reactor"
+			"Heavy Rocket Launcher" 7
+			"Heavy Rocket Rack" 6
+		engine -15 130 1
+		engine 15 130 1
+		gun 0 -132 "Heavy Rocket Launcher"
+		gun -22 -122 "Heavy Rocket Launcher"
+		gun 22 -122 "Heavy Rocket Launcher"
+		gun -21 -45 "Heavy Rocket Launcher"
+		gun 21 -45 "Heavy Rocket Launcher"
+		gun -31 -45 "Heavy Rocket Launcher"
+		gun 31 -45 "Heavy Rocket Launcher"
+		turret 0 42 "Heavy Anti-Missile Turret"
+		explode "tiny explosion" 18
+		explode "large explosion" 8
+		explode "medium explosion" 24
+		explode "small explosion" 36
+		"final explode" "final explosion medium" 1
+
+person "Hauler Captain"
+	government "Merchant"
+	personality
+		timid
+	phrase
+		word
+			"I really miss my beautiful Freighter."
+
+	ship "Hauler II"
+		name "I miss my Freighter"
+		sprite "ship/hauler ii"
+		attributes
+			category "Heavy Freighter"
+			cost 2340000
+			bunks 12
+			"cargo space" 260
+			drag 11.5
+			"engine capacity" 80
+			"fuel capacity" 400
+			"gun ports" 2
+			"heat dissipation" 0.6
+			hull 5200
+			mass 360
+			"outfit space" 350
+			"required crew" 3
+			shields 2900
+			"turret mounts" 4
+			"weapon capacity" 140
+		outfits
+			Hyperdrive
+			"Quad Blaster Turret" 2
+			"Greyhound Plasma Thruster"
+			"Impala Plasma Steering"
+			"LP072a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"D23-QP Shield Generator"
+			"Meteor Missile" 70
+			"Small Radar Jammer"
+			"Heavy Anti-Missile Turret" 2
+			"S3 Thermionic"
+		engine -45 160 1
+		engine 45 160 1
+		gun -15 -128 "Meteor Missile Launcher"
+		gun 15 -128 "Meteor Missile Launcher"
+		turret -26 -85 "Quad Blaster Turret"
+		turret 26 -85 "Heavy Anti-Missile Turret"
+		turret -19 115 "Heavy Anti-Missile Turret"
+		turret 19 115 "Quad Blaster Turret"
+		explode "medium explosion" 30
+		explode "small explosion" 25
+		explode "large explosion" 15
+		explode "tiny explosion" 10
+		"final explode" "final explosion medium" 1
+
+person "Behemoth Captain"
+	government "Merchant"
+	personality
+		timid
+	phrase
+		word
+			"I really miss my beautiful Hauler."
+
+	ship Behemoth
+		name "I miss my Hauler"
+		sprite ship/behemoth
+		attributes
+			category "Heavy Freighter"
+			cost 10800000
+			bunks 30
+			"cargo space" 490
+			drag 11.7
+			"engine capacity" 90
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.4
+			hull 6300
+			mass 540
+			"outfit space" 510
+			"required crew" 12
+			shields 7600
+			"turret mounts" 6
+			"weapon capacity" 280
+		outfits
+			"Heavy Laser Turret" 4
+			"X3700 Ion Thruster"
+			"X3200 Ion Steering"
+			"Scram Drive"
+			"LP144a Battery Pack"
+			"D41-HY Shield Generator"
+			"Small Radar Jammer"
+			"Heavy Anti-Missile Turret" 2
+			"NT-200 Nucleovoltaic"
+		engine -34 154 1
+		engine 34 154 1
+		gun -27 -83
+		gun 27 -83
+		turret -34 -64 "Heavy Laser Turret"
+		turret 34 -64 "Heavy Anti-Missile Turret"
+		turret -58 11 "Heavy Laser Turret"
+		turret 58 11 "Heavy Laser Turret"
+		turret -24 78 "Heavy Anti-Missile Turret"
+		turret 24 78 "Heavy Laser Turret"
+		explode "medium explosion" 25
+		explode "small explosion" 15
+		explode "large explosion" 35
+		explode "huge explosion" 20
+		"final explode" "final explosion large" 1
+
+person "Bulk Freighter Captain"
+	government "Merchant"
+	personality
+		timid
+	phrase
+		word
+			"I really miss my beautiful Behemoth."
+
+	ship "Bulk Freighter"
+		name "I miss my Behemoth"
+		sprite "ship/bulk freighter"
+		attributes
+			category "Heavy Freighter"
+			cost 9400000
+			bunks 18
+			"cargo space" 600
+			drag 15.8
+			"engine capacity" 85
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.5
+			hull 7600
+			mass 870
+			"outfit space" 410
+			"required crew" 6
+			shields 4000
+			"turret mounts" 5
+			"weapon capacity" 180
+		outfits
+			"X3700 Ion Thruster"
+			"X3200 Ion Steering"
+			"Scram Drive"
+			"LP144a Battery Pack"
+			"D23-QP Shield Generator"
+			"Heavy Anti-Missile Turret" 2
+			"Sidewinder Missile Launcher" 2
+			"RT-I Radiothermal"
+			"Sidewinder Missile" 100
+			"Laser Turret" 3
+		engine -22 198 1
+		engine 22 198 1
+		gun -20 -175 "Sidewinder Missile Launcher"
+		gun 20 -175 "Sidewinder Missile Launcher"
+		turret -12 -155 "Laser Turret"
+		turret 12 -155 "Heavy Anti-Missile Turret"
+		turret 0 5 "Laser Turret"
+		turret -30 175 "Heavy Anti-Missile Turret"
+		turret 30 175 "Laser Turret"
+		explode "medium explosion" 25
+		explode "small explosion" 15
+		explode "large explosion" 35
+		explode "huge explosion" 20
+		"final explode" "final explosion large" 1
+
+person "Bactrian Captain"
+	government "Merchant"
+	personality
+		timid
+	phrase
+		word
+			"I really miss having dignity."
+
+	ship Bactrian
+		name "I miss my Dignity"
+		sprite ship/bactrian
+		attributes
+			category "Heavy Warship"
+			cost 17600000
+			bunks 245
+			"cargo space" 530
+			drag 16.1
+			"engine capacity" 180
+			"fuel capacity" 700
+			"gun ports" 4
+			"heat dissipation" 0.4
+			hull 8600
+			mass 940
+			"outfit space" 740
+			"required crew" 70
+			shields 17500
+			"turret mounts" 6
+			"weapon capacity" 300
+		outfits
+			"Large Radar Jammer"
+			Hyperdrive
+			"Heavy Laser Turret" 4
+			"X4700 Ion Thruster"
+			"X5200 Ion Steering"
+			"Fusion Reactor"
+			Torpedo 60
+			"Torpedo Launcher" 2
+			"LP144a Battery Pack"
+			"D94-YV Shield Generator"
+			Ramscoop
+			"Heavy Anti-Missile Turret" 2
+			"Sidewinder Missile Launcher" 2
+			"Sidewinder Missile" 100
+		engine -18 230 1
+		engine 18 230 1
+		gun -15 -226 "Torpedo Launcher"
+		gun 15 -226 "Torpedo Launcher"
+		gun -40 -133 "Sidewinder Missile Launcher"
+		gun -45 -128 "Sidewinder Missile Launcher"
+		turret -22 -148 "Heavy Laser Turret"
+		turret 26 -80 "Heavy Anti-Missile Turret"
+		turret -41 -20 "Heavy Laser Turret"
+		turret 32 -7 "Heavy Laser Turret"
+		turret 53 82 "Heavy Laser Turret"
+		turret -37 186 "Heavy Anti-Missile Turret"
+		fighter -38 -26
+		fighter 35 36
+		fighter -47 97
+		explode "medium explosion" 35
+		explode "small explosion" 25
+		explode "large explosion" 45
+		explode "huge explosion" 30
+		"final explode" "final explosion large" 1
+
+person "Twice Visited"
+	government "Hai"
+	personality
+		vindictive
+	system
+		government "Hai"
+	phrase
+		word
+			"Nice to meet you again."
+			"Peace be with you."
+			"Stay safe, the unfettered are a dangerous lot."
+
+	ship "Shield Beetle"
+		name "Twice Visited"
+		sprite "ship/hai shield beetle"
+		attributes
+			category "Heavy Warship"
+			cost 17900000
+			bunks 95
+			"cargo space" 142
+			drag 8.8
+			"engine capacity" 150
+			"fuel capacity" 500
+			"gun ports" 8
+			"heat dissipation" 0.6
+			hull 9800
+			mass 650
+			"outfit space" 798
+			"required crew" 47
+			shields 32000
+			"turret mounts" 4
+			"weapon capacity" 333
+		outfits
+			`"Bondir" Atomic Thruster`
+			Hyperdrive
+			"Boulder Reactor"
+			"Chameleon Anti-Missile" 2
+			"Quantum Keystone"
+			"Hai Tracker" 1148
+			"Hai Diamond Regenerator"
+			`"Bondir" Atomic Steering`
+			"Pebble Core"
+			"Hai Williwaw Cooling" 2
+			"Tracker Storage Pod" 25
+			"Hai Tracker Pod" 8
+			"Hai Gorge Batteries"
+		engine -44 133 1
+		engine 44 133 1
+		gun -22 -102 "Hai Tracker Pod"
+		gun 22 -102 "Hai Tracker Pod"
+		gun -34 -68 "Hai Tracker Pod"
+		gun 34 -68 "Hai Tracker Pod"
+		gun -49 -38 "Hai Tracker Pod"
+		gun 49 -38 "Hai Tracker Pod"
+		gun -61 -14 "Hai Tracker Pod"
+		gun 61 -14 "Hai Tracker Pod"
+		turret -39 48
+		turret 39 48
+		turret -57 75 "Chameleon Anti-Missile"
+		turret 57 75 "Chameleon Anti-Missile"
+		explode "small explosion" 50
+		explode "medium explosion" 50
+		explode "large explosion" 50
+		explode "tiny explosion" 50
+		explode "huge explosion" 20
+		"final explode" "final explosion large" 1
+
+person "Welcome Friend"
+	government "Hai"
+	frequency 200
+	personality
+		vindictive
+	system
+		government "Hai"
+	phrase
+		word
+			"Nice to meet you again."
+			"Peace be with you."
+			"Stay safe, the unfettered are a dangerous lot."
+			"Welcome to Hai Space!"
+			"Please remember, no fighting within Hai territory unless you are attacked first."
+			"We have many lucrative trade routes."
+			"We are always excited to see more traders, be safe."
+
+	ship "Water Bug"
+		name "Welcome Friend"
+		sprite "ship/hai water bug"
+		attributes
+			category "Heavy Freighter"
+			cost 6500000
+			bunks 29
+			"cargo space" 197
+			drag 5.9
+			"engine capacity" 64
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.75
+			hull 4500
+			mass 270
+			"outfit space" 368
+			"required crew" 5
+			shields 7900
+			"turret mounts" 3
+			"weapon capacity" 145
+		outfits
+			Hyperdrive
+			"Boulder Reactor"
+			"Chameleon Anti-Missile" 2
+			Supercapacitor
+			"Hai Corundum Regenerator"
+			"Hai Williwaw Cooling" 2
+			`"Benga" Atomic Thruster`
+			`"Basrem" Atomic Steering`
+			"Pulse Turret"
+			"Quantum Keystone"
+			"Hai Diamond Regenerator" 2
+			"Outfit Scanner"
+			"Small Radar Jammer"
+			"Cargo Scanner"
+		crew 6
+		fuel 600
+		shields 7900
+		hull 4500
+		position 0 0
+		engine -50 33 1
+		engine 50 33 1
+		gun -24 -53
+		gun 24 -53
+		turret 0 -10 "Pulse Turret"
+		turret -17 17 "Chameleon Anti-Missile"
+		turret 17 17 "Chameleon Anti-Missile"
+		explode "large explosion" 20
+		explode "small explosion" 15
+		explode "huge explosion" 5
+		explode "medium explosion" 30
+		"final explode" "final explosion medium" 1
+
+person "Captain B Whittle"
+	government "Republic"
+	personality
+		vindictive
+	system
+		government "Republic"
+	phrase
+		word
+			"We are one of the only Frigates in the fleet trusted with such powerful weapons."
+			"Move along citizen."
+			"Thank you for all your help with Pirates."
+			"Enough talk, I need to focus on protecting the merchants."
+			"Don't try anything funny. You wouldn't be the first."
+			"Yes, I know what you're planning, and yes, it does in fact count."
+			"Yes, my name is Captain, and my rank is Captain. We're done here."
+
+	ship Frigate
+		name "R.N.S. Reliant"
+		sprite ship/frigate
+		"never disabled"
+		attributes
+			category "Medium Warship"
+			cost 5200000
+			bunks 44
+			"cargo space" 35
+			drag 5.2
+			"engine capacity" 100
+			"fuel capacity" 500
+			"gun ports" 4
+			"heat dissipation" 0.7
+			hull 2500
+			mass 310
+			"outfit space" 410
+			"required crew" 21
+			shields 8000
+			"turret mounts" 3
+			"weapon capacity" 170
+		outfits
+			Hyperdrive
+			"A250 Atomic Thruster"
+			"Electron Turret" 2
+			"A375 Atomic Steering"
+			Torpedo 60
+			"Torpedo Launcher" 2
+			"Water Coolant System"
+			"LP072a Battery Pack"
+			"D67-TM Shield Generator"
+			"Breeder Reactor"
+			"Small Radar Jammer"
+		engine -26 92 1
+		engine 26 92 1
+		gun -10 -83
+		gun 10 -83
+		gun -10 -83 "Torpedo Launcher"
+		gun 10 -83 "Torpedo Launcher"
+		turret 0 -37 "Electron Turret"
+		turret -12 -12 "Electron Turret"
+		turret 12 -12
+		explode "tiny explosion" 18
+		explode "medium explosion" 24
+		explode "small explosion" 36
+		explode "large explosion" 8
+		"final explode" "final explosion medium" 1
+
+person "Ast Director Harper"
+	government "Syndicate"
+	personality
+		pacifist
+	system
+		"Syndicate"
+	phrase
+		word
+			"Excuse me, not to be rude. Much research to do, so little time to do it."
+
+	ship Bounder
+		name Endeavour
+		sprite ship/bounder
+		attributes
+			category Transport
+			cost 1140000
+			bunks 17
+			"cargo space" 40
+			drag 3.7
+			"engine capacity" 110
+			"fuel capacity" 900
+			"heat dissipation" 0.8
+			hull 700
+			mass 130
+			"outfit space" 220
+			"required crew" 1
+			shields 2200
+			"turret mounts" 2
+			"weapon capacity" 50
+		outfits
+			Hyperdrive
+			"A255 Atomic Steering"
+			"A370 Atomic Thruster"
+			Supercapacitor
+			"Heavy Anti-Missile Turret"
+			"LP036a Battery Pack"
+			"D14-RN Shield Generator"
+			"NT-200 Nucleovoltaic"
+		engine -12 44 1
+		engine 12 44 1
+		turret -37 4 "Heavy Anti-Missile Turret"
+		turret 37 4
+		explode "tiny explosion" 10
+		explode "small explosion" 20
+		explode "medium explosion" 15
+		"final explode" "final explosion small" 1
+
+person "Sword Sisters"
+	government "Republic"
+	personality
+		heroic vindictive swarming mute
+	system
+		government "republic"
+
+	ship Carrier
+		name Excalibur
+		sprite ship/carrier
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			cost 15200000
+			bunks 184
+			"cargo space" 100
+			drag 17.7
+			"engine capacity" 210
+			"fuel capacity" 700
+			"gun ports" 8
+			"heat dissipation" 0.45
+			hull 8300
+			mass 910
+			"outfit space" 820
+			"required crew" 111
+			shields 21400
+			"turret mounts" 4
+			"weapon capacity" 370
+		outfits
+			"Outfits Expansion" 5
+			"Plasma Turret"
+			Hyperdrive
+			"Particle Cannon" 8
+			"A370 Atomic Thruster"
+			"A865 Atomic Steering"
+			"Liquid Nitrogen Cooler"
+			"D94-YV Shield Generator" 2
+			"Fission Reactor"
+			"Liquid Helium Cooler"
+			"D67-TM Shield Generator"
+			"LP036a Battery Pack"
+			"Armageddon Core"
+			"Fragmentation Grenades" 112
+		engine -35 200 1
+		engine 35 200 1
+		gun -16 -176 "Particle Cannon"
+		gun 16 -176 "Particle Cannon"
+		gun -16 -176 "Particle Cannon"
+		gun 16 -176 "Particle Cannon"
+		gun -25 -166 "Particle Cannon"
+		gun 25 -166 "Particle Cannon"
+		gun -25 -166 "Particle Cannon"
+		gun 25 -166 "Particle Cannon"
+		turret 0 -114 "Plasma Turret"
+		turret 0 15
+		turret 0 103
+		turret 0 157
+		fighter -37 -65
+		fighter 37 -65
+		fighter -46 40
+		fighter 46 40
+		drone -72 -46
+		drone 72 -46
+		drone -101 57
+		drone 101 57
+		drone -74 57
+		drone 74 57
+		explode "medium explosion" 50
+		explode "small explosion" 45
+		explode "large explosion" 40
+		explode "tiny explosion" 20
+		explode "huge explosion" 10
+		"final explode" "final explosion large" 1
+	ship Barb
+		name "Sir Morien"
+		sprite ship/barb
+		"never disabled"
+		attributes
+			category Fighter
+			cost 50000
+			bunks 2
+			drag 0.8
+			"engine capacity" 22
+			"gun ports" 1
+			"heat dissipation" 0.78
+			hull 200
+			mass 20
+			"outfit space" 85
+			"required crew" 1
+			shields 800
+			"turret mounts" 1
+			"weapon capacity" 24
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			"Meteor Missile Launcher"
+			"nGVF-AA Fuel Cell"
+			"LP036a Battery Pack"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 35
+		engine -10 28 1
+		engine 9 28 1
+		gun -9 -29 "Meteor Missile Launcher"
+		turret 8 6 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+		explode "small explosion" 5
+	ship Barb
+		name "Sir Gareth"
+		sprite ship/barb
+		"never disabled"
+		attributes
+			category Fighter
+			cost 50000
+			bunks 2
+			drag 0.8
+			"engine capacity" 22
+			"gun ports" 1
+			"heat dissipation" 0.78
+			hull 200
+			mass 20
+			"outfit space" 85
+			"required crew" 1
+			shields 800
+			"turret mounts" 1
+			"weapon capacity" 24
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			"Meteor Missile Launcher"
+			"nGVF-AA Fuel Cell"
+			"LP036a Battery Pack"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 35
+		engine -10 28 1
+		engine 9 28 1
+		gun -9 -29 "Meteor Missile Launcher"
+		turret 8 6 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+		explode "small explosion" 5
+	ship Barb
+		name "Sir Bedivere"
+		sprite ship/barb
+		"never disabled"
+		attributes
+			category Fighter
+			cost 50000
+			bunks 2
+			drag 0.8
+			"engine capacity" 22
+			"gun ports" 1
+			"heat dissipation" 0.78
+			hull 200
+			mass 20
+			"outfit space" 85
+			"required crew" 1
+			shields 800
+			"turret mounts" 1
+			"weapon capacity" 24
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			"Meteor Missile Launcher"
+			"nGVF-AA Fuel Cell"
+			"LP036a Battery Pack"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 35
+		engine -10 28 1
+		engine 9 28 1
+		gun -9 -29 "Meteor Missile Launcher"
+		turret 8 6 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+		explode "small explosion" 5
+	ship Barb
+		name "Sir Gaheris"
+		sprite ship/barb
+		"never disabled"
+		attributes
+			category Fighter
+			cost 50000
+			bunks 2
+			drag 0.8
+			"engine capacity" 22
+			"gun ports" 1
+			"heat dissipation" 0.78
+			hull 200
+			mass 20
+			"outfit space" 85
+			"required crew" 1
+			shields 800
+			"turret mounts" 1
+			"weapon capacity" 24
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			"Meteor Missile Launcher"
+			"nGVF-AA Fuel Cell"
+			"LP036a Battery Pack"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 35
+		engine -10 28 1
+		engine 9 28 1
+		gun -9 -29 "Meteor Missile Launcher"
+		turret 8 6 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+		explode "small explosion" 5
+	ship "Sir Geraint"
+		name "Combat Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun"
+			"Gatling Gun Ammo" 3000
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+	ship "Sir Tristan"
+		name "Combat Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun"
+			"Gatling Gun Ammo" 3000
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+	ship "Bors the Younger"
+		name "Combat Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun"
+			"Gatling Gun Ammo" 3000
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+	ship "Sir Palamedes"
+		name "Combat Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun"
+			"Gatling Gun Ammo" 3000
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+	ship "Sir Lamorak"
+		name "Combat Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun"
+			"Gatling Gun Ammo" 3000
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+	ship "Sir Kay"
+		name "Combat Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun"
+			"Gatling Gun Ammo" 3000
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+	ship Carrier
+		name Avalon
+		sprite ship/carrier
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			cost 15200000
+			bunks 184
+			"cargo space" 100
+			drag 17.7
+			"engine capacity" 210
+			"fuel capacity" 700
+			"gun ports" 8
+			"heat dissipation" 0.45
+			hull 8300
+			mass 910
+			"outfit space" 820
+			"required crew" 111
+			shields 21400
+			"turret mounts" 4
+			"weapon capacity" 370
+		outfits
+			"Outfits Expansion" 5
+			Hyperdrive
+			"A375 Atomic Steering"
+			"A370 Atomic Thruster"
+			"D94-YV Shield Generator" 7
+			"Liquid Helium Cooler"
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher"
+			"D14-RN Shield Generator"
+			"Heavy Anti-Missile Turret" 4
+			"Meteor Missile" 71
+			"Armageddon Core"
+			"Sidewinder Missile Launcher"
+			"Meteor Missile Box" 2
+			"Sidewinder Missile" 100
+			"Sidewinder Missile Rack" 2
+		engine -35 200 1
+		engine 35 200 1
+		gun -16 -176 "Sidewinder Missile Launcher"
+		gun 16 -176 "Meteor Missile Launcher"
+		gun -16 -176
+		gun 16 -176
+		gun -25 -166
+		gun 25 -166
+		gun -25 -166
+		gun 25 -166
+		turret 0 -114 "Heavy Anti-Missile Turret"
+		turret 0 15 "Heavy Anti-Missile Turret"
+		turret 0 103 "Heavy Anti-Missile Turret"
+		turret 0 157 "Heavy Anti-Missile Turret"
+		fighter -37 -65
+		fighter 37 -65
+		fighter -46 40
+		fighter 46 40
+		drone -72 -46
+		drone 72 -46
+		drone -101 57
+		drone 101 57
+		drone -74 57
+		drone 74 57
+		explode "medium explosion" 50
+		explode "small explosion" 45
+		explode "large explosion" 40
+		explode "tiny explosion" 20
+		explode "huge explosion" 10
+		"final explode" "final explosion large" 1
+	ship Barb
+		name "Sir Lancelot"
+		sprite ship/barb
+		"never disabled"
+		attributes
+			category Fighter
+			cost 50000
+			bunks 2
+			drag 0.8
+			"engine capacity" 22
+			"gun ports" 1
+			"heat dissipation" 0.78
+			hull 200
+			mass 20
+			"outfit space" 85
+			"required crew" 1
+			shields 800
+			"turret mounts" 1
+			"weapon capacity" 24
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			"Meteor Missile Launcher"
+			"nGVF-AA Fuel Cell"
+			"LP036a Battery Pack"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 35
+		engine -10 28 1
+		engine 9 28 1
+		gun -9 -29 "Meteor Missile Launcher"
+		turret 8 6 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+		explode "small explosion" 5
+	ship Barb
+		name "Sir Gawain"
+		sprite ship/barb
+		"never disabled"
+		attributes
+			category Fighter
+			cost 50000
+			bunks 2
+			drag 0.8
+			"engine capacity" 22
+			"gun ports" 1
+			"heat dissipation" 0.78
+			hull 200
+			mass 20
+			"outfit space" 85
+			"required crew" 1
+			shields 800
+			"turret mounts" 1
+			"weapon capacity" 24
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			"Meteor Missile Launcher"
+			"nGVF-AA Fuel Cell"
+			"LP036a Battery Pack"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 35
+		engine -10 28 1
+		engine 9 28 1
+		gun -9 -29 "Meteor Missile Launcher"
+		turret 8 6 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+		explode "small explosion" 5
+	ship Barb
+		name "Sir Galahad"
+		sprite ship/barb
+		"never disabled"
+		attributes
+			category Fighter
+			cost 50000
+			bunks 2
+			drag 0.8
+			"engine capacity" 22
+			"gun ports" 1
+			"heat dissipation" 0.78
+			hull 200
+			mass 20
+			"outfit space" 85
+			"required crew" 1
+			shields 800
+			"turret mounts" 1
+			"weapon capacity" 24
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			"Meteor Missile Launcher"
+			"nGVF-AA Fuel Cell"
+			"LP036a Battery Pack"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 35
+		engine -10 28 1
+		engine 9 28 1
+		gun -9 -29 "Meteor Missile Launcher"
+		turret 8 6 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+		explode "small explosion" 5
+	ship Barb
+		name "Sir Percival"
+		sprite ship/barb
+		"never disabled"
+		attributes
+			category Fighter
+			cost 50000
+			bunks 2
+			drag 0.8
+			"engine capacity" 22
+			"gun ports" 1
+			"heat dissipation" 0.78
+			hull 200
+			mass 20
+			"outfit space" 85
+			"required crew" 1
+			shields 800
+			"turret mounts" 1
+			"weapon capacity" 24
+		outfits
+			"Bullfrog Anti-Missile"
+			"X1050 Ion Engines"
+			"Meteor Missile Launcher"
+			"nGVF-AA Fuel Cell"
+			"LP036a Battery Pack"
+			"D14-RN Shield Generator"
+			"Meteor Missile" 35
+		engine -10 28 1
+		engine 9 28 1
+		gun -9 -29 "Meteor Missile Launcher"
+		turret 8 6 "Bullfrog Anti-Missile"
+		explode "tiny explosion" 15
+		explode "small explosion" 5
+	ship "Combat Drone"
+		name "Sir Mordred"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun"
+			"Gatling Gun Ammo" 3000
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Combat Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun"
+			"Gatling Gun Ammo" 3000
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Sir Yvain"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun"
+			"Gatling Gun Ammo" 3000
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Sir Ector"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun"
+			"Gatling Gun Ammo" 3000
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+	ship "Combat Drone"
+		name "Sir Tor"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun"
+			"Gatling Gun Ammo" 3000
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+	ship "Sir Dagonet"
+		name "Combat Drone"
+		sprite "ship/combat drone"
+		"never disabled"
+		attributes
+			category Drone
+			cost 83000
+			automaton 1
+			drag 0.59
+			"engine capacity" 28
+			"gun ports" 1
+			"heat dissipation" 0.9
+			hull 700
+			mass 20
+			"outfit space" 58
+			"weapon capacity" 8
+		outfits
+			"X1700 Ion Thruster"
+			"X1200 Ion Steering"
+			Supercapacitor
+			"nGVF-AA Fuel Cell"
+			"Gatling Gun"
+			"Gatling Gun Ammo" 3000
+		engine -9 29 1
+		engine 9 29 1
+		gun 0 -29 "Gatling Gun"
+		explode "tiny explosion" 15
+
+person "Hoban Washburne"
+	government "Free Worlds"
+	personality
+		pacifist
+	system
+		government "Free Worlds"
+	phrase
+		word
+			"Please help with the Pirates, we are an unarmed exploration vessel!"
+			"We are hoping to eventually find new links to new systems."
+			"You don't mind if I just fly right behind you, right?"
+			"Hey, uh, mind shooting pirates for me?"
+			"Yes, we know all the links possible, but maybe..."
+
+	ship Blackbird
+		name Discovery
+		sprite ship/blackbird
+		attributes
+			category Transport
+			cost 2230000
+			bunks 28
+			"cargo space" 60
+			drag 5
+			"engine capacity" 110
+			"fuel capacity" 700
+			"heat dissipation" 0.7
+			hull 900
+			mass 220
+			"outfit space" 350
+			"required crew" 3
+			shields 4400
+			"turret mounts" 2
+			"weapon capacity" 90
+		outfits
+			Hyperdrive
+			"Impala Plasma Steering"
+			"Impala Plasma Thruster"
+			"LP144a Battery Pack"
+			"D94-YV Shield Generator"
+			"Fission Reactor"
+			"Heavy Anti-Missile Turret" 2
+			"Small Radar Jammer"
+		engine -40 55 1
+		engine 40 55 1
+		turret -18 0 "Heavy Anti-Missile Turret"
+		turret 18 0 "Heavy Anti-Missile Turret"
+		explode "tiny explosion" 15
+		explode "large explosion" 2
+		explode "small explosion" 34
+		explode "medium explosion" 18
+		"final explode" "final explosion small" 1
+
+person "Admiral Wicks"
+	government "Syndicate"
+	personality
+		disables
+	system
+		government "Syndicate"
+	phrase
+		word
+			"S.S. Repulse is one of the fastest capital ships of the Syndicate systems!"
+			"Up close and personal, that's the best way to challenge Republic scum."
+			"The free worlds is merely a tool of the Syndicate, remember that."
+			"Out of the way please, I have important patrolling to do."
+			"You may bow anytime."
+
+	ship Vanguard
+		name Repulse
+		sprite ship/vanguard
+		attributes
+			category "Heavy Warship"
+			cost 7200000
+			bunks 45
+			"cargo space" 50
+			drag 5
+			"engine capacity" 120
+			"fuel capacity" 400
+			"gun ports" 7
+			"heat dissipation" 0.6
+			hull 6000
+			mass 250
+			"outfit space" 560
+			"required crew" 23
+			shields 9800
+			"turret mounts" 1
+			"weapon capacity" 220
+		outfits
+			"Outfits Expansion" 2
+			Hyperdrive
+			"S-970 Regenerator" 4
+			"A370 Atomic Thruster"
+			"A525 Atomic Steering"
+			"KP-6 Photovoltaic Panel"
+			"Gatling Gun Ammo" 30000
+			"Bullet Boxes" 6
+			"Gatling Gun" 7
+			"LP072a Battery Pack"
+			"Liquid Helium Cooler"
+			"Heavy Anti-Missile Turret"
+			"Armageddon Core"
+		engine -15 130 1
+		engine 15 130 1
+		gun 0 -132 "Gatling Gun"
+		gun -22 -122 "Gatling Gun"
+		gun 22 -122 "Gatling Gun"
+		gun -21 -45 "Gatling Gun"
+		gun 21 -45 "Gatling Gun"
+		gun -31 -45 "Gatling Gun"
+		gun 31 -45 "Gatling Gun"
+		turret 0 42 "Heavy Anti-Missile Turret"
+		explode "large explosion" 8
+		explode "tiny explosion" 18
+		explode "medium explosion" 24
+		explode "small explosion" 36
+		"final explode" "final explosion medium" 1
+
+person "Akatsuki"
+	government "Pirate"
+	frequency 50
+	personality
+		vindictive coward
+	system
+		government "Pirate"
+	phrase
+		word
+			"One cannot know true peace, unless they know true pain. There is no peace without pain."
+			"There is no peace, while living in this world."
+			"You and I are no different, we are both working for our own justice."
+			"Your role is to be a sacrifice, to my wealth!"
+			"I am not going to end up like this, I have big dreams."
+			"I just want to protect them, no matter what the consequences"
+			"The peace of big countries is built on the sacrifices of little countries. Your peace is our violence."
+
+	ship Splinter
+		name Akatsuki
+		sprite ship/splinter
+		attributes
+			category "Medium Warship"
+			cost 3100000
+			bunks 21
+			"cargo space" 75
+			drag 4
+			"engine capacity" 100
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.7
+			hull 1700
+			mass 250
+			"outfit space" 400
+			"required crew" 12
+			shields 5200
+			"turret mounts" 3
+			"weapon capacity" 150
+		outfits
+			Hyperdrive
+			"Outfits Expansion" 3
+			"A375 Atomic Steering"
+			"A250 Atomic Thruster"
+			"Liquid Nitrogen Cooler"
+			"LP144a Battery Pack"
+			"D94-YV Shield Generator" 2
+			"Plasma Cannon" 2
+			"KP-6 Photovoltaic Panel" 4
+			"Heavy Anti-Missile Turret"
+			"Breeder Reactor"
+		engine -15 115 1
+		engine 15 115 1
+		gun -15 -80 "Plasma Cannon"
+		gun 15 -80 "Plasma Cannon"
+		turret -17 -28 "Heavy Anti-Missile Turret"
+		turret 0 -28
+		turret 17 -28
+		explode "tiny explosion" 18
+		explode "large explosion" 8
+		explode "small explosion" 36
+		explode "medium explosion" 24
+		"final explode" "final explosion medium" 1
+	ship Bastion
+		name Nagato
+		sprite ship/bastion
+		attributes
+			category "Medium Warship"
+			cost 3560000
+			bunks 47
+			"cargo space" 110
+			drag 10.3
+			"engine capacity" 120
+			"fuel capacity" 500
+			"gun ports" 4
+			"heat dissipation" 0.5
+			hull 4200
+			mass 580
+			"outfit space" 470
+			"required crew" 32
+			shields 6700
+			"turret mounts" 3
+			"weapon capacity" 180
+		outfits
+			Hyperdrive
+			"Quad Blaster Turret" 3
+			"Impala Plasma Thruster"
+			"Impala Plasma Steering"
+			"Fusion Reactor"
+			"LP144a Battery Pack"
+			"Water Coolant System"
+			"Liquid Helium Cooler"
+			"D67-TM Shield Generator"
+			"Modified Blaster" 4
+			"KP-6 Photovoltaic Panel" 5
+		engine -28 85 1
+		engine 28 85 1
+		gun -54 -14 "Modified Blaster"
+		gun 54 -14 "Modified Blaster"
+		gun -54 -14 "Modified Blaster"
+		gun 54 -14 "Modified Blaster"
+		turret 0 0 "Quad Blaster Turret"
+		turret -30 14 "Quad Blaster Turret"
+		turret 30 14 "Quad Blaster Turret"
+		explode "tiny explosion" 5
+		explode "large explosion" 20
+		explode "small explosion" 15
+		explode "medium explosion" 30
+		"final explode" "final explosion medium" 1
+
+person "Musashi"
+	government "Militia"
+	personality
+		forbearing disables opportunistic
+	system
+		government "Free Worlds"
+	phrase
+		word
+			"My family used to govern the Musashi province of Japan, long ago."
+			"I am the vassal of no government, no matter who wins the war."
+			"I am unrivaled under Heaven."
+			"You may know me as `The Demon of the Western Provinces`."
+
+	ship Vanguard
+		name Musashi
+		sprite ship/vanguard
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			cost 7200000
+			bunks 45
+			"cargo space" 50
+			drag 4
+			"engine capacity" 320
+			"fuel capacity" 400
+			"gun ports" 7
+			"heat dissipation" 0.6
+			hull 6000
+			mass 300
+			"outfit space" 920
+			"required crew" 23
+			shields 9800
+			"turret mounts" 1
+			"weapon capacity" 220
+		outfits
+			Hyperdrive
+			"Ionic Afterburner"
+			"A860 Atomic Thruster"
+			"A865 Atomic Steering"
+			"AR120 Reverse Thruster"
+			"LP144a Battery Pack"
+			"D94-YV Shield Generator" 2
+			Supercapacitor
+			"Armageddon Core"
+			"Javelin Storage Crate" 4
+			Javelin 1800
+			"Javelin Pod" 7
+			"Liquid Helium Cooler" 2
+			"D67-TM Shield Generator"
+			"Heavy Anti-Missile Turret"
+			"Breeder Reactor"
+		engine -15 130 1
+		engine 15 130 1
+		gun 0 -132 "Javelin Pod"
+		gun -22 -122 "Javelin Pod"
+		gun 22 -122 "Javelin Pod"
+		gun -21 -45 "Javelin Pod"
+		gun 21 -45 "Javelin Pod"
+		gun -31 -45 "Javelin Pod"
+		gun 31 -45 "Javelin Pod"
+		turret 0 42 "Heavy Anti-Missile Turret"
+		explode "tiny explosion" 18
+		explode "large explosion" 8
+		explode "medium explosion" 24
+		explode "small explosion" 36
+		"final explode" "final explosion medium" 1
+
+person "Hibiki"
+	government "Merchant"
+	personality
+		timid
+	system
+		near Sol 0 10
+	phrase
+		word
+			"My mother told me not to talk to strangers."
+
+	ship Behemoth
+		name Musashi
+		sprite ship/behemoth
+		attributes
+			category "Heavy Freighter"
+			cost 10800000
+			bunks 30
+			"cargo space" 490
+			drag 11.7
+			"engine capacity" 90
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.4
+			hull 6300
+			mass 540
+			"outfit space" 510
+			"required crew" 12
+			shields 7600
+			"turret mounts" 6
+			"weapon capacity" 280
+		outfits
+			"Outfits Expansion" 8
+			"A525 Atomic Steering"
+			"Electron Beam" 2
+			"Electron Turret" 2
+			"Scram Drive"
+			`"Benga" Atomic Thruster`
+			"LP144a Battery Pack"
+			"Small Radar Jammer"
+			"Heavy Anti-Missile Turret" 2
+			"D67-TM Shield Generator"
+			"Liquid Helium Cooler" 2
+			"Armageddon Core"
+			"KP-6 Photovoltaic Panel"
+		engine -34 154 1
+		engine 34 154 1
+		gun -27 -83 "Electron Beam"
+		gun 27 -83 "Electron Beam"
+		turret -34 -64 "Electron Turret"
+		turret 34 -64 "Heavy Anti-Missile Turret"
+		turret -58 11 "Electron Turret"
+		turret 58 11
+		turret -24 78 "Heavy Anti-Missile Turret"
+		turret 24 78
+		explode "large explosion" 35
+		explode "small explosion" 15
+		explode "medium explosion" 25
+		explode "huge explosion" 20
+		"final explode" "final explosion large" 1
+
+person "Rear Admiral Hong"
+	government "Free Worlds"
+	personality
+		vindictive heroic
+	system
+		government "Free Worlds"
+	phrase
+		word
+			"Please visit the nearby Spaceport, and see if you can earn money while serving the Free Worlds."
+			"The Free Worlds is always looking for volunteers."
+			"If you see a Pirate, please smoke them for us!"
+
+	ship Dreadnought
+		name Formidable
+		sprite ship/dreadnought
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			cost 11900000
+			bunks 147
+			"cargo space" 100
+			drag 10.1
+			"engine capacity" 190
+			"fuel capacity" 600
+			"gun ports" 4
+			"heat dissipation" 0.65
+			hull 7300
+			mass 630
+			"outfit space" 790
+			"required crew" 84
+			shields 18100
+			"turret mounts" 5
+			"weapon capacity" 360
+		outfits
+			"Plasma Turret" 5
+			Hyperdrive
+			"LP288a Battery Pack"
+			"Orca Plasma Thruster"
+			"Orca Plasma Steering"
+			Supercapacitor 2
+			"Fusion Reactor"
+			"Liquid Helium Cooler"
+			"Meteor Missile" 140
+			"D41-HY Shield Generator"
+			"Small Radar Jammer"
+			"Meteor Missile Launcher" 4
+		engine -25 172 1
+		engine 25 172 1
+		gun -10 -167 "Meteor Missile Launcher"
+		gun 10 -167 "Meteor Missile Launcher"
+		gun -20 -151 "Meteor Missile Launcher"
+		gun 20 -151 "Meteor Missile Launcher"
+		turret 0 -94 "Plasma Turret"
+		turret -38 -56 "Plasma Turret"
+		turret 38 -56 "Plasma Turret"
+		turret -44 118 "Plasma Turret"
+		turret 44 118 "Plasma Turret"
+		explode "tiny explosion" 50
+		explode "medium explosion" 50
+		explode "large explosion" 50
+		explode "small explosion" 50
+		explode "huge explosion" 20
+		"final explode" "final explosion large" 1
+
+person "Lt Yuri Dostoevsky"
+	government "Free Worlds"
+	personality
+		disables
+	system
+		government "Free Worlds"
+	phrase
+		word
+			"I've got my eye on you."
+			"Don't cause any trouble while you're here."
+			"The Free Worlds is always looking for new recruits, but get lost if you have ill intentions."
+			"I don't like the look of you."
+			"Target Lock Acquired."
+			"Your ship checks out for now. But I'll be watching you."
+			"I swear, if I find out how to stop these communication transmissions..."
+
+	ship Argosy
+		name Leningrad
+		plural Argosies
+		sprite ship/argosy
+		"never disabled"
+		attributes
+			category "Light Freighter"
+			cost 1960000
+			bunks 14
+			"cargo space" 120
+			drag 5.9
+			"engine capacity" 80
+			"fuel capacity" 400
+			"gun ports" 4
+			"heat dissipation" 0.7
+			hull 2600
+			mass 330
+			"outfit space" 370
+			"required crew" 4
+			shields 4200
+			"turret mounts" 2
+			"weapon capacity" 120
+		outfits
+			"Outfits Expansion" 6
+			Hyperdrive
+			"A250 Atomic Thruster"
+			"A255 Atomic Steering"
+			"Liquid Nitrogen Cooler"
+			"D94-YV Shield Generator" 2
+			"LP036a Battery Pack"
+			"D23-QP Shield Generator"
+			"Heavy Anti-Missile Turret" 2
+			"Breeder Reactor"
+			"KP-6 Photovoltaic Panel" 2
+			"Sidewinder Missile" 225
+			"Sidewinder Missile Launcher" 4
+			"Sidewinder Missile Rack"
+		engine -20 91 1
+		engine 20 91 1
+		gun -22 -37 "Sidewinder Missile Launcher"
+		gun 22 -37 "Sidewinder Missile Launcher"
+		gun -23 -37 "Sidewinder Missile Launcher"
+		gun 23 -37 "Sidewinder Missile Launcher"
+		turret 0 -12 "Heavy Anti-Missile Turret"
+		turret 0 8 "Heavy Anti-Missile Turret"
+		explode "small explosion" 25
+		explode "large explosion" 10
+		explode "tiny explosion" 10
+		explode "medium explosion" 25
+		"final explode" "final explosion medium" 1
+
+person "Captain Ai"
+	government "Free Worlds"
+	personality
+		disables
+	system
+		government "Free Worlds"
+	phrase
+		word
+			"Just because we have been wronged, does not mean we should wrong the Republic."
+			"Citizens are citizens, no matter which side they are on."
+			"Please try to avoid destroying disabled ships, most of them are soldiers like us."
+
+	ship "Marauder Raven"
+		name Valour
+		sprite ship/mravens
+		attributes
+			category "Light Warship"
+			cost 2250000
+			bunks 14
+			"cargo space" 20
+			drag 3.7
+			"engine capacity" 110
+			"fuel capacity" 500
+			"gun ports" 4
+			"heat dissipation" 0.8
+			hull 1600
+			mass 145
+			"outfit space" 310
+			"required crew" 7
+			"self destruct" 0.25
+			shields 5200
+			"turret mounts" 1
+			"weapon capacity" 105
+		outfits
+			"Outfits Expansion"
+			"Liquid Nitrogen Cooler"
+			Hyperdrive
+			"Particle Cannon" 2
+			"A250 Atomic Thruster"
+			"A375 Atomic Steering"
+			"Hai Chasm Batteries"
+			Supercapacitor
+			"Breeder Reactor"
+			"D41-HY Shield Generator"
+			"Meteor Missile Launcher" 2
+			"Anti-Missile Turret"
+			"Meteor Missile" 70
+		engine -12 45 1
+		engine 12 45 1
+		gun -10 -33 "Particle Cannon"
+		gun 10 -33 "Particle Cannon"
+		gun -16 -28 "Meteor Missile Launcher"
+		gun 16 -28 "Meteor Missile Launcher"
+		turret 0 -19 "Anti-Missile Turret"
+		explode "tiny explosion" 28
+		explode "small explosion" 40
+		explode "medium explosion" 24
+		explode "large explosion" 16
+		"final explode" "final explosion small" 1
+
+person "Commander Trelawney"
+	government "Republic"
+	personality
+		timid
+	system
+		government "Republic"
+	phrase
+		word
+			"I don't have time for you unless you're a pirate."
+			"Go bother some less important vessel please."
+			"Seriously, unless you have pirate activity to report, go away."
+
+	ship Frigate
+		name Vengeance
+		sprite ship/frigate
+		"never disabled"
+		attributes
+			category "Medium Warship"
+			cost 5200000
+			bunks 44
+			"cargo space" 35
+			drag 5.2
+			"engine capacity" 100
+			"fuel capacity" 500
+			"gun ports" 8
+			"heat dissipation" 0.7
+			hull 2500
+			mass 310
+			"outfit space" 610
+			"required crew" 21
+			shields 8000
+			"turret mounts" 2
+			"weapon capacity" 270
+		outfits
+			"Particle Cannon" 8
+			"Outfits Expansion"
+			Hyperdrive
+			"A250 Atomic Thruster"
+			"A375 Atomic Steering"
+			"D94-YV Shield Generator"
+			"LP036a Battery Pack"
+			"Liquid Helium Cooler"
+			"D23-QP Shield Generator"
+			"Heavy Anti-Missile Turret"
+			"Armageddon Core"
+		engine -26 92 1
+		engine 26 92 1
+		gun -10 -83 "Particle Cannon"
+		gun 10 -83 "Particle Cannon"
+		gun -10 -83 "Particle Cannon"
+		gun 10 -83 "Particle Cannon"
+		gun -10 -83 "Particle Cannon"
+		gun 10 -83 "Particle Cannon"
+		gun -10 -83 "Particle Cannon"
+		gun 10 -83 "Particle Cannon"
+		turret -12 -12 "Heavy Anti-Missile Turret"
+		turret 12 -12
+		explode "large explosion" 8
+		explode "medium explosion" 24
+		explode "tiny explosion" 18
+		explode "small explosion" 36
+		"final explode" "final explosion medium" 1
+
+person "Ensign Oliver Bentley"
+	government "Republic"
+	personality
+		disables
+	system
+		government "Republic"
+	phrase
+		word
+			"Strike from afar, protect from afar."
+			"Torpedo boat, at your service. How may I help?"
+
+	ship Gunboat
+		name Fearless
+		sprite ship/gunboat
+		attributes
+			category "Light Warship"
+			cost 3200000
+			bunks 12
+			"cargo space" 50
+			drag 3.1
+			"engine capacity" 90
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 1.5
+			hull 1400
+			mass 150
+			"outfit space" 270
+			"required crew" 7
+			shields 5800
+			"turret mounts" 1
+			"weapon capacity" 100
+		outfits
+			Hyperdrive
+			"A370 Atomic Thruster"
+			"A255 Atomic Steering"
+			"Torpedo Launcher" 2
+			"Fission Reactor"
+			"Heavy Anti-Missile Turret"
+			"Cargo Scanner"
+			"Outfit Scanner"
+			"D14-RN Shield Generator"
+			"Torpedo Storage Rack"
+		engine -12 57 1
+		engine 12 57 1
+		gun -28 -28 "Torpedo Launcher"
+		gun 28 -28 "Torpedo Launcher"
+		turret 0 -8 "Heavy Anti-Missile Turret"
+		explode "small explosion" 20
+		explode "tiny explosion" 10
+		explode "medium explosion" 15
+		"final explode" "final explosion small" 1
+
+person "Dir Desmond Dougan"
+	government "Syndicate"
+	personality
+		timid
+	system
+		government "Syndicate"
+	phrase
+		word
+			"Missiles don't stand a chance."
+			"Stay near me if those pirate missiles have been tearing you up."
+			"This wheel in space just keeps on turning."
+
+	ship Protector
+		name Dauntless
+		sprite ship/protector
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			cost 5500000
+			bunks 69
+			"cargo space" 50
+			drag 10.3
+			"engine capacity" 100
+			"fuel capacity" 400
+			"gun ports" 2
+			"heat dissipation" 0.6
+			hull 6500
+			mass 500
+			"outfit space" 570
+			"required crew" 30
+			shields 9500
+			"turret mounts" 6
+			"shield generation" 12
+			"weapon capacity" 220
+		outfits
+			Hyperdrive
+			"A120 Atomic Thruster"
+			"A125 Atomic Steering"
+			"D94-YV Shield Generator" 3
+			"Fusion Reactor"
+			"LP036a Battery Pack"
+			"Heavy Anti-Missile Turret" 6
+			"Sidewinder Missile Launcher" 2
+			"Sidewinder Missile" 150
+			"Sidewinder Missile Rack" 2
+		engine -11 125 1
+		engine 11 125 1
+		gun -15 -100 "Sidewinder Missile Launcher"
+		gun 15 -100 "Sidewinder Missile Launcher"
+		turret -54 -54 "Heavy Anti-Missile Turret"
+		turret 54 -54 "Heavy Anti-Missile Turret"
+		turret -73 0 "Heavy Anti-Missile Turret"
+		turret 73 0 "Heavy Anti-Missile Turret"
+		turret -54 54 "Heavy Anti-Missile Turret"
+		turret 54 54 "Heavy Anti-Missile Turret"
+		explode "medium explosion" 24
+		explode "small explosion" 36
+		explode "large explosion" 8
+		explode "tiny explosion" 18
+		"final explode" "final explosion large" 1
+
+person "Option 21"
+	government "Neutral"
+	personality
+		heroic vindictive harvests
+	system
+		government "Kor Mereti"
+	phrase
+		word
+			"Option 21 saves everything on your system and allows you to perform the save while you are not there."
+			"Option 21 restores your system to your last complete save."
+			"GO SAVE."
+			"Snapshots are like Option 21."
+			"Backup, initiating."
+
+	ship "Model 512"
+		name "Option 21"
+		sprite "ship/model 512"
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			cost 40375000
+			automaton 1
+			"cargo space" 107
+			drag 17.4
+			"engine capacity" 161
+			"fuel capacity" 400
+			"gun ports" 8
+			"heat dissipation" 0.8
+			hull 34200
+			mass 1150
+			"outfit space" 1194
+			ramscoop 3
+			"self destruct" 0.8
+			shields 86400
+			"turret mounts" 2
+			"weapon capacity" 500
+		outfits
+			"Systems Core (Large)" 3
+			"Large Heat Shunt" 2
+			"Outfits Expansion" 5
+			"Systems Core (Medium)"
+			Hyperdrive
+			"Korath Warder"
+			"Triple Plasma Core"
+			"Thruster (Planetary Class)"
+			"Korath Minelayer" 8
+			"Korath Mine" 163
+			"Korath Grab-Strike"
+			"Plasma Core"
+			"Steering (Stellar Class)"
+			"Korath Mine Rack" 3
+		engine -145 97 1
+		engine 145 97 1
+		gun -22 -143 "Korath Minelayer"
+		gun 22 -143 "Korath Minelayer"
+		gun -22 -143 "Korath Minelayer"
+		gun 22 -143 "Korath Minelayer"
+		gun -22 -143 "Korath Minelayer"
+		gun 22 -143 "Korath Minelayer"
+		gun -22 -143 "Korath Minelayer"
+		gun 22 -143 "Korath Minelayer"
+		turret -23 -134 "Korath Warder"
+		turret 138 20 "Korath Grab-Strike"
+		explode "large explosion" 35
+		explode "tiny explosion" 160
+		explode "medium explosion" 80
+		explode "small explosion" 115
+		"final explode" "final explosion large" 1
+
+person "Wealthy Brat"
+	government "Syndicate"
+	personality
+		pacifist
+	system
+		government "Syndicate"
+	phrase
+		word
+			"Shove off."
+
+	ship Flivver
+		name Resilience
+		sprite ship/flivver
+		attributes
+			category Transport
+			cost 180000
+			bunks 3
+			"cargo space" 5
+			drag 1
+			"energy generation" 3.9
+			"engine capacity" 45
+			"fuel capacity" 500
+			"gun ports" 2
+			"heat dissipation" 0.9
+			hull 200
+			mass 40
+			"outfit space" 130
+			"required crew" 1
+			shields 1400
+			"weapon capacity" 25
+		outfits
+			Hyperdrive
+			"X1200 Ion Steering"
+			"A120 Atomic Thruster"
+			"D94-YV Shield Generator"
+			"D14-RN Shield Generator"
+		engine -16 27 1
+		engine 16 27 1
+		gun -6 -31
+		gun 6 -31
+		explode "small explosion" 10
+		explode "tiny explosion" 10
+
+person "Ackbar"
+	government "Free Worlds"
+	personality
+		vindictive
+	system
+		government "Free Worlds"
+	phrase
+		word
+			"It's a trap!"
+
+	ship Behemoth
+		name "Home One"
+		sprite ship/behemoth
+		"never disabled"
+		attributes
+			category "Heavy Freighter"
+			cost 10800000
+			bunks 30
+			"cargo space" 490
+			drag 11.7
+			"engine capacity" 90
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.4
+			hull 6300
+			mass 540
+			"outfit space" 510
+			"required crew" 12
+			shields 7600
+			"turret mounts" 6
+			"weapon capacity" 280
+			"shield generation" 10
+		outfits
+			"Outfits Expansion" 5
+			"Quad Blaster Turret" 5
+			"X2700 Ion Thruster"
+			"X2200 Ion Steering"
+			"Scram Drive"
+			"D94-YV Shield Generator"
+			"Liquid Helium Cooler" 2
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"Meteor Missile" 250
+			"Heavy Anti-Missile Turret"
+			"Armageddon Core"
+			"Meteor Missile Box" 10
+		engine -34 154 1
+		engine 34 154 1
+		gun -27 -83 "Meteor Missile Launcher"
+		gun 27 -83 "Meteor Missile Launcher"
+		turret -34 -64 "Quad Blaster Turret"
+		turret 34 -64 "Quad Blaster Turret"
+		turret -58 11 "Quad Blaster Turret"
+		turret 58 11 "Quad Blaster Turret"
+		turret -24 78 "Heavy Anti-Missile Turret"
+		turret 24 78 "Quad Blaster Turret"
+		explode "large explosion" 35
+		explode "medium explosion" 25
+		explode "huge explosion" 20
+		explode "small explosion" 15
+		"final explode" "final explosion large" 1
+
+person "Amerigo"
+	government "Merchant"
+	personality
+		pacifist
+	system
+		government "Merchant"
+	phrase
+		word
+			"I am on my fourth voyage."
+			"I wish to personally map out the entirety of known space."
+			"Most of the added details you find on Local Maps at the outfitter have come from my work."
+
+	ship Bounder
+		name Vespucci
+		sprite ship/bounder
+		attributes
+			category Transport
+			cost 1140000
+			bunks 17
+			"cargo space" 40
+			drag 3.7
+			"engine capacity" 110
+			"fuel capacity" 900
+			"heat dissipation" 0.8
+			hull 700
+			mass 130
+			"outfit space" 220
+			"required crew" 1
+			shields 2200
+			"turret mounts" 2
+			"weapon capacity" 50
+		outfits
+			"Outfits Expansion" 2
+			Hyperdrive
+			"A255 Atomic Steering"
+			"A370 Atomic Thruster"
+			Supercapacitor
+			"LP144a Battery Pack"
+			"D14-RN Shield Generator"
+			"Heavy Anti-Missile Turret"
+			"NT-200 Nucleovoltaic"
+		engine -12 44 1
+		engine 12 44 1
+		turret -37 4 "Heavy Anti-Missile Turret"
+		turret 37 4
+		explode "medium explosion" 15
+		explode "tiny explosion" 10
+		explode "small explosion" 20
+		"final explode" "final explosion small" 1
+
+person "Icarus"
+	government "Merchant"
+	personality
+		disables
+	system
+		government "Merchant"
+	phrase
+		word
+			"Don't fly too close to the sun."
+
+	ship Raven
+		name Icarus
+		sprite ship/raven
+		attributes
+			category "Light Warship"
+			cost 1800000
+			bunks 13
+			"cargo space" 30
+			drag 3.7
+			"engine capacity" 100
+			"fuel capacity" 500
+			"gun ports" 4
+			"heat dissipation" 0.8
+			hull 1400
+			mass 130
+			"outfit space" 280
+			"required crew" 6
+			shields 4700
+			"weapon capacity" 90
+		outfits
+			Hyperdrive
+			"A125 Atomic Steering"
+			"A520 Atomic Thruster"
+			Supercapacitor
+			"Fission Reactor"
+			"KP-6 Photovoltaic Panel"
+			"Cooling Ducts"
+			"D14-RN Shield Generator"
+			"LP036a Battery Pack"
+			"Typhoon Torpedo" 30
+			"Torpedo Storage Rack" 3
+			"Typhoon Launcher"
+		engine -12 43 1
+		engine 12 43 1
+		gun -10 -33 "Typhoon Launcher"
+		gun 10 -33
+		gun -16 -28
+		gun 16 -28
+		explode "tiny explosion" 28
+		explode "small explosion" 40
+		explode "medium explosion" 24
+		explode "large explosion" 16
+		"final explode" "final explosion small" 1
+
+person "Arcadia"
+	government "Pirate"
+	personality
+		heroic vindictive
+	system
+		government "Pirate"
+	phrase
+		word
+			"Even if you run into a storm, there's always a way out, no matter how bleak things seem."
+			"As long as youre alive, you'll always have another chance."
+			"If I said I'm not scared, I'd be lying. But, I won't let this opportunity pass me by."
+			"I learned that no matter what happens, you have to be strong. Even in you're facing impossible odds."
+			"Impossible is just a word to let people feel good about themselves when they quit."
+
+	ship Mule
+		name Arcadia
+		sprite ship/mule
+		attributes
+			category "Medium Warship"
+			cost 4580000
+			bunks 43
+			"cargo space" 270
+			drag 5.7
+			"engine capacity" 110
+			"fuel capacity" 600
+			"gun ports" 2
+			"heat dissipation" 0.5
+			hull 4400
+			mass 320
+			"outfit space" 450
+			"required crew" 6
+			shields 5400
+			"turret mounts" 4
+			"weapon capacity" 210
+		outfits
+			Hyperdrive
+			"Plasma Turret" 2
+			"A120 Atomic Thruster"
+			"A125 Atomic Steering"
+			Supercapacitor
+			"D94-YV Shield Generator"
+			"Heavy Anti-Missile Turret" 2
+			"LP036a Battery Pack"
+			"Meteor Missile Launcher" 2
+			"Meteor Missile" 70
+			"Liquid Helium Cooler"
+			"Breeder Reactor"
+		engine -12 123 1
+		engine 12 123 1
+		gun -9 -119 "Meteor Missile Launcher"
+		gun 9 -119 "Meteor Missile Launcher"
+		turret 22 -65 "Plasma Turret"
+		turret -37 -21 "Plasma Turret"
+		turret 39 35 "Heavy Anti-Missile Turret"
+		turret -9 59 "Heavy Anti-Missile Turret"
+		fighter -16 -9
+		explode "small explosion" 30
+		explode "tiny explosion" 10
+		explode "medium explosion" 20
+		"final explode" "final explosion medium" 1
+
+person "Event Horizon"
+	government "Neutral"
+	personality
+		timid
+	system
+		government "Coalition"
+	phrase
+		word
+			"*Static*"
+
+	ship "Arach Transport"
+		name "Event Horizon"
+		sprite "ship/arach transport"
+		attributes
+			category "Light Freighter"
+			cost 2772000
+			bunks 5
+			"cargo space" 190
+			drag 7.2
+			"engine capacity" 70
+			"fuel capacity" 400
+			"gun ports" 2
+			"heat dissipation" 0.6
+			hull 4800
+			mass 280
+			"outfit space" 281
+			"required crew" 2
+			shields 2300
+			"turret mounts" 1
+			"weapon capacity" 96
+		outfits
+			"Small Thrust Module"
+			"Small Repair Module" 2
+			Hyperdrive
+			"Small Reactor Module"
+			"Bombardment Turret"
+			"Small Steering Module"
+			"Large Battery Module"
+			"Small Shield Module"
+			"Large Shield Module" 3
+			Supercapacitor
+		engine -14 117 0.4
+		engine -7 117 0.9
+		engine 7 117 0.9
+		engine 14 117 0.4
+		gun -22 13
+		gun 22 13
+		turret 0 -77 "Bombardment Turret"
+		explode "medium explosion" 30
+		explode "small explosion" 10
+		explode "large explosion" 5
+		"final explode" "final explosion medium" 1
+
+person "Share Warmth"
+	government "Hai (Unfettered)"
+	personality
+		vindictive
+	system
+		government "Hai (Unfettered)"
+	phrase
+		word
+			"Our quarrel is with the Hai, not you. Please step aside or we will remove you from our path."
+
+	ship Solifuge
+		name "Share Warmth"
+		sprite "ship/hai solifuge"
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			cost 22800000
+			bunks 118
+			"cargo space" 142
+			drag 15.4
+			"engine capacity" 166
+			"fuel capacity" 600
+			"gun ports" 5
+			"heat dissipation" 0.42
+			hull 11000
+			mass 925
+			"outfit space" 828
+			"required crew" 62
+			shields 37800
+			"turret mounts" 7
+			"weapon capacity" 342
+		outfits
+			"Outfits Expansion" 6
+			"Boulder Reactor" 2
+			Hyperdrive
+			`"Bufaer" Atomic Steering`
+			"Plasma Turret" 3
+			`"Bondir" Atomic Thruster`
+			"Chameleon Anti-Missile" 4
+			"Quantum Keystone"
+			"Hai Diamond Regenerator" 4
+			"Hai Gorge Batteries"
+			"KP-6 Photovoltaic Panel" 4
+			"Wanderer Heat Sink" 6
+		engine -28 135.5 1
+		engine 28 135 1
+		gun 0 -140
+		gun -11.5 -138.5
+		gun 11.5 -138.5
+		gun -9.5 -101
+		gun 9.5 -101
+		turret 0 -109.5 "Plasma Turret"
+		turret 54.5 -48.5 "Chameleon Anti-Missile"
+		turret -54.5 -48.5 "Chameleon Anti-Missile"
+		turret 55 1 "Chameleon Anti-Missile"
+		turret -55 1 "Chameleon Anti-Missile"
+		turret 54.5 50.5 "Plasma Turret"
+		turret -54.5 50.5 "Plasma Turret"
+		fighter -51.5 -71 under
+		fighter 51.5 -71 under
+		fighter -58.5 2 under
+		fighter 58.5 2 under
+		fighter -51.5 76 under
+		fighter 51.5 76 under
+		explode "small explosion" 50
+		explode "medium explosion" 50
+		explode "tiny explosion" 50
+		explode "large explosion" 50
+		explode "huge explosion" 20
+		"final explode" "final explosion large" 1
+	ship "Violin Spider"
+		name "Heat Bug"
+		sprite "ship/hai violin spider"
+		"never disabled"
+		attributes
+			category Fighter
+			cost 139000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.7
+			hull 600
+			mass 31
+			"outfit space" 92
+			"required crew" 1
+			shields 1400
+			"turret mounts" 1
+			"weapon capacity" 19
+		outfits
+			Flamethrower
+			`"Baellie" Atomic Engines`
+			"Wanderer Ramscoop"
+			"Bullfrog Anti-Missile"
+			"Pebble Core"
+			Supercapacitor
+			"Hai Williwaw Cooling"
+		engine -15 30 1
+		engine 15 30 1
+		gun 0 -31 Flamethrower
+		turret 0 5 "Bullfrog Anti-Missile"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship "Violin Spider"
+		name "Heat Bug"
+		sprite "ship/hai violin spider"
+		"never disabled"
+		attributes
+			category Fighter
+			cost 139000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.7
+			hull 600
+			mass 31
+			"outfit space" 92
+			"required crew" 1
+			shields 1400
+			"turret mounts" 1
+			"weapon capacity" 19
+		outfits
+			Flamethrower
+			`"Baellie" Atomic Engines`
+			"Wanderer Ramscoop"
+			"Bullfrog Anti-Missile"
+			"Pebble Core"
+			Supercapacitor
+			"Hai Williwaw Cooling"
+		engine -15 30 1
+		engine 15 30 1
+		gun 0 -31 Flamethrower
+		turret 0 5 "Bullfrog Anti-Missile"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship "Violin Spider"
+		name "Heat Bug"
+		sprite "ship/hai violin spider"
+		"never disabled"
+		attributes
+			category Fighter
+			cost 139000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.7
+			hull 600
+			mass 31
+			"outfit space" 92
+			"required crew" 1
+			shields 1400
+			"turret mounts" 1
+			"weapon capacity" 19
+		outfits
+			Flamethrower
+			`"Baellie" Atomic Engines`
+			"Wanderer Ramscoop"
+			"Bullfrog Anti-Missile"
+			"Pebble Core"
+			Supercapacitor
+			"Hai Williwaw Cooling"
+		engine -15 30 1
+		engine 15 30 1
+		gun 0 -31 Flamethrower
+		turret 0 5 "Bullfrog Anti-Missile"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship "Violin Spider"
+		name "Heat Bug"
+		sprite "ship/hai violin spider"
+		"never disabled"
+		attributes
+			category Fighter
+			cost 139000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.7
+			hull 600
+			mass 31
+			"outfit space" 92
+			"required crew" 1
+			shields 1400
+			"turret mounts" 1
+			"weapon capacity" 19
+		outfits
+			Flamethrower
+			`"Baellie" Atomic Engines`
+			"Wanderer Ramscoop"
+			"Bullfrog Anti-Missile"
+			"Pebble Core"
+			Supercapacitor
+			"Hai Williwaw Cooling"
+		engine -15 30 1
+		engine 15 30 1
+		gun 0 -31 Flamethrower
+		turret 0 5 "Bullfrog Anti-Missile"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship "Violin Spider"
+		name "Heat Bug"
+		sprite "ship/hai violin spider"
+		"never disabled"
+		attributes
+			category Fighter
+			cost 139000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.7
+			hull 600
+			mass 31
+			"outfit space" 92
+			"required crew" 1
+			shields 1400
+			"turret mounts" 1
+			"weapon capacity" 19
+		outfits
+			Flamethrower
+			`"Baellie" Atomic Engines`
+			"Wanderer Ramscoop"
+			"Bullfrog Anti-Missile"
+			"Pebble Core"
+			Supercapacitor
+			"Hai Williwaw Cooling"
+		engine -15 30 1
+		engine 15 30 1
+		gun 0 -31 Flamethrower
+		turret 0 5 "Bullfrog Anti-Missile"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+	ship "Violin Spider"
+		name "Heat Bug"
+		sprite "ship/hai violin spider"
+		"never disabled"
+		attributes
+			category Fighter
+			cost 139000
+			bunks 1
+			drag 0.9
+			"engine capacity" 30
+			"gun ports" 1
+			"heat dissipation" 0.7
+			hull 600
+			mass 31
+			"outfit space" 92
+			"required crew" 1
+			shields 1400
+			"turret mounts" 1
+			"weapon capacity" 19
+		outfits
+			Flamethrower
+			`"Baellie" Atomic Engines`
+			"Wanderer Ramscoop"
+			"Bullfrog Anti-Missile"
+			"Pebble Core"
+			Supercapacitor
+			"Hai Williwaw Cooling"
+		engine -15 30 1
+		engine 15 30 1
+		gun 0 -31 Flamethrower
+		turret 0 5 "Bullfrog Anti-Missile"
+		explode "small explosion" 5
+		explode "tiny explosion" 15
+
+person "Eat Together"
+	government Hai
+	personality
+		heroic
+	system
+		government Hai
+	phrase
+		word
+			"Please come aboard, let us eat together."
+			"Do you have any new types of food?"
+			"We would be very interested to sample new human food and drink."
+			"Would you like to sample Hai hospitality?"
+			"Oh aren't you a cute human."
+
+	ship "Shield Beetle"
+		name "Eat Together"
+		sprite "ship/hai shield beetle"
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			cost 17900000
+			bunks 95
+			"cargo space" 142
+			drag 8.8
+			"engine capacity" 150
+			"fuel capacity" 500
+			"gun ports" 8
+			"heat dissipation" 0.6
+			hull 9800
+			mass 650
+			"outfit space" 798
+			"required crew" 47
+			shields 32000
+			"turret mounts" 4
+			"weapon capacity" 333
+		outfits
+			"Outfits Expansion" 7
+			"Chameleon Anti-Missile" 2
+			Hyperdrive
+			"Boulder Reactor" 2
+			`"Bufaer" Atomic Steering`
+			"Hai Ravine Batteries"
+			"Quantum Keystone"
+			"Hai Williwaw Cooling" 2
+			`"Biroo" Atomic Thruster`
+			"Hai Diamond Regenerator" 3
+			"Ion Cannon" 6
+			"Hai Corundum Regenerator" 2
+		engine -44 133 1
+		engine 44 133 1
+		gun -22 -102 "Ion Cannon"
+		gun 22 -102 "Ion Cannon"
+		gun -34 -68 "Ion Cannon"
+		gun 34 -68 "Ion Cannon"
+		gun -49 -38 "Ion Cannon"
+		gun 49 -38 "Ion Cannon"
+		gun -61 -14
+		gun 61 -14
+		turret -39 48
+		turret 39 48
+		turret -57 75 "Chameleon Anti-Missile"
+		turret 57 75 "Chameleon Anti-Missile"
+		explode "small explosion" 50
+		explode "large explosion" 50
+		explode "tiny explosion" 50
+		explode "medium explosion" 50
+		explode "huge explosion" 20
+		"final explode" "final explosion large" 1
+
+person "Warm Fur"
+	government Hai
+	personality
+		heroic vindictive harvests
+	system
+		government Hai
+	phrase
+		word
+			"We are the most traveled and well armed Hai ship."
+			"We would love to lead the charge with you into Unfettered space."
+			"Our brothers don't understand us, they see us fight and fear us. But we merely fight so that the others may know peace."
+
+	ship "Shield Beetle"
+		name "Warm Fur"
+		sprite "ship/hai shield beetle"
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			cost 17900000
+			bunks 95
+			"cargo space" 142
+			drag 8.8
+			"engine capacity" 150
+			"fuel capacity" 500
+			"gun ports" 8
+			"heat dissipation" 0.6
+			hull 9800
+			mass 650
+			"outfit space" 798
+			"required crew" 47
+			shields 32000
+			"turret mounts" 4
+			"weapon capacity" 333
+		outfits
+			"Systems Core (Medium)"
+			Sunbeam 8
+			"Blue Sun Reactor" 2
+			"Cooling Module" 3
+			"Type 3 Radiant Thruster"
+			"Type 4 Radiant Steering" 2
+			"Dark Storm Shielding"
+			"Wanderer Anti-Missile"
+			"Wanderer Ramscoop" 2
+			"Type 1 Radiant Thruster"
+			"Mass Expansion" 7
+			"Jump Drive"
+			"Wanderer Heat Sink"
+		engine -44 133 1
+		engine 44 133 1
+		gun -22 -102 Sunbeam
+		gun 22 -102 Sunbeam
+		gun -49 -38 Sunbeam
+		gun 49 -38 Sunbeam
+		gun -34 -68 Sunbeam
+		gun 34 -68 Sunbeam
+		gun -61 -14 Sunbeam
+		gun 61 -14 Sunbeam
+		turret -57 75 "Wanderer Anti-Missile"
+		turret 57 75
+		turret -39 48
+		turret 39 48
+		explode "small explosion" 50
+		explode "medium explosion" 50
+		explode "tiny explosion" 50
+		explode "large explosion" 50
+		explode "huge explosion" 20
+		"final explode" "final explosion large" 1
+
+person M*C*O*
+	government "Kor Sestor"
+	personality
+		timid
+	system
+		government "Kor Sestor"
+	phrase
+		word
+			"James......James......"
+
+	ship "Kar Ik Vot 349"
+		name "The Bot Commander"
+		sprite "ship/kar ik vot 349"
+		attributes
+			category "Heavy Warship"
+			cost 41280000
+			automaton 1
+			"cargo space" 87
+			drag 16.8
+			"engine capacity" 173
+			"fuel capacity" 400
+			"gun ports" 4
+			"heat dissipation" 0.5
+			hull 65400
+			mass 1350
+			"outfit space" 1054
+			ramscoop 3
+			"self destruct" 0.8
+			shields 57200
+			"turret mounts" 8
+			"weapon capacity" 447
+		outfits
+			"Outfits Expansion" 4
+			"Systems Core (Large)" 3
+			"Korath Banisher" 4
+			"Large Heat Shunt" 4
+			"Korath Warder" 4
+			"Thruster (Planetary Class)"
+			"Triple Plasma Core"
+			"Control Transceiver"
+			Hyperdrive
+			"Generator (Candle Class)"
+			"Steering (Stellar Class)"
+			"Double Plasma Core"
+			"Cooling Ducts"
+		engine -24 237 1
+		engine 24 237 1
+		gun -8 -212
+		gun 8 -212
+		gun -16 -158
+		gun 16 -158
+		turret -37 -150 "Korath Warder"
+		turret 37 -150 "Korath Warder"
+		turret -38 -132 "Korath Banisher"
+		turret 38 -132 "Korath Banisher"
+		turret -40 -111 "Korath Banisher"
+		turret 40 -111 "Korath Banisher"
+		turret -102 188 "Korath Warder"
+		turret 102 188 "Korath Warder"
+		explode "small explosion" 60
+		explode "tiny explosion" 120
+		explode "huge explosion" 15
+		explode "large explosion" 50
+		explode "medium explosion" 70
+		"final explode" "final explosion large" 1
